@@ -106,11 +106,9 @@ The login page is a [custom component](https://developer.ibm.com/customer-engage
 
 Read more in `/sample-sites-pzn/src/app/layouts/login/loginLayout.ts` and `/sample-sites-pzn/src/app/common/authService/auth.service.ts`
 
-This package is based on the Oslo Single Page Application (SPA) sample site, so the same [programming model](https://github.com/ibm-wch/wch-site-application#documentation) applies.
-
 ## SPA customization
 
-You can edit this sample code to make it your own.
+You can edit this sample code to make it your own. This package is based on the Oslo Single Page Application (SPA) sample site, so the same [programming model](https://github.com/ibm-wch/wch-site-application#documentation) applies.
 
 ### Local development server
 
