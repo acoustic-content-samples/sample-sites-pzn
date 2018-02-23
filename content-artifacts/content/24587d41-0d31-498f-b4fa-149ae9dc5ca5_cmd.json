@@ -1,0 +1,65 @@
+{
+  "id": "24587d41-0d31-498f-b4fa-149ae9dc5ca5",
+  "name": "Farmer 1 content",
+  "description": "",
+  "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
+  "locale": "en",
+  "tags": [
+    "user:IBM sample"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "title": {
+      "elementType": "text",
+      "value": "Fresh produce"
+    },
+    "body": {
+      "elementType": "text",
+      "value": "Morbi venenatis condimentum nisl, sed pharetra mauris efficitur id. Quisque odio tellus, consequat ac viverra ac, ultrices non dolor. Vestibulum nec volutpat quam. Donec quis pretium magna. Etiam ut ipsum ut turpis rhoncus fringilla ut et velit. Sed sollicitudin lacus quam, vitae lobortis tortor dignissim non. Aenean malesuada, arcu vitae volutpat gravida, purus est fermentum ex, eget viverra magna mauris in nulla. Donec sollicitudin tempus purus vel tempor. Pellentesque justo ante, fringilla vitae aliquam vitae, egestas at odio. Praesent lacinia porttitor nibh non tristique. Etiam eu urna vitae erat lacinia ultricies dictum ornare justo. Vestibulum elit ligula, laoreet vitae convallis pellentesque, mollis vitae felis. Etiam tempus at magna et rutrum. Ut ultricies nulla quis augue euismod pretium. Donec accumsan mi dignissim elit condimentum gravida. Donec eget imperdiet ipsum.\n\nEtiam vulputate tempor odio, quis vestibulum erat maximus et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque condimentum facilisis eros vitae convallis. Nunc euismod urna sit amet turpis vestibulum pellentesque. Aenean quis auctor magna, a dignissim odio. Mauris condimentum lacus sit amet lacus condimentum semper. Donec quis dictum nulla. Vivamus pulvinar, mauris cursus euismod aliquam, risus lorem feugiat lorem, quis posuere ex mauris at urna. Nam pellentesque sem vel enim vestibulum, non egestas metus rhoncus. Vestibulum sit amet diam facilisis, congue tellus quis, euismod mauris. Mauris est nulla, porttitor sed pellentesque quis, pellentesque non purus. In orci quam, dictum a placerat quis, auctor suscipit enim. In eu cursus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent maximus, lorem sit amet auctor egestas, nulla mauris tempor quam, a posuere lorem urna faucibus ante. Sed ut tristique ipsum."
+    },
+    "image": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=a293fd01-ee94-4e2f-851a-c13f811890a6&a=9dac65bf-b86f-4296-b44f-7be56c1c6fa2",
+          "source": "/authoring/v1/resources/a293fd01-ee94-4e2f-851a-c13f811890a6",
+          "width": 4789,
+          "height": 3193
+        },
+        "thumbnail": {
+          "renditionId": "c92e9a25-f615-4ddc-b734-92ea842ff97d",
+          "source": "/authoring/v1/resources/a293fd01-ee94-4e2f-851a-c13f811890a6?resize=800px:533px&crop=800:500;0,17",
+          "width": 800,
+          "height": 500
+        }
+      },
+      "asset": {
+        "id": "9dac65bf-b86f-4296-b44f-7be56c1c6fa2",
+        "resourceUri": "/authoring/v1/resources/a293fd01-ee94-4e2f-851a-c13f811890a6",
+        "fileName": "farmer.jpg",
+        "fileSize": 2892988,
+        "mediaType": "image/jpeg",
+        "width": 4789,
+        "height": 3193
+      }
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "9dac65bf-b86f-4296-b44f-7be56c1c6fa2",
+    "url": "/authoring/v1/resources/a293fd01-ee94-4e2f-851a-c13f811890a6?fit=inside%7C220:145"
+  },
+  "lastModified": "2018-02-23T02:57:18.737Z",
+  "created": "2018-02-23T02:57:18.737Z",
+  "classification": "content",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "type": "Page contents",
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "6-3d323ccdb51876a004b8a43dea340e9b"
+}

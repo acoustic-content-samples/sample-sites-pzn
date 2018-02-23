@@ -1,0 +1,65 @@
+{
+  "id": "206c0028-2e9d-4a97-b4c9-f547f0184b8f",
+  "name": "Restaurateur 1 content",
+  "description": "",
+  "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
+  "locale": "en",
+  "tags": [
+    "user:IBM sample"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "title": {
+      "elementType": "text",
+      "value": "Service"
+    },
+    "body": {
+      "elementType": "text",
+      "value": "Nulla auctor quam sodales neque imperdiet, id imperdiet magna posuere. Suspendisse vitae dictum mauris. Nunc quis purus a mi placerat molestie. Aliquam sit amet consectetur tortor. Donec fringilla, ligula vitae rutrum tempor, elit odio tincidunt sapien, at commodo enim sem sed metus. Sed quis massa quam. Etiam urna dui, dictum tempor ex sit amet, volutpat porttitor ante. Sed consequat pretium velit, eget malesuada enim facilisis feugiat. Suspendisse potenti.\n\nNulla non justo pharetra, consectetur tellus in, egestas ligula. Quisque aliquam cursus lacus, finibus porta quam vestibulum quis. Proin quis leo lobortis, sodales elit non, vestibulum nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur porttitor ut nibh a ullamcorper. Integer rhoncus diam eget massa tincidunt dictum ut sed augue. Cras eros nibh, auctor vitae sagittis eget, commodo vitae nisi."
+    },
+    "image": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9&a=8a86c07e-6e5f-44ce-8b31-5281a9f805af",
+          "source": "/authoring/v1/resources/cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9",
+          "width": 3324,
+          "height": 2208
+        },
+        "thumbnail": {
+          "renditionId": "3fed28cc-1543-4c7e-8c96-24aec85cdaf8",
+          "source": "/authoring/v1/resources/cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9?resize=800px:531px&crop=800:500;0,16",
+          "width": 800,
+          "height": 500
+        }
+      },
+      "asset": {
+        "id": "8a86c07e-6e5f-44ce-8b31-5281a9f805af",
+        "resourceUri": "/authoring/v1/resources/cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9",
+        "fileName": "restaurateur.jpg",
+        "fileSize": 5398165,
+        "mediaType": "image/jpeg",
+        "width": 3324,
+        "height": 2208
+      }
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "8a86c07e-6e5f-44ce-8b31-5281a9f805af",
+    "url": "/authoring/v1/resources/cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9?fit=inside%7C220:145"
+  },
+  "lastModified": "2018-02-23T02:57:18.728Z",
+  "created": "2018-02-23T02:57:18.728Z",
+  "classification": "content",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "type": "Page contents",
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "6-e6ba43e410da24c832bdc784ec51ea27"
+}

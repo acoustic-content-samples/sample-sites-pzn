@@ -1,0 +1,83 @@
+{
+  "rev": "7-7431617aa69889b3afdc96ddcc9374ab",
+  "id": "9dac65bf-b86f-4296-b44f-7be56c1c6fa2",
+  "name": "farmer.jpg",
+  "resource": "a293fd01-ee94-4e2f-851a-c13f811890a6",
+  "description": "",
+  "altText": "",
+  "path": "/dxdam/9d/9dac65bf-b86f-4296-b44f-7be56c1c6fa2/farmer.jpg",
+  "tags": {
+    "values": [
+      "classification:vegetable",
+      "classification:plant",
+      "classification:low-fat diet food",
+      "classification:diet (food)",
+      "classification:food",
+      "classification:diabetic diet (food)",
+      "classification:vegetarianism food",
+      "classification:balanced diet (food)",
+      "classification:dietary (food)",
+      "classification:high-protein diet food",
+      "classification:greenishness color",
+      "user:IBM sample"
+    ],
+    "declined": [],
+    "analysis": "pending"
+  },
+  "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
+  "status": "ready",
+  "assetType": "image",
+  "fileName": "farmer.jpg",
+  "mediaType": "image/jpeg",
+  "fileSize": 2892988,
+  "digest": "fP0voN8faA8+UpbA5Ci+ug==",
+  "metadata": {
+    "width": 4789,
+    "height": 3193,
+    "camera": {
+      "make": "Canon",
+      "model": "Canon EOS 5D Mark III",
+      "focalLength": 50,
+      "shutterSpeed": "1/500",
+      "aperture": 1.8
+    }
+  },
+  "lastModified": "2018-02-23T02:56:43.071Z",
+  "created": "2018-02-23T02:56:43.071Z",
+  "classification": "asset",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "cognitive": {
+    "status": "pending"
+  },
+  "renditions": {
+    "default": {
+      "id": "r=a293fd01-ee94-4e2f-851a-c13f811890a6&a=9dac65bf-b86f-4296-b44f-7be56c1c6fa2",
+      "source": "/authoring/v1/resources/a293fd01-ee94-4e2f-851a-c13f811890a6"
+    }
+  },
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/9dac65bf-b86f-4296-b44f-7be56c1c6fa2"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/a293fd01-ee94-4e2f-851a-c13f811890a6.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/a293fd01-ee94-4e2f-851a-c13f811890a6?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/9dac65bf-b86f-4296-b44f-7be56c1c6fa2/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "bd89571a-edc0-4f8b-b90a-ada4c8436a39",
+  "rev": "5-180587dcc6a5f1f39e165380cf237564",
+  "name": "Banner",
+  "classification": "image-profile",
+  "creator": "LAURA POMERLEAU",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "created": "2016-12-09T16:52:51.827Z",
+  "lastModifier": "LAURA POMERLEAU",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModified": "2018-02-23T02:56:26.503Z",
+  "dimensions": [
+    {
+      "label": "Sample Article Thumbnail",
+      "key": "thumbnail",
+      "width": 800,
+      "height": 500
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "9d47dccc-f940-40de-a978-82815c805701",
+  "rev": "7-cf07350945e40180bae127739edd68a1",
+  "name": "Dynamic list criteria",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creator": "LAURA POMERLEAU",
+  "description": "Enables content creators to select the kinds of content to include in a dynamic list.",
+  "classification": "taxonomy",
+  "firstClassFor": [
+    ""
+  ],
+  "namePath": [
+    "Dynamic list criteria"
+  ],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/categories/9d47dccc-f940-40de-a978-82815c805701"
+    }
+  },
+  "created": "2018-02-23T02:56:28.149Z",
+  "lastModified": "2018-02-23T02:56:28.149Z"
+}

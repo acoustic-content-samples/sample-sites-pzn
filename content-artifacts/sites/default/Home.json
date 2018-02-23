@@ -1,0 +1,15 @@
+{
+  "name": "Home",
+  "hideFromNavigation": false,
+  "segment": "home",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "Home",
+  "contentId": "b5bab819-4b52-438e-b5cd-ea37d12f6e23",
+  "classification": "page",
+  "contentStatus": "ready",
+  "position": 0,
+  "id": "8078c297-4fe8-421a-9e84-2dcbed035bfb",
+  "rev": "5-8221a52f0edaf4544e0f928170243e0d"
+}

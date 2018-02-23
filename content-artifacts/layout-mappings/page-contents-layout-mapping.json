@@ -1,0 +1,24 @@
+{
+  "id": "page-contents-layout-mapping",
+  "rev": "9-af8a621e57549427cfcc2a3d5976bd22",
+  "name": "pageContentsLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "24490027-e55b-4739-a5a9-5c091c5d4a72",
+    "name": "Page contents"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "page-contents-layout",
+        "name": "pageContentsLayout"
+      },
+      "layouts": [
+        {
+          "id": "page-contents-layout",
+          "name": "pageContentsLayout"
+        }
+      ]
+    }
+  ]
+}

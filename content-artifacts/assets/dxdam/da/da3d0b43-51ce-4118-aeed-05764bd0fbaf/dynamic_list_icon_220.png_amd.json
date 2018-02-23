@@ -1,0 +1,70 @@
+{
+  "rev": "10-abc9fc727223cec19b43878462a01e32",
+  "id": "da3d0b43-51ce-4118-aeed-05764bd0fbaf",
+  "name": "dynamic_list_icon_220.png",
+  "resource": "b05c661d5e891602477ea9714733573f",
+  "description": "",
+  "altText": "",
+  "path": "/dxdam/da/da3d0b43-51ce-4118-aeed-05764bd0fbaf/dynamic_list_icon_220.png",
+  "tags": {
+    "values": [
+      "user:oslo",
+      "user:IBM sample",
+      "classification:black color",
+      "classification:coal black color",
+      "classification:blue color",
+      "classification:figure"
+    ],
+    "declined": [],
+    "analysis": "pending"
+  },
+  "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
+  "status": "ready",
+  "assetType": "image",
+  "fileName": "dynamic_list_icon_220.png",
+  "mediaType": "image/png",
+  "fileSize": 1861,
+  "digest": "vyKTpoZciDPJSOnISdAZ1w==",
+  "metadata": {
+    "width": 220,
+    "height": 145
+  },
+  "lastModified": "2018-02-23T02:56:38.387Z",
+  "created": "2018-02-23T02:56:38.387Z",
+  "classification": "asset",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "cognitive": {
+    "status": "pending"
+  },
+  "renditions": {
+    "default": {
+      "id": "r=b05c661d5e891602477ea9714733573f&a=da3d0b43-51ce-4118-aeed-05764bd0fbaf",
+      "source": "/authoring/v1/resources/b05c661d5e891602477ea9714733573f"
+    }
+  },
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/da3d0b43-51ce-4118-aeed-05764bd0fbaf"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/b05c661d5e891602477ea9714733573f.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/b05c661d5e891602477ea9714733573f"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/da3d0b43-51ce-4118-aeed-05764bd0fbaf/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
+}

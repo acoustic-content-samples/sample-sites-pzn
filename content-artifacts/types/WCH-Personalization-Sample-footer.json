@@ -1,0 +1,69 @@
+{
+  "id": "5fb54c34-e813-4886-9d3f-1a0c4e47bff1",
+  "rev": "10-5ce4413100b564d429a0b33f36fda42a",
+  "name": "WCH Personalization Sample footer",
+  "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
+  "thumbnail": {
+    "id": "8d7c84d1-aefe-4a01-8096-58b5acea04d1",
+    "path": "/dxdam/8d/8d7c84d1-aefe-4a01-8096-58b5acea04d1/footer_icon_220.png",
+    "url": "/authoring/v1/resources/ab62962454acad085be1f22d850d0bf7"
+  },
+  "contentThumbnail": {
+    "imageElement": "Logo",
+    "source": "imageElementOrType"
+  },
+  "description": "Customize elements of the footer that shows up on website pages.",
+  "status": "ready",
+  "tags": [
+    "IBM sites kicker",
+    "IBM sample"
+  ],
+  "elements": [
+    {
+      "elementType": "image",
+      "label": "Website logo",
+      "key": "Logo",
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif"
+      ]
+    },
+    {
+      "elementType": "text",
+      "label": "Copyright",
+      "key": "copyright"
+    },
+    {
+      "elementType": "text",
+      "label": "Email address",
+      "key": "emailAddress"
+    },
+    {
+      "elementType": "text",
+      "label": "Label for sales contact",
+      "key": "labelForSalesContact"
+    },
+    {
+      "elementType": "text",
+      "label": "Sales contact number",
+      "key": "salesContactNumber",
+      "helpText": "Enter the number for the sales department."
+    },
+    {
+      "elementType": "text",
+      "label": "Label for customer service",
+      "key": "labelForCustomerService"
+    },
+    {
+      "elementType": "text",
+      "label": "Customer service contact number",
+      "key": "customerServiceContactNumber",
+      "helpText": "Enter the number for the customer service department."
+    }
+  ]
+}

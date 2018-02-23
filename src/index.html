@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<script type='text/javascript'>
+		let possibleTenant = document.location.pathname.split('/')[1];
+		let baseUrl = possibleTenant.search(/\w{8}\-\w{4}\-\w{4}\-\w{4}\-\w{12}/) === 0 ? '/' + possibleTenant + '/' : '/';
+		document.write('<base href="' + baseUrl + '">');
+	</script>
+
+	<meta charset="utf-8">
+	<title>WCH Personalization Sample</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/material-components-web.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body class="mdc-typography">
+
+	<app></app>
+
+	<script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+</body>
+</html>

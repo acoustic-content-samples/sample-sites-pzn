@@ -1,0 +1,91 @@
+{
+  "rev": "7-5e568ee9b04346ff9780e4915e7b50ba",
+  "id": "f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa",
+  "name": "about.jpg",
+  "resource": "98d4d862-8dbe-437b-a32a-fb4154a43273",
+  "description": "",
+  "altText": "",
+  "path": "/dxdam/f0/f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa/about.jpg",
+  "tags": {
+    "values": [
+      "classification:Italian parsley",
+      "classification:herb",
+      "classification:plant",
+      "classification:coriander",
+      "classification:food seasoning",
+      "classification:food ingredient",
+      "classification:food product",
+      "classification:food",
+      "classification:parsley",
+      "classification:celeriac",
+      "classification:root vegetable",
+      "classification:vegetable",
+      "classification:turnip greens",
+      "classification:leafy vegetable",
+      "classification:lovage",
+      "classification:tree",
+      "classification:greenishness color",
+      "user:IBM sample"
+    ],
+    "declined": [],
+    "analysis": "pending"
+  },
+  "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
+  "status": "ready",
+  "assetType": "image",
+  "fileName": "about.jpg",
+  "mediaType": "image/jpeg",
+  "fileSize": 3670437,
+  "digest": "huMovrVmMPt4YiUkp9tGag==",
+  "metadata": {
+    "width": 4434,
+    "height": 2956,
+    "camera": {
+      "make": "Panasonic",
+      "model": "DMC-GH4",
+      "focalLength": 23,
+      "shutterSpeed": "1/160",
+      "iso": 200,
+      "aperture": 3.2
+    },
+    "date": "2017-10-07T12:11:34.042"
+  },
+  "lastModified": "2018-02-23T02:56:43.457Z",
+  "created": "2018-02-23T02:56:43.457Z",
+  "classification": "asset",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "cognitive": {
+    "status": "pending"
+  },
+  "renditions": {
+    "default": {
+      "id": "r=98d4d862-8dbe-437b-a32a-fb4154a43273&a=f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa",
+      "source": "/authoring/v1/resources/98d4d862-8dbe-437b-a32a-fb4154a43273"
+    }
+  },
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/98d4d862-8dbe-437b-a32a-fb4154a43273.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/98d4d862-8dbe-437b-a32a-fb4154a43273?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
+}

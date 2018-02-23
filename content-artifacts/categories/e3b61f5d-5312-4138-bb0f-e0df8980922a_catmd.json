@@ -1,0 +1,30 @@
+{
+  "id": "e3b61f5d-5312-4138-bb0f-e0df8980922a",
+  "rev": "7-54745f3aadc79b34d68b5be929e18f11",
+  "name": "Alphabetical ascending",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creator": "LAURA POMERLEAU",
+  "classification": "category",
+  "taxonomy": "52265429-9349-49fe-b35d-f7b71493190e",
+  "parent": "52265429-9349-49fe-b35d-f7b71493190e",
+  "ancestorIds": [
+    "52265429-9349-49fe-b35d-f7b71493190e"
+  ],
+  "namePath": [
+    "List ordering options",
+    "Alphabetical ascending"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/52265429-9349-49fe-b35d-f7b71493190e"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/e3b61f5d-5312-4138-bb0f-e0df8980922a"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/52265429-9349-49fe-b35d-f7b71493190e"
+    }
+  },
+  "created": "2018-02-23T02:56:28.190Z",
+  "lastModified": "2018-02-23T02:56:28.190Z"
+}

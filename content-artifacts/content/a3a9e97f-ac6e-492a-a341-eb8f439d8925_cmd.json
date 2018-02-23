@@ -1,0 +1,75 @@
+{
+  "id": "a3a9e97f-ac6e-492a-a341-eb8f439d8925",
+  "name": "footerConfig",
+  "description": "",
+  "typeId": "5fb54c34-e813-4886-9d3f-1a0c4e47bff1",
+  "locale": "en",
+  "tags": [
+    "user:IBM sample"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "copyright": {
+      "elementType": "text",
+      "value": "IBM"
+    },
+    "labelForCustomerService": {
+      "elementType": "text",
+      "value": "phone"
+    },
+    "emailAddress": {
+      "elementType": "text",
+      "value": "samples@ibm.com"
+    },
+    "customerServiceContactNumber": {
+      "elementType": "text",
+      "value": "800-555-5555"
+    },
+    "labelForSalesContact": {
+      "elementType": "text",
+      "value": "sales"
+    },
+    "salesContactNumber": {
+      "elementType": "text",
+      "value": "800-555-5555"
+    },
+    "Logo": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=e329ee90-623e-474a-b0ce-68f3d86f4570&a=5b434249-149b-466c-a19e-74612164881e",
+          "source": "/authoring/v1/resources/e329ee90-623e-474a-b0ce-68f3d86f4570",
+          "width": 29,
+          "height": 29
+        }
+      },
+      "asset": {
+        "id": "5b434249-149b-466c-a19e-74612164881e",
+        "resourceUri": "/authoring/v1/resources/e329ee90-623e-474a-b0ce-68f3d86f4570",
+        "fileName": "Bee.png",
+        "fileSize": 621,
+        "mediaType": "image/png",
+        "width": 29,
+        "height": 29
+      }
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "5b434249-149b-466c-a19e-74612164881e",
+    "url": "/authoring/v1/resources/e329ee90-623e-474a-b0ce-68f3d86f4570"
+  },
+  "lastModified": "2018-02-23T02:57:19.735Z",
+  "created": "2018-02-23T02:57:19.735Z",
+  "classification": "content",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "type": "WCH Personalization Sample footer",
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "6-a6b802d1c6666db7abf169c7bc614e03"
+}

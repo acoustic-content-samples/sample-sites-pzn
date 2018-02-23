@@ -1,0 +1,57 @@
+{
+  "id": "5e854eaa-6827-40c4-95ca-8d28ec3e7239",
+  "name": "Mise en place",
+  "description": "",
+  "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "tags": [
+    "user:IBM sample",
+    "user:wch_pzn_chef"
+  ],
+  "status": "ready",
+  "elements": {
+    "banner": {
+      "elementType": "reference"
+    },
+    "sectionOne": {
+      "elementType": "reference",
+      "values": [
+        {
+          "id": "81942a9b-16fd-4956-9273-369aeb045a97",
+          "name": "Chef 1 content",
+          "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
+          "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+          "status": "ready"
+        }
+      ]
+    },
+    "sectionTwo": {
+      "elementType": "reference"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "standard-page-layout"
+      }
+    }
+  ],
+  "kind": [
+    "page"
+  ],
+  "thumbnail": {
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
+    "url": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
+  },
+  "lastModified": "2018-02-23T02:57:21.992Z",
+  "created": "2018-02-23T02:57:21.992Z",
+  "classification": "content",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "type": "Standard page",
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "6-4f612e3111204e87597c4694d07a8d6b"
+}

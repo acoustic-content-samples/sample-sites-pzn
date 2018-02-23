@@ -1,0 +1,114 @@
+/*******************************************************************************
+ * Copyright IBM Corp. 2017
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *******************************************************************************/
+.logo {
+	width: 30px;
+	height: 30px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+
+/* custom role-based logos */
+.wch_pzn_chef .logo.pzn i:before {
+	content: "restaurant_menu";
+}
+.wch_pzn_customer .logo.pzn i:before {
+	content: "face";
+}
+.wch_pzn_farmer .logo.pzn i:before {
+	content: "spa";
+}
+.wch_pzn_restaurateur .logo.pzn i:before {
+	content: "lightbulb_outline";
+}
+
+.title {
+	margin-right: 20px;
+	a {
+		text-decoration: none;
+		color: white !important;
+	}
+}
+
+.mdc-toolbar {
+	background-color: #018786;
+}
+
+.mdc-tab-bar {
+	margin: 0;
+}
+
+.mdc-toolbar__row {
+	min-height: 75px;
+}
+
+.mdc-toolbar__section {
+	align-items: center;
+}
+
+.mdc-toolbar__section--shrink-to-fit {
+	margin: 0 20px;
+}
+
+.mdc-toolbar__title {
+	margin-top: 7px;
+}
+
+.mdc-tab {
+	font-size: 14px;
+	min-width: auto;
+	&.material-icons {
+		margin-top: 9px;
+	}
+}
+
+.mdc-button {
+	margin: 10px 20px 0 20px;
+}
+
+.mdc-button--unelevated:not(:disabled) {
+	background-color: var(--mdc-theme-secondary, #018786);
+}
+
+.mdc-button--stroked:not(:disabled) {
+	border-color: #D4E6E6;
+}
+
+.mdc-toolbar__icon {
+	font-size: 16px;
+}
+
+.material-icons {
+	font-size: 35px;
+	margin-right: 5px;
+}
+
+.custom-tab-bar-in-toolbar .mdc-tab:not(.mdc-tab--active) {
+	color: rgba(255, 255, 255, 0.54); 
+}
+
+.custom-tab-bar-in-toolbar .mdc-tab:not(.mdc-tab--active) .mdc-tab__icon {
+	color: rgba(255, 255, 255, 0.54);
+}
+
+.custom-tab-bar-in-toolbar .mdc-tab--active,
+.custom-tab-bar-in-toolbar .mdc-tab:hover {
+	color: white;
+}
+
+.custom-tab-bar-in-toolbar .mdc-tab-bar__indicator,
+.custom-tab-bar-in-toolbar .mdc-tab__indicator {
+	background-color: white;
+}

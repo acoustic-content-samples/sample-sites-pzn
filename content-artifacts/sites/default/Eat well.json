@@ -1,0 +1,15 @@
+{
+  "name": "Eat well",
+  "hideFromNavigation": false,
+  "segment": "eat-well",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "",
+  "contentId": "2c9ef8c8-6fe4-41b0-b69f-afa40ece53ac",
+  "classification": "page",
+  "contentStatus": "ready",
+  "position": 3,
+  "id": "6a5b408c-89d9-4e6f-8551-a3c0e2a32afd",
+  "rev": "5-f1a225c7b044b55c5da5f40529d327cc"
+}

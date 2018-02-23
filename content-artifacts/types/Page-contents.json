@@ -1,0 +1,47 @@
+{
+  "id": "24490027-e55b-4739-a5a9-5c091c5d4a72",
+  "rev": "10-b73a8de362dafe2b330127800a54388d",
+  "name": "Page contents",
+  "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
+  "contentThumbnail": {
+    "imageElement": "image",
+    "source": "imageElementOrType"
+  },
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "sample",
+    "IBM sample"
+  ],
+  "elements": [
+    {
+      "key": "title",
+      "label": "Title",
+      "elementType": "text",
+      "displayType": "singleLine"
+    },
+    {
+      "key": "body",
+      "label": "Body",
+      "elementType": "text",
+      "displayType": "multiLine",
+      "displayWidth": 100,
+      "displayHeight": 10
+    },
+    {
+      "key": "image",
+      "label": "Image",
+      "elementType": "image",
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif"
+      ],
+      "imageProfileId": "bd89571a-edc0-4f8b-b90a-ada4c8436a39"
+    }
+  ]
+}

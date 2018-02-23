@@ -1,0 +1,21 @@
+{
+  "scale": 0.18042399639152007,
+  "locationY": 17,
+  "height": 500,
+  "locationX": 0,
+  "id": "26663901-29b6-4aeb-aa4f-40f4fcc48c00",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/jpeg",
+    "altText": "",
+    "height": 2956,
+    "fileName": "about.jpg",
+    "id": "f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa",
+    "resource": "98d4d862-8dbe-437b-a32a-fb4154a43273",
+    "fileSize": 3670437,
+    "width": 4434
+  },
+  "width": 800,
+  "created": "2018-02-23T02:56:44.252Z",
+  "rev": "5-4d73270c8a3c3b31ce00f5c092b2b574"
+}

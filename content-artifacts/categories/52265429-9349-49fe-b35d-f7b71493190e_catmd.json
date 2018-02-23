@@ -1,0 +1,22 @@
+{
+  "id": "52265429-9349-49fe-b35d-f7b71493190e",
+  "rev": "7-3bf7aa0c1023b43308e0aca65e1c0bd1",
+  "name": "List ordering options",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creator": "LAURA POMERLEAU",
+  "description": "Enables content creators to order items in a dynamic list.",
+  "classification": "taxonomy",
+  "firstClassFor": [
+    ""
+  ],
+  "namePath": [
+    "List ordering options"
+  ],
+  "links": {
+    "self": {
+      "href": "/authoring/v1/categories/52265429-9349-49fe-b35d-f7b71493190e"
+    }
+  },
+  "created": "2018-02-23T02:56:28.051Z",
+  "lastModified": "2018-02-23T02:56:28.051Z"
+}

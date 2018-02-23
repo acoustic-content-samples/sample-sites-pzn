@@ -1,0 +1,31 @@
+{
+  "id": "16f3938f-90a7-44e9-baf0-751d861a6164",
+  "rev": "13-dc3dd89e911c29dd88b0d7198307c98c",
+  "name": "Error page",
+  "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
+  "description": "Error page is shown in case of problems with the Single Page application.",
+  "status": "ready",
+  "tags": [
+    "oslo",
+    "IBM sample",
+    "IBM sites kicker"
+  ],
+  "elements": [
+    {
+      "elementType": "formattedtext",
+      "fieldLabel": "Formatted Text",
+      "label": "Error message",
+      "key": "errorMessage",
+      "required": true
+    },
+    {
+      "elementType": "link",
+      "fieldLabel": "Link",
+      "label": "Go home button",
+      "key": "goHomeButton"
+    }
+  ]
+}

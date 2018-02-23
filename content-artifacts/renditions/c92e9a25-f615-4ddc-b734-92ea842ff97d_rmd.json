@@ -1,0 +1,21 @@
+{
+  "scale": 0.16704948841094175,
+  "locationY": 17,
+  "height": 500,
+  "locationX": 0,
+  "id": "c92e9a25-f615-4ddc-b734-92ea842ff97d",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/jpeg",
+    "altText": "",
+    "height": 3193,
+    "fileName": "farmer.jpg",
+    "id": "9dac65bf-b86f-4296-b44f-7be56c1c6fa2",
+    "resource": "a293fd01-ee94-4e2f-851a-c13f811890a6",
+    "fileSize": 2892988,
+    "width": 4789
+  },
+  "width": 800,
+  "created": "2018-02-23T02:56:44.764Z",
+  "rev": "5-5a9ea3411aec20b124f8b543175903e9"
+}

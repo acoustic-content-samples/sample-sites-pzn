@@ -1,0 +1,15 @@
+{
+  "name": "Service",
+  "hideFromNavigation": false,
+  "segment": "service",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "",
+  "contentId": "205f378b-4a8d-490f-942d-671fa2a5879d",
+  "classification": "page",
+  "contentStatus": "ready",
+  "position": 6,
+  "id": "4bb5dd46-4b95-40a8-a000-ee5cd3d1b251",
+  "rev": "5-9713fbe6259a9f468049117fc347a976"
+}

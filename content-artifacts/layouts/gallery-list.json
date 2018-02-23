@@ -1,0 +1,13 @@
+{
+  "id": "gallery-list",
+  "rev": "12-27a32ab62532ef98556b15309fef4780",
+  "name": "Gallery",
+  "classification": "layout",
+  "prerender": false,
+  "thumbnail": {
+    "path": "/layouts/thumbnails/list-gallery_220.svg",
+    "url": "/authoring/v1/resources/493e62b02c94eb14826379547d926753_124ca54ce3f2c2fc470ff40865af4ffd"
+  },
+  "template": "gallery-list",
+  "templateType": "angular"
+}

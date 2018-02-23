@@ -1,0 +1,78 @@
+{
+  "rev": "7-87a118379d31036021d850730a96af55",
+  "id": "7369f4a6-f275-4ce1-953c-94411c59e0cc",
+  "name": "customer.jpg",
+  "resource": "b0d8a963-64ea-480c-874b-7465564988fb",
+  "description": "",
+  "altText": "",
+  "path": "/dxdam/73/7369f4a6-f275-4ce1-953c-94411c59e0cc/customer.jpg",
+  "tags": {
+    "values": [
+      "classification:taster",
+      "classification:people",
+      "classification:person",
+      "classification:restaurant",
+      "classification:building",
+      "classification:social gathering",
+      "classification:waitress",
+      "classification:food",
+      "classification:beverage",
+      "classification:olive color",
+      "classification:chestnut color",
+      "user:IBM sample"
+    ],
+    "declined": [],
+    "analysis": "pending"
+  },
+  "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
+  "status": "ready",
+  "assetType": "image",
+  "fileName": "customer.jpg",
+  "mediaType": "image/jpeg",
+  "fileSize": 9976324,
+  "digest": "dQNvEIlLEIZMvQs8YTD4rw==",
+  "metadata": {
+    "width": 5419,
+    "height": 3496,
+    "rights": "Rawpixel Ltd.",
+    "title": "Woman Getting Food On Wedding Dinner"
+  },
+  "lastModified": "2018-02-23T02:56:42.240Z",
+  "created": "2018-02-23T02:56:42.240Z",
+  "classification": "asset",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "cognitive": {
+    "status": "pending"
+  },
+  "renditions": {
+    "default": {
+      "id": "r=b0d8a963-64ea-480c-874b-7465564988fb&a=7369f4a6-f275-4ce1-953c-94411c59e0cc",
+      "source": "/authoring/v1/resources/b0d8a963-64ea-480c-874b-7465564988fb"
+    }
+  },
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/7369f4a6-f275-4ce1-953c-94411c59e0cc"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/b0d8a963-64ea-480c-874b-7465564988fb.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/b0d8a963-64ea-480c-874b-7465564988fb?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/7369f4a6-f275-4ce1-953c-94411c59e0cc/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
+}

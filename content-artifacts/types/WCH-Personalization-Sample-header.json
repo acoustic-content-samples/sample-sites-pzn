@@ -1,0 +1,43 @@
+{
+  "id": "6c88df68-6ac1-4a6a-9fb5-7a24bb840d18",
+  "rev": "12-415c8e9d9235a73159d8bde142361e2c",
+  "name": "WCH Personalization Sample header",
+  "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
+  "thumbnail": {
+    "id": "78490787-4867-4b8f-9a9d-bddd407b854b",
+    "path": "/dxdam/78/78490787-4867-4b8f-9a9d-bddd407b854b/header_icon_220.png",
+    "url": "/authoring/v1/resources/9a069bfa086cfe1ae7c98e789fed8146"
+  },
+  "contentThumbnail": {
+    "imageElement": "websiteLogo",
+    "source": "imageElementOrType"
+  },
+  "description": "Customize elements of the header that shows up on your website pages.  The website navigation is governed by the developer code for the site.",
+  "status": "ready",
+  "tags": [
+    "IBM sites kicker",
+    "IBM sample"
+  ],
+  "elements": [
+    {
+      "elementType": "image",
+      "label": "Website logo",
+      "key": "websiteLogo",
+      "acceptType": [
+        "jpg",
+        "jpeg",
+        "png",
+        "gif",
+        "svg"
+      ]
+    },
+    {
+      "elementType": "text",
+      "label": "Site title",
+      "key": "siteTitle"
+    }
+  ]
+}

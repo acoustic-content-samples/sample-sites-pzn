@@ -1,0 +1,21 @@
+{
+  "id": "login-layout-mapping",
+  "rev": "4-ef516b4044cb03d1b824e3f8f20f23e2",
+  "name": "loginLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "b0f151db-f00c-43de-b3e7-613b83d65d8b"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "login-layout"
+      },
+      "layouts": [
+        {
+          "id": "login-layout"
+        }
+      ]
+    }
+  ]
+}

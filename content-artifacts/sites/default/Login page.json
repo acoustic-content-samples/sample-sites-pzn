@@ -1,0 +1,15 @@
+{
+  "name": "Login page",
+  "hideFromNavigation": true,
+  "segment": "login",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "Login",
+  "contentId": "504cc23e-35bd-44f3-82a4-259b9613988b",
+  "classification": "page",
+  "contentStatus": "ready",
+  "position": 8,
+  "id": "6cc36f22-2393-4bb7-8da0-79e3ee7a5e15",
+  "rev": "5-091f7f8b19deb0d7fde6c4367310bd08"
+}

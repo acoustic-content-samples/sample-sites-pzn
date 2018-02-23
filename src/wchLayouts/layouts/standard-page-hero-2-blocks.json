@@ -1,0 +1,12 @@
+{
+  "id": "standard-page-hero-2-blocks",
+  "rev": "27-b259381e8cb3ea7bfe5ea233cbd63b36",
+  "name": "Two blocks and Hero",
+  "classification": "layout",
+  "prerender": false,
+  "thumbnail": {
+    "path": "/layouts/thumbnails/standard-page-hero-2-blocks_220.svg"
+  },
+  "template": "standard-page-hero-2-blocks",
+  "templateType": "angular"
+}

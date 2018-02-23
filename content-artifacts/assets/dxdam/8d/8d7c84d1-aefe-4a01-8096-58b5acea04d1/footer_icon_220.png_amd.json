@@ -1,0 +1,77 @@
+{
+  "rev": "10-2f647e070233284a8246fa96f4d1d496",
+  "id": "8d7c84d1-aefe-4a01-8096-58b5acea04d1",
+  "name": "footer_icon_220.png",
+  "resource": "ab62962454acad085be1f22d850d0bf7",
+  "description": "",
+  "altText": "",
+  "path": "/dxdam/8d/8d7c84d1-aefe-4a01-8096-58b5acea04d1/footer_icon_220.png",
+  "tags": {
+    "values": [
+      "user:oslo",
+      "user:IBM sample",
+      "classification:digital clock",
+      "classification:clock",
+      "classification:timepiece",
+      "classification:measuring instrument",
+      "classification:digital display",
+      "classification:video display",
+      "classification:electronic device",
+      "classification:dialog box",
+      "classification:window",
+      "classification:coal black color",
+      "classification:blue color"
+    ],
+    "declined": [],
+    "analysis": "pending"
+  },
+  "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
+  "status": "ready",
+  "assetType": "image",
+  "fileName": "footer_icon_220.png",
+  "mediaType": "image/png",
+  "fileSize": 1670,
+  "digest": "PF6S48LJfs9pIG1Me6lBOA==",
+  "metadata": {
+    "width": 220,
+    "height": 145
+  },
+  "lastModified": "2018-02-23T02:56:37.359Z",
+  "created": "2018-02-23T02:56:37.358Z",
+  "classification": "asset",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "cognitive": {
+    "status": "pending"
+  },
+  "renditions": {
+    "default": {
+      "id": "r=ab62962454acad085be1f22d850d0bf7&a=8d7c84d1-aefe-4a01-8096-58b5acea04d1",
+      "source": "/authoring/v1/resources/ab62962454acad085be1f22d850d0bf7"
+    }
+  },
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/8d7c84d1-aefe-4a01-8096-58b5acea04d1"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/ab62962454acad085be1f22d850d0bf7.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/ab62962454acad085be1f22d850d0bf7"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/8d7c84d1-aefe-4a01-8096-58b5acea04d1/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
+}

@@ -1,0 +1,79 @@
+{
+  "rev": "10-2d620b7c3358b887ff543200a2cb7b56",
+  "id": "78490787-4867-4b8f-9a9d-bddd407b854b",
+  "name": "header_icon_220.png",
+  "resource": "9a069bfa086cfe1ae7c98e789fed8146",
+  "description": "",
+  "altText": "",
+  "path": "/dxdam/78/78490787-4867-4b8f-9a9d-bddd407b854b/header_icon_220.png",
+  "tags": {
+    "values": [
+      "user:oslo",
+      "user:IBM sample",
+      "classification:dialog box",
+      "classification:window",
+      "classification:video display",
+      "classification:electronic device",
+      "classification:digital clock",
+      "classification:clock",
+      "classification:timepiece",
+      "classification:measuring instrument",
+      "classification:digital display",
+      "classification:automated teller machine",
+      "classification:machine",
+      "classification:coal black color",
+      "classification:black color"
+    ],
+    "declined": [],
+    "analysis": "pending"
+  },
+  "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
+  "status": "ready",
+  "assetType": "image",
+  "fileName": "header_icon_220.png",
+  "mediaType": "image/png",
+  "fileSize": 1717,
+  "digest": "4FmcuDVfDT59n5RlOI6AUg==",
+  "metadata": {
+    "width": 220,
+    "height": 145
+  },
+  "lastModified": "2018-02-23T02:56:36.785Z",
+  "created": "2018-02-23T02:56:36.784Z",
+  "classification": "asset",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "cognitive": {
+    "status": "pending"
+  },
+  "renditions": {
+    "default": {
+      "id": "r=9a069bfa086cfe1ae7c98e789fed8146&a=78490787-4867-4b8f-9a9d-bddd407b854b",
+      "source": "/authoring/v1/resources/9a069bfa086cfe1ae7c98e789fed8146"
+    }
+  },
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/78490787-4867-4b8f-9a9d-bddd407b854b"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/9a069bfa086cfe1ae7c98e789fed8146.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/9a069bfa086cfe1ae7c98e789fed8146"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/78490787-4867-4b8f-9a9d-bddd407b854b/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
+}

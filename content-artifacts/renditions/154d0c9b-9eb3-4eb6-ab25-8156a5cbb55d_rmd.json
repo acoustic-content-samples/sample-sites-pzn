@@ -1,0 +1,21 @@
+{
+  "scale": 0.23717758671805514,
+  "locationY": 15,
+  "height": 500,
+  "locationX": 0,
+  "id": "154d0c9b-9eb3-4eb6-ab25-8156a5cbb55d",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/jpeg",
+    "altText": "",
+    "height": 2238,
+    "fileName": "chef.jpg",
+    "id": "28bec070-42f1-436f-8aec-2f9a1acd0005",
+    "resource": "ffeaf3a4-326a-404e-bc90-e328015f5e70",
+    "fileSize": 881674,
+    "width": 3373
+  },
+  "width": 800,
+  "created": "2018-02-23T02:56:45.280Z",
+  "rev": "5-fbd6114bef95b338c73a431c362d86c8"
+}

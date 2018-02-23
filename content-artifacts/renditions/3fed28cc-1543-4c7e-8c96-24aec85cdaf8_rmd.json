@@ -1,0 +1,21 @@
+{
+  "scale": 0.24067388688327315,
+  "locationY": 16,
+  "height": 500,
+  "locationX": 0,
+  "id": "3fed28cc-1543-4c7e-8c96-24aec85cdaf8",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/jpeg",
+    "altText": "",
+    "height": 2208,
+    "fileName": "restaurateur.jpg",
+    "id": "8a86c07e-6e5f-44ce-8b31-5281a9f805af",
+    "resource": "cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9",
+    "fileSize": 5398165,
+    "width": 3324
+  },
+  "width": 800,
+  "created": "2018-02-23T02:56:44.324Z",
+  "rev": "5-bb1ba95e29afc5dedf007b4a8d400d43"
+}

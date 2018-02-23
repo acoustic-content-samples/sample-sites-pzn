@@ -1,0 +1,12 @@
+{
+  "id": "standard-page-hero-4-blocks",
+  "rev": "27-1d744ac1d0de6de128b62240db2b0954",
+  "name": "Four blocks and Hero",
+  "classification": "layout",
+  "prerender": false,
+  "thumbnail": {
+    "path": "/layouts/thumbnails/standard-page-hero-4-blocks_220.svg"
+  },
+  "template": "standard-page-hero-4-blocks",
+  "templateType": "angular"
+}

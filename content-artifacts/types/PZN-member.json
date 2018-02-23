@@ -1,0 +1,30 @@
+{
+  "id": "b2193261-ad37-4f41-a86c-c33a556f807d",
+  "rev": "9-03e6a070b92dd5d37a198f8c7d39e09c",
+  "name": "PZN member",
+  "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "IBM sample"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "Name",
+      "key": "name",
+      "required": true,
+      "minLength": 1
+    },
+    {
+      "elementType": "text",
+      "label": "Tag",
+      "key": "tag",
+      "required": true,
+      "minLength": 1
+    }
+  ]
+}

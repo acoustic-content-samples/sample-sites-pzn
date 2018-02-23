@@ -1,0 +1,65 @@
+{
+  "id": "d85452db-e22d-48c6-86b4-6373e900d67d",
+  "name": "About content",
+  "description": "",
+  "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
+  "locale": "en",
+  "tags": [
+    "user:IBM sample"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "title": {
+      "elementType": "text",
+      "value": "About"
+    },
+    "body": {
+      "elementType": "text",
+      "value": "Donec sit amet turpis sodales, convallis risus ac, sollicitudin lacus. Duis neque leo, congue sed urna vitae, malesuada mattis est. Nulla varius eros eget nulla consectetur pellentesque. Vestibulum risus turpis, vehicula id dolor rhoncus, fermentum sodales leo. Proin laoreet gravida quam, quis rhoncus mi faucibus egestas. Vestibulum consequat metus ut justo egestas, ut tincidunt libero bibendum. Praesent elementum pulvinar elit, nec blandit orci tincidunt nec. Nulla ac gravida purus.\n\nNulla aliquam risus id turpis auctor suscipit. Sed tempus dapibus ullamcorper. Nunc accumsan egestas massa, vel consectetur nulla condimentum vitae. Nulla iaculis elit eu ipsum vulputate, nec aliquam augue pellentesque. Mauris non sapien facilisis, condimentum libero eu, pulvinar nibh. Quisque laoreet sapien ac pretium pretium. Praesent id leo euismod, porta lacus at, ultricies massa. Donec at commodo purus, iaculis molestie dui. Nulla sollicitudin ipsum non eros auctor, a laoreet ligula ullamcorper. Nunc ut blandit turpis. Vivamus finibus, est ut tempus efficitur, odio orci efficitur tortor, dignissim egestas eros enim quis tellus."
+    },
+    "image": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=98d4d862-8dbe-437b-a32a-fb4154a43273&a=f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa",
+          "source": "/authoring/v1/resources/98d4d862-8dbe-437b-a32a-fb4154a43273",
+          "width": 4434,
+          "height": 2956
+        },
+        "thumbnail": {
+          "renditionId": "26663901-29b6-4aeb-aa4f-40f4fcc48c00",
+          "source": "/authoring/v1/resources/98d4d862-8dbe-437b-a32a-fb4154a43273?resize=800px:533px&crop=800:500;0,17",
+          "width": 800,
+          "height": 500
+        }
+      },
+      "asset": {
+        "id": "f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa",
+        "resourceUri": "/authoring/v1/resources/98d4d862-8dbe-437b-a32a-fb4154a43273",
+        "fileName": "about.jpg",
+        "fileSize": 3670437,
+        "mediaType": "image/jpeg",
+        "width": 4434,
+        "height": 2956
+      }
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa",
+    "url": "/authoring/v1/resources/98d4d862-8dbe-437b-a32a-fb4154a43273?fit=inside%7C220:145"
+  },
+  "lastModified": "2018-02-23T02:57:20.401Z",
+  "created": "2018-02-23T02:57:20.401Z",
+  "classification": "content",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "type": "Page contents",
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "6-29ddd439259ce6d7abe4a1a8f803e98f"
+}

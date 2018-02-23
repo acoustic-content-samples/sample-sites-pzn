@@ -1,0 +1,21 @@
+{
+  "scale": 0.37341299477221807,
+  "locationY": 0,
+  "height": 500,
+  "locationX": 11,
+  "id": "a5f298c6-a842-474c-94c5-8c7e3d2d17b9",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/jpeg",
+    "altText": "",
+    "height": 1339,
+    "fileName": "home.jpg",
+    "id": "daa99286-edfe-41d7-a52c-6074b89e34b2",
+    "resource": "d4f996ca-f819-4379-90cc-957fce3b8de5",
+    "fileSize": 1287643,
+    "width": 2200
+  },
+  "width": 800,
+  "created": "2018-02-23T02:56:44.356Z",
+  "rev": "5-a5264bc5589e6f23d3469df3c758fae3"
+}

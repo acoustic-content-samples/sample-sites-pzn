@@ -1,0 +1,23 @@
+<div class="mdc-toolbar mdc-elevation--z-6">
+	<div class="mdc-toolbar__row">
+		<section class="mdc-toolbar__section" role="toolbar">
+			<a *ngIf="isImageURLAvailable(LOGO_KEY)" [routerLink]="['home']" class="mdc-toolbar__icon" title="Home" alt="Home"><img [src]="getURL(LOGO_KEY)" /></a>
+			<a href="https://www.facebook.com" target="_blank" class="mdc-toolbar__icon" title="Facebook" alt="Facebook">
+				<svg class="icon"><use [attr.xlink:href]="icon.facebook"/></svg>
+			</a>
+			<a href="https://twitter.com" target="_blank" class="mdc-toolbar__icon" title="Twitter" alt="Twitter">
+				<svg class="icon"><use [attr.xlink:href]="icon.twitter"/></svg>
+			</a>
+			<a href="https://www.instagram.com" target="_blank" class="mdc-toolbar__icon" title="Instagram" alt="Instagram">
+				<svg class="icon"><use [attr.xlink:href]="icon.instagram"/></svg>
+			</a>
+			<a href="tel:{{serviceTel}}" class="mdc-toolbar__icon"><i class="material-icons" title="{{getElementValue(CUSTOMER_SERVICE_LABEL_KEY)}}">phone</i> {{getElementValue(CUSTOMER_SERVICE_NUMBER_KEY)}}</a>
+			<a href="mailto:{{getElementValue(EMAIL_KEY)}}" class="mdc-toolbar__icon"><i class="material-icons" title="email">email</i> {{getElementValue(EMAIL_KEY)}}</a>
+		</section>
+	</div>
+	<div class="mdc-toolbar__row copyright">
+		<div class="mdc-toolbar__section mdc-toolbar__section--align-end">
+			<i class="material-icons">copyright</i> {{currentYear}}
+		</div>
+	</div>
+</div>

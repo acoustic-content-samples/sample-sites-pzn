@@ -1,0 +1,64 @@
+{
+  "id": "3b8c046c-4a24-4c6d-b49e-a2fadbc24867",
+  "name": "Home content",
+  "description": "",
+  "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
+  "locale": "en",
+  "tags": [
+    "user:IBM sample"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "title": {
+      "elementType": "text"
+    },
+    "body": {
+      "elementType": "text",
+      "value": "Integer pellentesque sapien nec tempor pulvinar. Fusce nec nibh tellus. Mauris turpis lorem, molestie ac eros ac, tincidunt tempor nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla commodo elit eu leo tristique convallis. Pellentesque quis enim eget ligula aliquam egestas. Etiam elementum dui diam, sed lacinia eros gravida quis.\n\nNam vel consequat magna, in ultrices nisl. Pellentesque eleifend, nibh sit amet malesuada semper, ipsum lacus lacinia dui, at pulvinar eros nisi quis dui. Pellentesque malesuada ipsum in dictum vehicula. Fusce bibendum rhoncus metus in ullamcorper. Fusce aliquam est ut faucibus congue. Nam et eros risus. In sit amet ex nisi. Phasellus sem dolor, pretium eu suscipit ac, tempus vel turpis. Etiam arcu lectus, condimentum non arcu sed, volutpat pretium justo. Suspendisse potenti. Phasellus id diam quis eros dapibus posuere. Donec ipsum diam, luctus non dui ut, sollicitudin congue sapien. Phasellus id faucibus tortor. Donec vel ligula lacus. Quisque placerat consequat ex at finibus. Cras sed ex nec mauris placerat ultrices sodales at tellus."
+    },
+    "image": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=d4f996ca-f819-4379-90cc-957fce3b8de5&a=daa99286-edfe-41d7-a52c-6074b89e34b2",
+          "source": "/authoring/v1/resources/d4f996ca-f819-4379-90cc-957fce3b8de5",
+          "width": 2200,
+          "height": 1339
+        },
+        "thumbnail": {
+          "renditionId": "a5f298c6-a842-474c-94c5-8c7e3d2d17b9",
+          "source": "/authoring/v1/resources/d4f996ca-f819-4379-90cc-957fce3b8de5?resize=822px:500px&crop=800:500;11,0",
+          "width": 800,
+          "height": 500
+        }
+      },
+      "asset": {
+        "id": "daa99286-edfe-41d7-a52c-6074b89e34b2",
+        "resourceUri": "/authoring/v1/resources/d4f996ca-f819-4379-90cc-957fce3b8de5",
+        "fileName": "home.jpg",
+        "fileSize": 1287643,
+        "mediaType": "image/jpeg",
+        "width": 2200,
+        "height": 1339
+      }
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "daa99286-edfe-41d7-a52c-6074b89e34b2",
+    "url": "/authoring/v1/resources/d4f996ca-f819-4379-90cc-957fce3b8de5?fit=inside%7C220:145"
+  },
+  "lastModified": "2018-02-23T02:57:19.104Z",
+  "created": "2018-02-23T02:57:19.104Z",
+  "classification": "content",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "type": "Page contents",
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "6-03e3581269b578f40197ee811c363f21"
+}

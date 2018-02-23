@@ -1,0 +1,12 @@
+{
+  "classification": "layout",
+  "id": "page-contents-layout",
+  "name": "pageContentsLayout",
+  "prerender": false,
+  "rev": "Cewk90PGNG7jUwoOE+M19YvOs6Xsp7vfk9TbwEaxdNw=",
+  "template": "page-contents-layout",
+  "templateType": "angular",
+  "thumbnail": {
+    "path": "/dxauth/layoutThumbs/page-contents-layout.jpg"
+  }
+}

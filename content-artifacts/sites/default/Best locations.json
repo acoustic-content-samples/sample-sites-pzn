@@ -1,0 +1,15 @@
+{
+  "name": "Best locations",
+  "hideFromNavigation": false,
+  "segment": "best-locations",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "",
+  "contentId": "184acbbd-2297-4b6a-bc62-a7d9e23eb012",
+  "classification": "page",
+  "contentStatus": "ready",
+  "position": 7,
+  "id": "b51f713c-6d8f-40b2-af22-ef3de85f7cf1",
+  "rev": "5-e4474376f254da5685ae53af24e3fbf5"
+}

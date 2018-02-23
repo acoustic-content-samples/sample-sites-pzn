@@ -1,0 +1,85 @@
+{
+  "rev": "7-c4b6eebce83454c5260d6e9f02fb7dad",
+  "id": "ef200e55-27ca-4f5b-975e-11c61e9f9a60",
+  "name": "restaurateur2.jpg",
+  "resource": "95bf7f10-f357-4632-9dbf-715c946e1838",
+  "description": "",
+  "altText": "",
+  "path": "/dxdam/ef/ef200e55-27ca-4f5b-975e-11c61e9f9a60/restaurateur2.jpg",
+  "tags": {
+    "values": [
+      "classification:breakfast area",
+      "classification:dinette (dining space)",
+      "classification:indoors",
+      "classification:morning room",
+      "classification:living room",
+      "classification:dining room",
+      "classification:breakfast table",
+      "classification:table",
+      "classification:furniture",
+      "classification:lanai (roofed patio)",
+      "classification:porch",
+      "classification:beige color",
+      "classification:sage green color",
+      "user:IBM sample"
+    ],
+    "declined": [],
+    "analysis": "pending"
+  },
+  "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
+  "status": "ready",
+  "assetType": "image",
+  "fileName": "restaurateur2.jpg",
+  "mediaType": "image/jpeg",
+  "fileSize": 2942228,
+  "digest": "N0Wd7zLyfdEJ8cjlgWdsGg==",
+  "metadata": {
+    "width": 3600,
+    "height": 2592,
+    "camera": {
+      "make": "Canon",
+      "model": "Canon EOS 40D",
+      "focalLength": 16,
+      "shutterSpeed": "1/100",
+      "aperture": 8
+    }
+  },
+  "lastModified": "2018-02-23T02:56:41.992Z",
+  "created": "2018-02-23T02:56:41.991Z",
+  "classification": "asset",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "cognitive": {
+    "status": "pending"
+  },
+  "renditions": {
+    "default": {
+      "id": "r=95bf7f10-f357-4632-9dbf-715c946e1838&a=ef200e55-27ca-4f5b-975e-11c61e9f9a60",
+      "source": "/authoring/v1/resources/95bf7f10-f357-4632-9dbf-715c946e1838"
+    }
+  },
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/ef200e55-27ca-4f5b-975e-11c61e9f9a60"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/95bf7f10-f357-4632-9dbf-715c946e1838.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/95bf7f10-f357-4632-9dbf-715c946e1838?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/ef200e55-27ca-4f5b-975e-11c61e9f9a60/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
+}

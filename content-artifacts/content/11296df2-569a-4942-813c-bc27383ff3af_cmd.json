@@ -1,0 +1,65 @@
+{
+  "id": "11296df2-569a-4942-813c-bc27383ff3af",
+  "name": "Customer 1 content",
+  "description": "",
+  "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
+  "locale": "en",
+  "tags": [
+    "user:IBM sample"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "title": {
+      "elementType": "text",
+      "value": "Eat well"
+    },
+    "body": {
+      "elementType": "text",
+      "value": "Donec ultrices tellus dolor, in varius felis mollis et. In iaculis, orci vitae volutpat consectetur, erat nibh pulvinar odio, vel consectetur quam tortor in massa. Quisque eleifend blandit sollicitudin. Sed at sapien iaculis, euismod leo sit amet, bibendum lectus. Nunc in sapien pellentesque, dignissim nisl vitae, fermentum diam. In aliquam justo id lorem pulvinar, in auctor ante vulputate. Nam posuere massa vel aliquam tincidunt.\n\nEtiam feugiat leo eu semper pellentesque. Curabitur ac lacus volutpat, sollicitudin justo vitae, dignissim mauris. Pellentesque id posuere elit. Pellentesque blandit, mi mattis semper dapibus, turpis erat sagittis erat, vitae vestibulum lacus arcu sit amet elit. Suspendisse eu ipsum metus. Proin nec tortor aliquam, volutpat sem vitae, viverra diam. Praesent ac urna arcu. Vestibulum faucibus neque sit amet sem scelerisque, ut molestie sem venenatis."
+    },
+    "image": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=b0d8a963-64ea-480c-874b-7465564988fb&a=7369f4a6-f275-4ce1-953c-94411c59e0cc",
+          "source": "/authoring/v1/resources/b0d8a963-64ea-480c-874b-7465564988fb",
+          "width": 5419,
+          "height": 3496
+        },
+        "thumbnail": {
+          "renditionId": "e2c1b2c3-9e06-4b1c-b434-5fa5b3835640",
+          "source": "/authoring/v1/resources/b0d8a963-64ea-480c-874b-7465564988fb?resize=800px:516px&crop=800:500;0,8",
+          "width": 800,
+          "height": 500
+        }
+      },
+      "asset": {
+        "id": "7369f4a6-f275-4ce1-953c-94411c59e0cc",
+        "resourceUri": "/authoring/v1/resources/b0d8a963-64ea-480c-874b-7465564988fb",
+        "fileName": "customer.jpg",
+        "fileSize": 9976324,
+        "mediaType": "image/jpeg",
+        "width": 5419,
+        "height": 3496
+      }
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "7369f4a6-f275-4ce1-953c-94411c59e0cc",
+    "url": "/authoring/v1/resources/b0d8a963-64ea-480c-874b-7465564988fb?fit=inside%7C220:145"
+  },
+  "lastModified": "2018-02-23T02:57:18.737Z",
+  "created": "2018-02-23T02:57:18.737Z",
+  "classification": "content",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "type": "Page contents",
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "6-6d81d43433935ff8978041365b3e2cc1"
+}

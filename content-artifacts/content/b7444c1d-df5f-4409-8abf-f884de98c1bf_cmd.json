@@ -1,0 +1,65 @@
+{
+  "id": "b7444c1d-df5f-4409-8abf-f884de98c1bf",
+  "name": "Farmer 2 content",
+  "description": "",
+  "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
+  "locale": "en",
+  "tags": [
+    "user:IBM sample"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "title": {
+      "elementType": "text",
+      "value": "Livestock"
+    },
+    "body": {
+      "elementType": "text",
+      "value": "Nullam consequat risus velit, ac commodo diam tristique vel. Donec gravida, felis eget congue commodo, lorem ligula facilisis magna, et fermentum tellus nibh at lorem. Morbi quis congue erat. Aliquam sit amet mauris ut odio ullamcorper lobortis et in metus. Cras pretium quam ligula, interdum egestas nulla tempus sed. Quisque metus neque, cursus nec dictum lacinia, placerat in felis. Maecenas nunc ante, scelerisque eu tortor a, ultricies dictum orci. Morbi porta ipsum sit amet interdum tincidunt. Praesent ut lacus a tellus egestas semper id ac justo. Nullam tristique nibh et est porta, nec posuere ante cursus. Nam malesuada egestas laoreet. Morbi euismod sagittis purus, id scelerisque massa condimentum sit amet. Aliquam erat volutpat. Curabitur non ex tempor enim tristique mattis sed eget magna. Fusce maximus ipsum non nunc venenatis, id vehicula ex rhoncus.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec maximus magna. Aenean enim ipsum, interdum ac semper non, rutrum eu neque. Praesent fringilla vel velit id accumsan. Vivamus lacinia ligula sed tortor condimentum luctus in non turpis. Duis lobortis condimentum justo. Suspendisse venenatis molestie enim vel luctus. Curabitur a eros auctor, efficitur tortor ac, mollis tellus. Aliquam lacinia arcu et neque fermentum elementum tempus sit amet justo. Duis dolor nisi, gravida eget fermentum eget, iaculis eu orci."
+    },
+    "image": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=ec042eca-47f7-47e1-a667-ca67e7cba578&a=ceae5387-25e9-43c8-97af-25a3644005fb",
+          "source": "/authoring/v1/resources/ec042eca-47f7-47e1-a667-ca67e7cba578",
+          "width": 5737,
+          "height": 3747
+        },
+        "thumbnail": {
+          "renditionId": "44e25299-3d7f-4322-8b4b-e39253802b08",
+          "source": "/authoring/v1/resources/ec042eca-47f7-47e1-a667-ca67e7cba578?resize=800px:523px&crop=800:500;0,11",
+          "width": 800,
+          "height": 500
+        }
+      },
+      "asset": {
+        "id": "ceae5387-25e9-43c8-97af-25a3644005fb",
+        "resourceUri": "/authoring/v1/resources/ec042eca-47f7-47e1-a667-ca67e7cba578",
+        "fileName": "farm2.jpg",
+        "fileSize": 829456,
+        "mediaType": "image/jpeg",
+        "width": 5737,
+        "height": 3747
+      }
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "ceae5387-25e9-43c8-97af-25a3644005fb",
+    "url": "/authoring/v1/resources/ec042eca-47f7-47e1-a667-ca67e7cba578?fit=inside%7C220:145"
+  },
+  "lastModified": "2018-02-23T02:57:21.320Z",
+  "created": "2018-02-23T02:57:21.320Z",
+  "classification": "content",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "type": "Page contents",
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "6-812bd96bf5a0606c7b0548f12b6a4f5e"
+}

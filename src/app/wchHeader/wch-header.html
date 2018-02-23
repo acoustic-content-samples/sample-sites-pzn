@@ -1,0 +1,23 @@
+<div [class]="'mdc-toolbar mdc-elevation--z6 ' + pzn">
+	<div class="mdc-toolbar__row">
+		<div class="mdc-toolbar__section mdc-toolbar__section--shrink-to-fit mdc-toolbar__section--align-start">
+			<span *ngIf="isUrlAvailable(LOGO) && !isLoggedIn" class="logo" [style.background-image]="'url(' + getURL(LOGO) + ')'"></span>
+			<h2 *ngIf="isStrAvailable(TITLE)" class="title"><a [routerLink]="['home']">{{ getStr(TITLE) }}</a></h2>
+			<span *ngIf="isLoggedIn" class="logo pzn"><i class="material-icons mdc-button__icon"></i></span>
+			<span *ngIf="isLoggedIn">Hello {{username}}!</span>
+		</div>
+		<div class="mdc-toolbar__section mdc-toolbar__section--align-end">
+			<nav #navLoop id="pzn-toolbar" class="mdc-tab-bar custom-tab-bar-in-toolbar">
+					<span *ngIf="loading" class="mdc-tab"><i class="material-icons mdc-button__icon">loop</i></span>
+				<ng-container *ngFor="let page of pages">
+					<a *ngIf="page && !page.hideFromNavigation" class="mdc-tab" href [routerLink]="getRouteURL(page.route)" routerLinkActive="mdc-tab--active">
+						{{page.name}}
+						<span class="mdc-tab__indicator"></span>
+					</a>
+				</ng-container>
+					<a *ngIf="isLoggedIn" class="mdc-button mdc-button--unelevated mdc-button--stroked mdc-button--dense" href="javascript:;" (click)="logout()">Logout</a>
+					<a *ngIf="!isLoggedIn" class="mdc-button mdc-button--unelevated mdc-button--stroked mdc-button--dense" [routerLink]="['login']">Login</a>
+			</nav>
+		</div>
+	</div>
+</div>

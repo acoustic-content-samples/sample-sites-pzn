@@ -1,0 +1,21 @@
+{
+  "scale": 0.13944570332926617,
+  "locationY": 11,
+  "height": 500,
+  "locationX": 0,
+  "id": "44e25299-3d7f-4322-8b4b-e39253802b08",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/jpeg",
+    "altText": "",
+    "height": 3747,
+    "fileName": "farm2.jpg",
+    "id": "ceae5387-25e9-43c8-97af-25a3644005fb",
+    "resource": "ec042eca-47f7-47e1-a667-ca67e7cba578",
+    "fileSize": 829456,
+    "width": 5737
+  },
+  "width": 800,
+  "created": "2018-02-23T02:56:44.276Z",
+  "rev": "5-1739788ca7c7e9a116d85506cbef7705"
+}

@@ -1,0 +1,74 @@
+{
+  "rev": "7-9e5f48f4009582ce4f776da55605cade",
+  "id": "8a86c07e-6e5f-44ce-8b31-5281a9f805af",
+  "name": "restaurateur.jpg",
+  "resource": "cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9",
+  "description": "",
+  "altText": "",
+  "path": "/dxdam/8a/8a86c07e-6e5f-44ce-8b31-5281a9f805af/restaurateur.jpg",
+  "tags": {
+    "values": [
+      "classification:table",
+      "classification:furniture",
+      "classification:dinner table",
+      "classification:dining table",
+      "classification:restaurant",
+      "classification:building",
+      "classification:indoors",
+      "classification:beverage",
+      "classification:reddish brown color",
+      "user:IBM sample"
+    ],
+    "declined": [],
+    "analysis": "pending"
+  },
+  "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
+  "status": "ready",
+  "assetType": "image",
+  "fileName": "restaurateur.jpg",
+  "mediaType": "image/jpeg",
+  "fileSize": 5398165,
+  "digest": "yGOfM2x1+z1UACNUfrNwhA==",
+  "metadata": {
+    "width": 3324,
+    "height": 2208
+  },
+  "lastModified": "2018-02-23T02:56:42.289Z",
+  "created": "2018-02-23T02:56:42.289Z",
+  "classification": "asset",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "cognitive": {
+    "status": "pending"
+  },
+  "renditions": {
+    "default": {
+      "id": "r=cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9&a=8a86c07e-6e5f-44ce-8b31-5281a9f805af",
+      "source": "/authoring/v1/resources/cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9"
+    }
+  },
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/8a86c07e-6e5f-44ce-8b31-5281a9f805af"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/8a86c07e-6e5f-44ce-8b31-5281a9f805af/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
+}

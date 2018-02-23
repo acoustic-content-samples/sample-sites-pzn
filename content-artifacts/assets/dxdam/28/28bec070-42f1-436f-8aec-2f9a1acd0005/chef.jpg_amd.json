@@ -1,0 +1,90 @@
+{
+  "rev": "7-bec7d94c5d00c0bd2a5844e25c73f59e",
+  "id": "28bec070-42f1-436f-8aec-2f9a1acd0005",
+  "name": "chef.jpg",
+  "resource": "ffeaf3a4-326a-404e-bc90-e328015f5e70",
+  "description": "",
+  "altText": "",
+  "path": "/dxdam/28/28bec070-42f1-436f-8aec-2f9a1acd0005/chef.jpg",
+  "tags": {
+    "values": [
+      "classification:wooden spoon",
+      "classification:spoon",
+      "classification:utensil",
+      "classification:soupspoon",
+      "classification:mesocarp (of fruits)",
+      "classification:pistachio",
+      "classification:nut",
+      "classification:seed",
+      "classification:fruit",
+      "classification:tablespoon",
+      "classification:hard-shell clam",
+      "classification:clam",
+      "classification:bivalve (animal with shell)",
+      "classification:shellfish",
+      "classification:invertebrate",
+      "classification:animal",
+      "classification:pale yellow color",
+      "classification:olive green color",
+      "user:IBM sample"
+    ],
+    "declined": [],
+    "analysis": "pending"
+  },
+  "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
+  "status": "ready",
+  "assetType": "image",
+  "fileName": "chef.jpg",
+  "mediaType": "image/jpeg",
+  "fileSize": 881674,
+  "digest": "a9qX5ootZ4WwzWBala2qTw==",
+  "metadata": {
+    "width": 3373,
+    "height": 2238,
+    "camera": {
+      "make": "NIKON CORPORATION",
+      "model": "NIKON D7000",
+      "focalLength": 24,
+      "shutterSpeed": "1/45",
+      "aperture": 4
+    }
+  },
+  "lastModified": "2018-02-23T02:56:35.674Z",
+  "created": "2018-02-23T02:56:35.673Z",
+  "classification": "asset",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "cognitive": {
+    "status": "pending"
+  },
+  "renditions": {
+    "default": {
+      "id": "r=ffeaf3a4-326a-404e-bc90-e328015f5e70&a=28bec070-42f1-436f-8aec-2f9a1acd0005",
+      "source": "/authoring/v1/resources/ffeaf3a4-326a-404e-bc90-e328015f5e70"
+    }
+  },
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/28bec070-42f1-436f-8aec-2f9a1acd0005"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/ffeaf3a4-326a-404e-bc90-e328015f5e70.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/ffeaf3a4-326a-404e-bc90-e328015f5e70?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/28bec070-42f1-436f-8aec-2f9a1acd0005/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
+}

@@ -1,0 +1,8 @@
+<div class="banner" *ngIf="image" [style.background-image]="'url(' + renderingContext.context.hub.deliveryUrl.origin + image.url + ')'"></div>
+
+<div class="content">
+
+	<h2 *ngIf="title" wchEditable="title">{{ title }}</h2>
+
+	<pre *ngIf="body" wchEditable="body">{{ body }}</pre>
+</div>

@@ -1,0 +1,5 @@
+<div xmlns="http://www.w3.org/1999/html">
+	<b translate>{{errorMessageStr}}</b>
+	<p class="error-description"><span translate>Layout missing for the specified content type. Make sure a layout exists for the content type:</span> <span><b>{{(onRenderingContext | async).type}}</b></span></p>
+	<div class="error-description" [innerHTML]="'missingLayoutForType' | translate"></div>
+</div>

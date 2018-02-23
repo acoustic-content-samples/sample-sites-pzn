@@ -1,0 +1,49 @@
+{
+  "id": "9aeeecef-85ce-4d41-a797-1ad27735d0cb",
+  "rev": "13-9e1a8e3b4db4dc9d527d60221c7b2844",
+  "name": "List",
+  "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
+  "thumbnail": {
+    "id": "ece1c54c-2a8f-47ee-a222-22a5741a543f",
+    "path": "/dxdam/ec/ece1c54c-2a8f-47ee-a222-22a5741a543f/list_icon_220.png",
+    "url": "/authoring/v1/resources/38fafa9631cbbe54a37595877533a2b5"
+  },
+  "contentThumbnail": {
+    "imageElement": "",
+    "source": "imageElementOrType"
+  },
+  "description": "Use this to create curated lists of content to feature throughout your website. In Oslo we use it to create the Editor's Choice list which show up on the design.",
+  "status": "ready",
+  "tags": [
+    "oslo",
+    "IBM sample",
+    "IBM sites kicker"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "fieldLabel": "Text",
+      "label": "List title",
+      "key": "heading"
+    },
+    {
+      "elementType": "reference",
+      "fieldLabel": "List item",
+      "label": "List items",
+      "key": "items",
+      "allowMultipleValues": true,
+      "required": true,
+      "minimumValues": 1,
+      "restrictTypes": []
+    },
+    {
+      "elementType": "link",
+      "fieldLabel": "Link",
+      "label": "View all link",
+      "key": "viewAllLink"
+    }
+  ]
+}

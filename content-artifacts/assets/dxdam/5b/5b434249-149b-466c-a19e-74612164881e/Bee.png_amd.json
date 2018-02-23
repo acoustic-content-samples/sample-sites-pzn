@@ -1,0 +1,72 @@
+{
+  "rev": "7-cbd46f8656b9b4538e63023d14338070",
+  "id": "5b434249-149b-466c-a19e-74612164881e",
+  "name": "Bee.png",
+  "resource": "e329ee90-623e-474a-b0ce-68f3d86f4570",
+  "description": "",
+  "altText": "",
+  "path": "/dxdam/5b/5b434249-149b-466c-a19e-74612164881e/Bee.png",
+  "tags": {
+    "values": [
+      "classification:perforation",
+      "classification:tetraskelion",
+      "classification:cross",
+      "classification:religious symbol",
+      "classification:figure",
+      "classification:coal black color",
+      "classification:black color",
+      "user:IBM sample"
+    ],
+    "declined": [],
+    "analysis": "pending"
+  },
+  "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
+  "status": "ready",
+  "assetType": "image",
+  "fileName": "Bee.png",
+  "mediaType": "image/png",
+  "fileSize": 621,
+  "digest": "ldCT8gS73Sr6qNUZsc3kXQ==",
+  "metadata": {
+    "width": 29,
+    "height": 29
+  },
+  "lastModified": "2018-02-23T02:56:35.759Z",
+  "created": "2018-02-23T02:56:35.759Z",
+  "classification": "asset",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "cognitive": {
+    "status": "pending"
+  },
+  "renditions": {
+    "default": {
+      "id": "r=e329ee90-623e-474a-b0ce-68f3d86f4570&a=5b434249-149b-466c-a19e-74612164881e",
+      "source": "/authoring/v1/resources/e329ee90-623e-474a-b0ce-68f3d86f4570"
+    }
+  },
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/5b434249-149b-466c-a19e-74612164881e"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/e329ee90-623e-474a-b0ce-68f3d86f4570.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/e329ee90-623e-474a-b0ce-68f3d86f4570"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/5b434249-149b-466c-a19e-74612164881e/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
+}

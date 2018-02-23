@@ -1,0 +1,80 @@
+{
+  "rev": "10-ef9910d9f68dec97ad376096fa2e4db5",
+  "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
+  "name": "page-home-220px.png",
+  "resource": "d22cb3c0070450e37c5d7515b6d3906a",
+  "description": "Used as thumbnail for the standard page content type.",
+  "altText": "",
+  "path": "/dxdam/25/257b578f-7f29-49e5-9e50-97c3846ccf98/page-home-220px.png",
+  "tags": {
+    "values": [
+      "user:oslo",
+      "user:IBM sample",
+      "classification:automated teller machine",
+      "classification:machine",
+      "classification:shredder",
+      "classification:dialog box",
+      "classification:window",
+      "classification:video display",
+      "classification:electronic device",
+      "classification:magnetic stripe",
+      "classification:memory device",
+      "classification:home appliance",
+      "classification:appliance",
+      "classification:printer",
+      "classification:beige color",
+      "classification:gray color"
+    ],
+    "declined": [],
+    "analysis": "pending"
+  },
+  "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
+  "status": "ready",
+  "assetType": "image",
+  "fileName": "page-home-220px.png",
+  "mediaType": "image/png",
+  "fileSize": 12849,
+  "digest": "mqc7zOmdPIJC4g1GJoTn8g==",
+  "metadata": {
+    "width": 220,
+    "height": 145
+  },
+  "lastModified": "2018-02-23T02:56:35.909Z",
+  "created": "2018-02-23T02:56:35.908Z",
+  "classification": "asset",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "cognitive": {
+    "status": "pending"
+  },
+  "renditions": {
+    "default": {
+      "id": "r=d22cb3c0070450e37c5d7515b6d3906a&a=257b578f-7f29-49e5-9e50-97c3846ccf98",
+      "source": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
+    }
+  },
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/257b578f-7f29-49e5-9e50-97c3846ccf98"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a.png"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/257b578f-7f29-49e5-9e50-97c3846ccf98/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
+}

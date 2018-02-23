@@ -1,0 +1,65 @@
+{
+  "id": "81942a9b-16fd-4956-9273-369aeb045a97",
+  "name": "Chef 1 content",
+  "description": "",
+  "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
+  "locale": "en",
+  "tags": [
+    "user:IBM sample"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "title": {
+      "elementType": "text",
+      "value": "Mise en place"
+    },
+    "body": {
+      "elementType": "text",
+      "value": "Nulla at mauris ac elit luctus bibendum sed eget tortor. Maecenas in egestas neque. Aenean malesuada magna vel auctor tincidunt. Ut a lorem luctus, tincidunt dui a, pharetra erat. Maecenas vestibulum eu magna in sagittis. Donec tortor sapien, consectetur quis neque in, tincidunt ultrices elit. Duis vulputate scelerisque aliquam. Nulla tempus scelerisque elit, quis mattis erat mattis a. Cras nibh velit, dapibus in tempus id, posuere ut velit. Proin mi nisi, convallis non condimentum at, laoreet at turpis. Donec eu felis luctus, porttitor nibh nec, laoreet orci. Nam eleifend luctus lacinia. Fusce elementum porttitor convallis.\n\nPraesent sed leo lobortis, consectetur eros id, feugiat tellus. In facilisis mattis finibus. Sed at nisi nec enim suscipit consequat a eu risus. Suspendisse potenti. In vel risus a elit tincidunt rhoncus non sit amet nisl. Duis bibendum auctor ligula, vitae condimentum justo elementum id. Sed sed cursus purus. Praesent dignissim dignissim est, sit amet fringilla quam vulputate ac. Donec dictum tellus id dolor blandit lacinia. Aenean nec nibh nisi. Praesent vestibulum malesuada nisi, et gravida ante iaculis sed. Nam vel lacus est. Fusce a nunc euismod arcu consequat porta. Curabitur vel vestibulum tortor. Suspendisse lorem lorem, posuere eu fermentum non, vulputate sit amet est. Cras et erat lobortis, aliquet eros ac, sagittis mauris."
+    },
+    "image": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=ffeaf3a4-326a-404e-bc90-e328015f5e70&a=28bec070-42f1-436f-8aec-2f9a1acd0005",
+          "source": "/authoring/v1/resources/ffeaf3a4-326a-404e-bc90-e328015f5e70",
+          "width": 3373,
+          "height": 2238
+        },
+        "thumbnail": {
+          "renditionId": "154d0c9b-9eb3-4eb6-ab25-8156a5cbb55d",
+          "source": "/authoring/v1/resources/ffeaf3a4-326a-404e-bc90-e328015f5e70?resize=800px:531px&crop=800:500;0,15",
+          "width": 800,
+          "height": 500
+        }
+      },
+      "asset": {
+        "id": "28bec070-42f1-436f-8aec-2f9a1acd0005",
+        "resourceUri": "/authoring/v1/resources/ffeaf3a4-326a-404e-bc90-e328015f5e70",
+        "fileName": "chef.jpg",
+        "fileSize": 881674,
+        "mediaType": "image/jpeg",
+        "width": 3373,
+        "height": 2238
+      }
+    }
+  },
+  "kind": [],
+  "thumbnail": {
+    "id": "28bec070-42f1-436f-8aec-2f9a1acd0005",
+    "url": "/authoring/v1/resources/ffeaf3a4-326a-404e-bc90-e328015f5e70?fit=inside%7C220:145"
+  },
+  "lastModified": "2018-02-23T02:57:20.459Z",
+  "created": "2018-02-23T02:57:20.459Z",
+  "classification": "content",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "type": "Page contents",
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "6-23bbc5ac15264b5c8aca96771138fc3d"
+}

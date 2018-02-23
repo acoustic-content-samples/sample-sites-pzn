@@ -1,0 +1,15 @@
+{
+  "name": "Fresh produce",
+  "hideFromNavigation": false,
+  "segment": "fresh-produce",
+  "layoutId": "standard-page-layout",
+  "description": "",
+  "contentTypeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
+  "title": "",
+  "contentId": "675bd358-733c-4574-b877-e225f8ac2239",
+  "classification": "page",
+  "contentStatus": "ready",
+  "position": 4,
+  "id": "12c517c7-3921-4183-b2a2-5b45558bff31",
+  "rev": "5-659673c2becd3b4c23cfadedfa483363"
+}

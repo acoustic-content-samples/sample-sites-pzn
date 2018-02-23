@@ -1,0 +1,42 @@
+<div class="login">
+
+	<h2 *ngIf="title" wchEditable="title">{{ title }}</h2>
+
+	<form [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
+
+		<div class="mdc-text-field mdc-text-field--upgraded">
+			<input [formControl]="form.controls['name']" type="text" class="mdc-text-field__input" required>
+			<label class="mdc-text-field__label">Name</label>
+			<div class="mdc-line-ripple"></div>
+		</div>
+		<p *ngIf="form.controls['name'].hasError('required') && form.controls['name'].touched" class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent">
+			Name is required
+		</p>
+
+		<div class="mdc-text-field mdc-text-field--upgraded">
+			<input [formControl]="form.controls['pw']" type="password" class="mdc-text-field__input" required>
+			<label class="mdc-text-field__label">Password</label>
+			<div class="mdc-line-ripple"></div>
+		</div>
+		<p *ngIf="form.controls['pw'].hasError('required') && form.controls['pw'].touched" class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent">
+			Password is required
+		</p>
+
+		<div class="pzn-container">
+			<select [formControl]="form.controls['pzn']" required>
+				<option value="" selected disabled hidden>Choose one</option>
+				<option *ngFor="let item of pznArr" [value]="item.value">{{ item.label }}</option>
+			</select>
+		</div>
+		<p *ngIf="form.controls['pzn'].hasError('required') && form.controls['pzn'].touched" class="helper-text">
+			Pick a role
+		</p>
+
+		<div class="btn-container">
+			<button type="submit" class="mdc-button mdc-button--raised" [disabled]="!form.valid">Login</button>
+			<a class="mdc-button mdc-button--flat mdc-button--stroked" [routerLink]="['/home']">Cancel</a>
+		</div>
+
+	</form>
+
+</div>
