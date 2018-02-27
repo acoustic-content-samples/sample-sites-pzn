@@ -1,15 +1,13 @@
 {
   "id": "9aeeecef-85ce-4d41-a797-1ad27735d0cb",
-  "rev": "13-9e1a8e3b4db4dc9d527d60221c7b2844",
+  "rev": "18-ba4f1c6b78757c4b5cfcb1028a908bc1",
   "name": "List",
   "classification": "content-type",
   "kind": [
     "standalone"
   ],
   "thumbnail": {
-    "id": "ece1c54c-2a8f-47ee-a222-22a5741a543f",
-    "path": "/dxdam/ec/ece1c54c-2a8f-47ee-a222-22a5741a543f/list_icon_220.png",
-    "url": "/authoring/v1/resources/38fafa9631cbbe54a37595877533a2b5"
+    "id": "ece1c54c-2a8f-47ee-a222-22a5741a543f"
   },
   "contentThumbnail": {
     "imageElement": "",

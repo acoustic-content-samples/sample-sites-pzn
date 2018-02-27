@@ -7,6 +7,7 @@ export { ErrorPageLayoutComponent } from './layouts/error-page/errorPageLayout';
 export { GalleryDynamicListLayoutComponent } from './layouts/gallery-dynamic-list/galleryDynamicListLayout';
 export { GalleryListLayoutComponent } from './layouts/gallery-list/galleryListLayout';
 export { LoginLayoutComponent } from './layouts/login/loginLayout';
+export { ImageWithInformationLayoutComponent } from './layouts/image-with-information/imageWithInformationLayout';
 export { PageContentsLayoutComponent } from './layouts/page-contents/pageContentsLayout';
 export { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 export { StandardPageHero2BlocksLayoutComponent } from './layouts/standard-page-hero-2-blocks/standardPageHero2BlocksLayout';

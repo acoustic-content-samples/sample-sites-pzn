@@ -1,0 +1,32 @@
+{
+  "id": "9a7479fc-4ee3-420b-91b7-00ce9c61285a",
+  "rev": "3-1003da8b9ea40a7d4b1b2f9103d4025b",
+  "name": "Small",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creator": "LAURA POMERLEAU",
+  "classification": "category",
+  "taxonomy": "f38cf87e-0485-4b38-a0e6-6b9c420efed0",
+  "parent": "0e1cd869-ee48-4ef6-ae6d-7be957c84d10",
+  "ancestorIds": [
+    "f38cf87e-0485-4b38-a0e6-6b9c420efed0",
+    "0e1cd869-ee48-4ef6-ae6d-7be957c84d10"
+  ],
+  "namePath": [
+    "Image size and placement",
+    "Size",
+    "Small"
+  ],
+  "links": {
+    "taxonomy": {
+      "href": "/authoring/v1/categories/f38cf87e-0485-4b38-a0e6-6b9c420efed0"
+    },
+    "self": {
+      "href": "/authoring/v1/categories/9a7479fc-4ee3-420b-91b7-00ce9c61285a"
+    },
+    "parent": {
+      "href": "/authoring/v1/categories/0e1cd869-ee48-4ef6-ae6d-7be957c84d10"
+    }
+  },
+  "created": "2018-02-27T19:38:43.027Z",
+  "lastModified": "2018-02-27T19:38:43.027Z"
+}

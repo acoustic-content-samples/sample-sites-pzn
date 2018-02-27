@@ -1,5 +1,5 @@
 {
-  "rev": "10-46b48878f2263d1099710f38a5624386",
+  "rev": "18-2263379f7f5f139505207e86a5cfb064",
   "id": "ece1c54c-2a8f-47ee-a222-22a5741a543f",
   "name": "list_icon_220.png",
   "resource": "38fafa9631cbbe54a37595877533a2b5",
@@ -19,7 +19,16 @@
       "classification:protective covering"
     ],
     "declined": [],
-    "analysis": "pending"
+    "suggested": [
+      "classification:strip lighting",
+      "classification:light source",
+      "classification:fluorescent lamp",
+      "classification:lamp",
+      "classification:coal black color",
+      "classification:black color",
+      "classification:protective covering"
+    ],
+    "analysis": "complete"
   },
   "categoryIds": [],
   "usageRights": {
@@ -35,13 +44,28 @@
     "width": 220,
     "height": 145
   },
-  "lastModified": "2018-02-23T02:56:39.654Z",
-  "created": "2018-02-23T02:56:39.654Z",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModified": "2018-02-27T17:32:28.143Z",
+  "created": "2018-02-23T03:03:34.631Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "status": "pending"
+    "classifications": [
+      "strip lighting",
+      "light source",
+      "fluorescent lamp",
+      "lamp",
+      "coal black color",
+      "black color",
+      "protective covering"
+    ],
+    "faces": [],
+    "colors": {
+      "muted": "#7c8ca2",
+      "darkMuted": "#343b43",
+      "lightMuted": "#97a1b0"
+    },
+    "status": "complete"
   },
   "renditions": {
     "default": {

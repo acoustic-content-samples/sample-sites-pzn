@@ -1,5 +1,5 @@
 {
-  "rev": "10-2f647e070233284a8246fa96f4d1d496",
+  "rev": "18-9eaf0bc4af290576c12af26db725f30b",
   "id": "8d7c84d1-aefe-4a01-8096-58b5acea04d1",
   "name": "footer_icon_220.png",
   "resource": "ab62962454acad085be1f22d850d0bf7",
@@ -23,7 +23,20 @@
       "classification:blue color"
     ],
     "declined": [],
-    "analysis": "pending"
+    "suggested": [
+      "classification:digital clock",
+      "classification:clock",
+      "classification:timepiece",
+      "classification:measuring instrument",
+      "classification:digital display",
+      "classification:video display",
+      "classification:electronic device",
+      "classification:dialog box",
+      "classification:window",
+      "classification:coal black color",
+      "classification:blue color"
+    ],
+    "analysis": "complete"
   },
   "categoryIds": [],
   "usageRights": {
@@ -39,13 +52,35 @@
     "width": 220,
     "height": 145
   },
-  "lastModified": "2018-02-23T02:56:37.359Z",
-  "created": "2018-02-23T02:56:37.358Z",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModified": "2018-02-27T17:32:26.720Z",
+  "created": "2018-02-23T03:03:31.259Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "status": "pending"
+    "classifications": [
+      "digital clock",
+      "clock",
+      "timepiece",
+      "measuring instrument",
+      "digital display",
+      "video display",
+      "electronic device",
+      "dialog box",
+      "window",
+      "coal black color",
+      "blue color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#446cac",
+      "muted": "#78838d",
+      "darkVibrant": "#14447c",
+      "darkMuted": "#34343c",
+      "lightVibrant": "#9cb4d5",
+      "lightMuted": "#c5d1e0"
+    },
+    "status": "complete"
   },
   "renditions": {
     "default": {

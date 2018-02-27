@@ -1,0 +1,101 @@
+{
+  "rev": "4-93f4a48c345f042e23abd1a1496838bf",
+  "id": "1f6637b2-5228-4343-a85b-2fc68d203097",
+  "name": "pexels-photo-887827.jpg",
+  "resource": "782beaaf-99d3-4bbd-bc26-e0179a99e377",
+  "description": "",
+  "altText": "",
+  "tags": {
+    "values": [
+      "user:IBM sample"
+    ],
+    "declined": [
+      "classification:scholar",
+      "classification:person",
+      "classification:confectioner",
+      "classification:maker",
+      "classification:baker",
+      "classification:laboratory bench",
+      "classification:table",
+      "classification:furniture",
+      "classification:sage green color",
+      "classification:ash grey color",
+      "face:Male",
+      "face:18-24"
+    ],
+    "suggested": [
+      "classification:scholar",
+      "classification:person",
+      "classification:confectioner",
+      "classification:maker",
+      "classification:baker",
+      "classification:laboratory bench",
+      "classification:table",
+      "classification:furniture",
+      "classification:sage green color",
+      "classification:ash grey color",
+      "face:Male",
+      "face:18-24"
+    ],
+    "analysis": "complete"
+  },
+  "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
+  "status": "ready",
+  "assetType": "image",
+  "fileName": "pexels-photo-887827.jpg",
+  "mediaType": "image/jpeg",
+  "fileSize": 255831,
+  "digest": "m9HEC27+tc/6fdz4AfOJXw==",
+  "metadata": {
+    "width": 1920,
+    "height": 1281
+  },
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModified": "2018-02-27T19:40:10.650Z",
+  "created": "2018-02-27T19:08:42.370Z",
+  "classification": "asset",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "cognitive": {
+    "classifications": [
+      "scholar",
+      "person",
+      "confectioner",
+      "maker",
+      "baker",
+      "laboratory bench",
+      "table",
+      "furniture",
+      "sage green color",
+      "ash grey color"
+    ],
+    "faces": [
+      {
+        "gender": "Male",
+        "age": {
+          "minimum": 18,
+          "maximum": 24
+        }
+      }
+    ],
+    "colors": {
+      "vibrant": "#0487a0",
+      "muted": "#ad8666",
+      "darkVibrant": "#048494",
+      "darkMuted": "#6d563d",
+      "lightVibrant": "#f0c8ab",
+      "lightMuted": "#ccbaa8"
+    },
+    "status": "complete"
+  },
+  "renditions": {
+    "default": {
+      "id": "r=782beaaf-99d3-4bbd-bc26-e0179a99e377&a=1f6637b2-5228-4343-a85b-2fc68d203097",
+      "source": "/authoring/v1/resources/782beaaf-99d3-4bbd-bc26-e0179a99e377"
+    }
+  },
+  "path": "/dxdam/1f/1f6637b2-5228-4343-a85b-2fc68d203097/pexels-photo-887827.jpg",
+  "isManaged": true
+}

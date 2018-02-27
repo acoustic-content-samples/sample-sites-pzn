@@ -1,5 +1,6 @@
 {
   "id": "67fc6cc6-7fee-41b2-9230-8b3c556cfe51",
+  "rev": "8-96588ee448d12c0728da48be75c521f6",
   "name": "headerConfig",
   "description": "",
   "typeId": "6c88df68-6ac1-4a6a-9fb5-7a24bb840d18",
@@ -37,19 +38,18 @@
   },
   "kind": [],
   "thumbnail": {
-    "id": "5b434249-149b-466c-a19e-74612164881e",
-    "url": "/authoring/v1/resources/e329ee90-623e-474a-b0ce-68f3d86f4570"
+    "id": "78490787-4867-4b8f-9a9d-bddd407b854b",
+    "url": "/authoring/v1/resources/9a069bfa086cfe1ae7c98e789fed8146"
   },
-  "lastModified": "2018-02-23T02:57:19.411Z",
-  "created": "2018-02-23T02:57:19.411Z",
+  "lastModified": "2018-02-27T17:32:36.508Z",
+  "created": "2018-02-23T03:03:45.966Z",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "classification": "content",
   "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "type": "WCH Personalization Sample header",
   "creator": "LAURA POMERLEAU",
   "lastModifier": "LAURA POMERLEAU",
   "publishing": {
     "status": "not-available"
-  },
-  "rev": "5-8db1ebac3980d57fcb40ec34b38c19db"
+  }
 }

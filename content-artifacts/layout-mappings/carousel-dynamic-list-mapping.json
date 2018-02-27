@@ -1,30 +1,25 @@
 {
   "id": "carousel-dynamic-list-mapping",
-  "rev": "12-936cdf8a46563b4e6a92418246062b17",
+  "rev": "17-12a0899281654451f8d58f38328d7fc1",
   "name": "carouselDynamicListMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "84c0e928-6585-4d34-ba02-5ed1b2e4c21c",
-    "name": "Dynamic list"
+    "id": "84c0e928-6585-4d34-ba02-5ed1b2e4c21c"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "carousel-dynamic-list",
-        "name": "Carousel"
+        "id": "carousel-dynamic-list"
       },
       "layouts": [
         {
-          "id": "carousel-dynamic-list",
-          "name": "Carousel"
+          "id": "carousel-dynamic-list"
         },
         {
-          "id": "gallery-dynamic-list",
-          "name": "Gallery"
+          "id": "gallery-dynamic-list"
         },
         {
-          "id": "vertical-dynamic-list",
-          "name": "List"
+          "id": "vertical-dynamic-list"
         }
       ]
     }

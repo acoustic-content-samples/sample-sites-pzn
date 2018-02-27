@@ -1,30 +1,25 @@
 {
   "id": "carousel-list-mapping",
-  "rev": "13-1a0e5329a2eb39f72450ac14241d50a9",
+  "rev": "18-dc48bc1b463a342208ca8225350c9ee8",
   "name": "carouselListMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "9aeeecef-85ce-4d41-a797-1ad27735d0cb",
-    "name": "List"
+    "id": "9aeeecef-85ce-4d41-a797-1ad27735d0cb"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "carousel-list",
-        "name": "Carousel"
+        "id": "carousel-list"
       },
       "layouts": [
         {
-          "id": "carousel-list",
-          "name": "Carousel"
+          "id": "carousel-list"
         },
         {
-          "id": "gallery-list",
-          "name": "Gallery"
+          "id": "gallery-list"
         },
         {
-          "id": "vertical-list",
-          "name": "List"
+          "id": "vertical-list"
         }
       ]
     }

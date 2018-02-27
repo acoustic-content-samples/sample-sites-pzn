@@ -1,0 +1,24 @@
+{
+  "id": "image-with-information-layout-mapping",
+  "rev": "4-7f85bc84c9e980d172a08070bd39c8de",
+  "name": "imageWithInformationLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "f9e7f0b9-f57d-4d91-a257-54a64c1ff52f",
+    "name": "Image with information"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "image-with-information-layout",
+        "name": "Image with caption"
+      },
+      "layouts": [
+        {
+          "id": "image-with-information-layout",
+          "name": "Image with caption"
+        }
+      ]
+    }
+  ]
+}

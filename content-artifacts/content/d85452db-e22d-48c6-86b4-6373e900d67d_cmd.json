@@ -1,5 +1,6 @@
 {
   "id": "d85452db-e22d-48c6-86b4-6373e900d67d",
+  "rev": "9-3297bb05093d153a0a4dab2ed177083b",
   "name": "About content",
   "description": "",
   "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
@@ -46,20 +47,15 @@
     }
   },
   "kind": [],
-  "thumbnail": {
-    "id": "f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa",
-    "url": "/authoring/v1/resources/98d4d862-8dbe-437b-a32a-fb4154a43273?fit=inside%7C220:145"
-  },
-  "lastModified": "2018-02-23T02:57:20.401Z",
-  "created": "2018-02-23T02:57:20.401Z",
+  "lastModified": "2018-02-27T17:32:37.181Z",
+  "created": "2018-02-23T03:03:47.080Z",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "classification": "content",
   "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "type": "Page contents",
   "creator": "LAURA POMERLEAU",
   "lastModifier": "LAURA POMERLEAU",
   "publishing": {
     "status": "not-available"
-  },
-  "rev": "6-29ddd439259ce6d7abe4a1a8f803e98f"
+  }
 }

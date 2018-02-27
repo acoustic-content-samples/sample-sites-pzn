@@ -1,5 +1,6 @@
 {
   "id": "24587d41-0d31-498f-b4fa-149ae9dc5ca5",
+  "rev": "9-a5b439a79bddaf3a50836ca3b7e054c1",
   "name": "Farmer 1 content",
   "description": "",
   "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
@@ -46,20 +47,15 @@
     }
   },
   "kind": [],
-  "thumbnail": {
-    "id": "9dac65bf-b86f-4296-b44f-7be56c1c6fa2",
-    "url": "/authoring/v1/resources/a293fd01-ee94-4e2f-851a-c13f811890a6?fit=inside%7C220:145"
-  },
-  "lastModified": "2018-02-23T02:57:18.737Z",
-  "created": "2018-02-23T02:57:18.737Z",
+  "lastModified": "2018-02-27T17:32:35.844Z",
+  "created": "2018-02-23T03:03:46.245Z",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "classification": "content",
   "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "type": "Page contents",
   "creator": "LAURA POMERLEAU",
   "lastModifier": "LAURA POMERLEAU",
   "publishing": {
     "status": "not-available"
-  },
-  "rev": "6-3d323ccdb51876a004b8a43dea340e9b"
+  }
 }

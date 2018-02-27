@@ -1,22 +1,19 @@
 {
   "id": "login-layout-mapping",
-  "rev": "9-be6ca5dee58ce10f02495d60099757c6",
+  "rev": "14-30e366bc6de01bb09d5f413bb3e5c4f7",
   "name": "loginLayoutMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "b0f151db-f00c-43de-b3e7-613b83d65d8b",
-    "name": "Login"
+    "id": "b0f151db-f00c-43de-b3e7-613b83d65d8b"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "login-layout",
-        "name": "loginLayout"
+        "id": "login-layout"
       },
       "layouts": [
         {
-          "id": "login-layout",
-          "name": "loginLayout"
+          "id": "login-layout"
         }
       ]
     }

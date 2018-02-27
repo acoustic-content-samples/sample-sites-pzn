@@ -1,15 +1,13 @@
 {
   "id": "5fb54c34-e813-4886-9d3f-1a0c4e47bff1",
-  "rev": "10-5ce4413100b564d429a0b33f36fda42a",
+  "rev": "15-9e224bbdc4676a9d001f9270bd959317",
   "name": "WCH Personalization Sample footer",
   "classification": "content-type",
   "kind": [
     "standalone"
   ],
   "thumbnail": {
-    "id": "8d7c84d1-aefe-4a01-8096-58b5acea04d1",
-    "path": "/dxdam/8d/8d7c84d1-aefe-4a01-8096-58b5acea04d1/footer_icon_220.png",
-    "url": "/authoring/v1/resources/ab62962454acad085be1f22d850d0bf7"
+    "id": "8d7c84d1-aefe-4a01-8096-58b5acea04d1"
   },
   "contentThumbnail": {
     "imageElement": "Logo",

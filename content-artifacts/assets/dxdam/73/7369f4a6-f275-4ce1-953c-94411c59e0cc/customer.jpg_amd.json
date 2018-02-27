@@ -1,5 +1,5 @@
 {
-  "rev": "7-87a118379d31036021d850730a96af55",
+  "rev": "15-6fa37765d15e76f7fa0d43373f9aa13f",
   "id": "7369f4a6-f275-4ce1-953c-94411c59e0cc",
   "name": "customer.jpg",
   "resource": "b0d8a963-64ea-480c-874b-7465564988fb",
@@ -22,7 +22,20 @@
       "user:IBM sample"
     ],
     "declined": [],
-    "analysis": "pending"
+    "suggested": [
+      "classification:taster",
+      "classification:people",
+      "classification:person",
+      "classification:restaurant",
+      "classification:building",
+      "classification:social gathering",
+      "classification:waitress",
+      "classification:food",
+      "classification:beverage",
+      "classification:olive color",
+      "classification:chestnut color"
+    ],
+    "analysis": "complete"
   },
   "categoryIds": [],
   "usageRights": {
@@ -40,13 +53,35 @@
     "rights": "Rawpixel Ltd.",
     "title": "Woman Getting Food On Wedding Dinner"
   },
-  "lastModified": "2018-02-23T02:56:42.240Z",
-  "created": "2018-02-23T02:56:42.240Z",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModified": "2018-02-27T17:32:25.616Z",
+  "created": "2018-02-23T03:03:32.968Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "status": "pending"
+    "classifications": [
+      "taster",
+      "people",
+      "person",
+      "restaurant",
+      "building",
+      "social gathering",
+      "waitress",
+      "food",
+      "beverage",
+      "olive color",
+      "chestnut color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#d7a324",
+      "muted": "#9e7f59",
+      "darkVibrant": "#6c220c",
+      "darkMuted": "#433125",
+      "lightVibrant": "#d2b49f",
+      "lightMuted": "#ceb3ad"
+    },
+    "status": "complete"
   },
   "renditions": {
     "default": {

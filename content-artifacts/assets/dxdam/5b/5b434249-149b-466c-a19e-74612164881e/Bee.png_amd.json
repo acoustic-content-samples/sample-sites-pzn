@@ -1,5 +1,5 @@
 {
-  "rev": "7-cbd46f8656b9b4538e63023d14338070",
+  "rev": "15-1fee1c6059893166ef06e2bf2138a6ab",
   "id": "5b434249-149b-466c-a19e-74612164881e",
   "name": "Bee.png",
   "resource": "e329ee90-623e-474a-b0ce-68f3d86f4570",
@@ -18,7 +18,16 @@
       "user:IBM sample"
     ],
     "declined": [],
-    "analysis": "pending"
+    "suggested": [
+      "classification:perforation",
+      "classification:tetraskelion",
+      "classification:cross",
+      "classification:religious symbol",
+      "classification:figure",
+      "classification:coal black color",
+      "classification:black color"
+    ],
+    "analysis": "complete"
   },
   "categoryIds": [],
   "usageRights": {
@@ -34,13 +43,28 @@
     "width": 29,
     "height": 29
   },
-  "lastModified": "2018-02-23T02:56:35.759Z",
-  "created": "2018-02-23T02:56:35.759Z",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModified": "2018-02-27T17:32:25.508Z",
+  "created": "2018-02-23T03:03:31.071Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "status": "pending"
+    "classifications": [
+      "perforation",
+      "tetraskelion",
+      "cross",
+      "religious symbol",
+      "figure",
+      "coal black color",
+      "black color"
+    ],
+    "faces": [],
+    "colors": {
+      "muted": "#7c7c7c",
+      "darkMuted": "#444444",
+      "lightMuted": "#b4b4b4"
+    },
+    "status": "complete"
   },
   "renditions": {
     "default": {

@@ -1,15 +1,13 @@
 {
   "id": "84c0e928-6585-4d34-ba02-5ed1b2e4c21c",
-  "rev": "13-6666fbfbf3068e87437ab91b13eefbbc",
+  "rev": "18-7f09e93639f45a3a1032f7607a94f579",
   "name": "Dynamic list",
   "classification": "content-type",
   "kind": [
     "standalone"
   ],
   "thumbnail": {
-    "id": "da3d0b43-51ce-4118-aeed-05764bd0fbaf",
-    "path": "/dxdam/da/da3d0b43-51ce-4118-aeed-05764bd0fbaf/dynamic_list_icon_220.png",
-    "url": "/authoring/v1/resources/b05c661d5e891602477ea9714733573f"
+    "id": "da3d0b43-51ce-4118-aeed-05764bd0fbaf"
   },
   "contentThumbnail": {
     "imageElement": "",

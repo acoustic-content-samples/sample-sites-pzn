@@ -1,0 +1,21 @@
+{
+  "scale": 0.3125,
+  "locationY": 0,
+  "height": 400,
+  "locationX": 0,
+  "rev": "1-4940f256df9545046b233c954fa104a5",
+  "id": "efe1dd42-a5de-4eb7-a126-7d5541b3232c",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/jpeg",
+    "altText": "",
+    "height": 1281,
+    "fileName": "pexels-photo-323503.jpg",
+    "id": "f9bf0bbb-cae2-4777-be9b-28e09ca8ea09",
+    "resource": "201923b4-65d3-4088-9aea-c23656a15c28",
+    "fileSize": 225509,
+    "width": 1920
+  },
+  "width": 600,
+  "created": "2018-02-27T19:42:19.653Z"
+}

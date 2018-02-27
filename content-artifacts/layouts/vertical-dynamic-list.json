@@ -1,12 +1,11 @@
 {
   "id": "vertical-dynamic-list",
-  "rev": "12-680dcc21941d7facf60c5c21208bf7c8",
+  "rev": "19-6e7a59f80474f6e379cd70118f40f649",
   "name": "List",
   "classification": "layout",
   "prerender": false,
   "thumbnail": {
-    "path": "/layouts/thumbnails/list_220.svg",
-    "url": "/authoring/v1/resources/dbd03bfd555b1dd6fb8d2a974375222c_5a548fd6b542b47f2289b1af57f771ee"
+    "path": "/layouts/thumbnails/list_220.svg"
   },
   "template": "vertical-dynamic-list",
   "templateType": "angular"

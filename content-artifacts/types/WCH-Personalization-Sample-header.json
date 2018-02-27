@@ -1,15 +1,13 @@
 {
   "id": "6c88df68-6ac1-4a6a-9fb5-7a24bb840d18",
-  "rev": "12-415c8e9d9235a73159d8bde142361e2c",
+  "rev": "17-cb757386e7c19090e50c837d7ffe5220",
   "name": "WCH Personalization Sample header",
   "classification": "content-type",
   "kind": [
     "standalone"
   ],
   "thumbnail": {
-    "id": "78490787-4867-4b8f-9a9d-bddd407b854b",
-    "path": "/dxdam/78/78490787-4867-4b8f-9a9d-bddd407b854b/header_icon_220.png",
-    "url": "/authoring/v1/resources/9a069bfa086cfe1ae7c98e789fed8146"
+    "id": "78490787-4867-4b8f-9a9d-bddd407b854b"
   },
   "contentThumbnail": {
     "imageElement": "websiteLogo",
@@ -33,11 +31,6 @@
         "gif",
         "svg"
       ]
-    },
-    {
-      "elementType": "text",
-      "label": "Site title",
-      "key": "siteTitle"
     }
   ]
 }

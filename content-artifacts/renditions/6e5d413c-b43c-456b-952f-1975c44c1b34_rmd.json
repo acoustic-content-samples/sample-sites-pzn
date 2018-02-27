@@ -1,0 +1,21 @@
+{
+  "scale": 0.21203007518796993,
+  "locationY": 0,
+  "height": 282,
+  "locationX": 32,
+  "rev": "1-cd126b129231baf2b208b49ed0d2396c",
+  "id": "6e5d413c-b43c-456b-952f-1975c44c1b34",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/jpeg",
+    "altText": "",
+    "height": 1330,
+    "fileName": "peasant-rice-fields-rice-crops-colombia-50715.jpg",
+    "id": "ca5890c2-6710-484a-b5c6-ffe8b0d7ac7e",
+    "resource": "39ddd3d9-05ac-4c04-90ee-01a244bfb300",
+    "fileSize": 692366,
+    "width": 2000
+  },
+  "width": 360,
+  "created": "2018-02-27T19:44:04.493Z"
+}

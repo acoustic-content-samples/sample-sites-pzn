@@ -1,0 +1,107 @@
+{
+  "rev": "4-54dff14bb41267336f6f12ba64f8ef80",
+  "id": "2756604a-77c3-4da3-a2d2-c199d9144baf",
+  "name": "pexels-photo-159991.jpg",
+  "resource": "7b1fa018-39e8-4c64-877f-ce352aba1a6b",
+  "description": "",
+  "altText": "",
+  "tags": {
+    "values": [
+      "user:IBM sample"
+    ],
+    "declined": [
+      "classification:person",
+      "classification:Bakery Shop",
+      "classification:deli",
+      "classification:shop",
+      "classification:retail store",
+      "classification:building",
+      "classification:incubator",
+      "classification:apparatus",
+      "classification:punnet (basket)",
+      "classification:handbasket",
+      "classification:marketplace",
+      "classification:beverage",
+      "classification:olive color"
+    ],
+    "suggested": [
+      "classification:person",
+      "classification:Bakery Shop",
+      "classification:deli",
+      "classification:shop",
+      "classification:retail store",
+      "classification:building",
+      "classification:incubator",
+      "classification:apparatus",
+      "classification:punnet (basket)",
+      "classification:handbasket",
+      "classification:marketplace",
+      "classification:beverage",
+      "classification:olive color"
+    ],
+    "analysis": "complete"
+  },
+  "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
+  "status": "ready",
+  "assetType": "image",
+  "fileName": "pexels-photo-159991.jpg",
+  "mediaType": "image/jpeg",
+  "fileSize": 1732511,
+  "digest": "LRhznt0cbBUiT6FE+/oCtw==",
+  "metadata": {
+    "width": 2000,
+    "height": 1328,
+    "camera": {
+      "make": "NIKON CORPORATION",
+      "model": "NIKON D90",
+      "focalLength": 35,
+      "shutterSpeed": "1/100",
+      "iso": 1000,
+      "aperture": 1.8
+    },
+    "date": "2015-04-11T17:36:13"
+  },
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModified": "2018-02-27T19:41:27.182Z",
+  "created": "2018-02-27T19:08:43.717Z",
+  "classification": "asset",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "cognitive": {
+    "classifications": [
+      "person",
+      "Bakery Shop",
+      "deli",
+      "shop",
+      "retail store",
+      "building",
+      "incubator",
+      "apparatus",
+      "punnet (basket)",
+      "handbasket",
+      "marketplace",
+      "beverage",
+      "olive color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#b77f5b",
+      "muted": "#a87b5c",
+      "darkVibrant": "#0e2c44",
+      "darkMuted": "#5c382d",
+      "lightVibrant": "#97b3d7",
+      "lightMuted": "#c1a68b"
+    },
+    "status": "complete"
+  },
+  "renditions": {
+    "default": {
+      "id": "r=7b1fa018-39e8-4c64-877f-ce352aba1a6b&a=2756604a-77c3-4da3-a2d2-c199d9144baf",
+      "source": "/authoring/v1/resources/7b1fa018-39e8-4c64-877f-ce352aba1a6b"
+    }
+  },
+  "path": "/dxdam/27/2756604a-77c3-4da3-a2d2-c199d9144baf/pexels-photo-159991.jpg",
+  "isManaged": true
+}

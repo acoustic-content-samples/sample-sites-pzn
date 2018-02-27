@@ -1,5 +1,5 @@
 {
-  "rev": "7-7431617aa69889b3afdc96ddcc9374ab",
+  "rev": "15-525b3af8d7056a6613e8c2a67b007515",
   "id": "9dac65bf-b86f-4296-b44f-7be56c1c6fa2",
   "name": "farmer.jpg",
   "resource": "a293fd01-ee94-4e2f-851a-c13f811890a6",
@@ -22,7 +22,20 @@
       "user:IBM sample"
     ],
     "declined": [],
-    "analysis": "pending"
+    "suggested": [
+      "classification:vegetable",
+      "classification:plant",
+      "classification:low-fat diet food",
+      "classification:diet (food)",
+      "classification:food",
+      "classification:diabetic diet (food)",
+      "classification:vegetarianism food",
+      "classification:balanced diet (food)",
+      "classification:dietary (food)",
+      "classification:high-protein diet food",
+      "classification:greenishness color"
+    ],
+    "analysis": "complete"
   },
   "categoryIds": [],
   "usageRights": {
@@ -45,13 +58,35 @@
       "aperture": 1.8
     }
   },
-  "lastModified": "2018-02-23T02:56:43.071Z",
-  "created": "2018-02-23T02:56:43.071Z",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModified": "2018-02-27T17:32:26.909Z",
+  "created": "2018-02-23T03:03:33.173Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "status": "pending"
+    "classifications": [
+      "vegetable",
+      "plant",
+      "low-fat diet food",
+      "diet (food)",
+      "food",
+      "diabetic diet (food)",
+      "vegetarianism food",
+      "balanced diet (food)",
+      "dietary (food)",
+      "high-protein diet food",
+      "greenishness color"
+    ],
+    "faces": [],
+    "colors": {
+      "vibrant": "#c64457",
+      "muted": "#6d9893",
+      "darkVibrant": "#602e3b",
+      "darkMuted": "#39594a",
+      "lightVibrant": "#dfbd94",
+      "lightMuted": "#bec9d3"
+    },
+    "status": "complete"
   },
   "renditions": {
     "default": {

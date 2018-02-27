@@ -7,6 +7,7 @@ import { ErrorPageLayoutComponent } from './layouts/error-page/errorPageLayout';
 import { GalleryDynamicListLayoutComponent } from './layouts/gallery-dynamic-list/galleryDynamicListLayout';
 import { GalleryListLayoutComponent } from './layouts/gallery-list/galleryListLayout';
 import { LoginLayoutComponent } from './layouts/login/loginLayout';
+import { ImageWithInformationLayoutComponent } from './layouts/image-with-information/imageWithInformationLayout';
 import { PageContentsLayoutComponent } from './layouts/page-contents/pageContentsLayout';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { StandardPageHero2BlocksLayoutComponent } from './layouts/standard-page-hero-2-blocks/standardPageHero2BlocksLayout';
@@ -22,6 +23,7 @@ export const LAYOUTS = [
   GalleryDynamicListLayoutComponent,
   GalleryListLayoutComponent,
   LoginLayoutComponent,
+  ImageWithInformationLayoutComponent,
   PageContentsLayoutComponent,
   PageNotFoundComponent,
   StandardPageHero2BlocksLayoutComponent,

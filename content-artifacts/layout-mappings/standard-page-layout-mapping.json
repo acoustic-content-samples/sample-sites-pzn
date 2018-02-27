@@ -1,30 +1,25 @@
 {
   "id": "standard-page-layout-mapping",
-  "rev": "12-8920ef1232917c099b50aac29401e521",
+  "rev": "17-40ff1860d55f4d52d4fb3955ac1734c0",
   "name": "standardPageLayoutMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-    "name": "Standard page"
+    "id": "2af1d22a-fecf-41e1-a808-7301cb37b79f"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "standard-page-layout",
-        "name": "Hero"
+        "id": "standard-page-layout"
       },
       "layouts": [
         {
-          "id": "standard-page-layout",
-          "name": "Hero"
+          "id": "standard-page-layout"
         },
         {
-          "id": "standard-page-hero-2-blocks",
-          "name": "Two blocks and Hero"
+          "id": "standard-page-hero-2-blocks"
         },
         {
-          "id": "standard-page-hero-4-blocks",
-          "name": "Four blocks and Hero"
+          "id": "standard-page-hero-4-blocks"
         }
       ]
     }

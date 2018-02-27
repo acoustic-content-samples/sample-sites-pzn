@@ -1,0 +1,83 @@
+{
+  "id": "b58d5226-9c82-4bc5-82a7-27fdef9c434d",
+  "rev": "10-7781a7361515a2939d740b2c93c91de1",
+  "name": "Customer main content",
+  "typeId": "f9e7f0b9-f57d-4d91-a257-54a64c1ff52f",
+  "locale": "en",
+  "tags": [
+    "user:IBM sample",
+    "user:wch_pzn_customer"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "imagePlacement": {
+      "elementType": "category"
+    },
+    "image": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=7b1fa018-39e8-4c64-877f-ce352aba1a6b&a=2756604a-77c3-4da3-a2d2-c199d9144baf",
+          "source": "/authoring/v1/resources/7b1fa018-39e8-4c64-877f-ce352aba1a6b",
+          "width": 2000,
+          "height": 1328
+        },
+        "small": {
+          "renditionId": "b2af648f-4b60-4659-abe4-2eeb364b8d28",
+          "source": "/authoring/v1/resources/7b1fa018-39e8-4c64-877f-ce352aba1a6b?resize=425px:282px&crop=360:282;32,0",
+          "width": 360,
+          "height": 282
+        },
+        "medium": {
+          "renditionId": "d546f177-fe49-4b29-9397-aaafbdb6599b",
+          "source": "/authoring/v1/resources/7b1fa018-39e8-4c64-877f-ce352aba1a6b?resize=602px:400px&crop=600:400;1,0",
+          "width": 600,
+          "height": 400
+        },
+        "large": {
+          "renditionId": "638c480f-fd0d-46c1-8f65-303779c774bc",
+          "source": "/authoring/v1/resources/7b1fa018-39e8-4c64-877f-ce352aba1a6b?resize=1200px:797px&crop=1200:797;0,0",
+          "width": 1200,
+          "height": 797
+        }
+      },
+      "asset": {
+        "id": "2756604a-77c3-4da3-a2d2-c199d9144baf",
+        "resourceUri": "/authoring/v1/resources/7b1fa018-39e8-4c64-877f-ce352aba1a6b",
+        "fileName": "pexels-photo-159991.jpg",
+        "fileSize": 1732511,
+        "mediaType": "image/jpeg",
+        "width": 2000,
+        "height": 1328
+      }
+    },
+    "imageSize": {
+      "elementType": "category",
+      "categoryIds": [
+        "7225c4dd-dc02-48e3-9d80-0f84c0c1340f"
+      ]
+    },
+    "imageCredit": {
+      "elementType": "text"
+    },
+    "imageCaption": {
+      "elementType": "text",
+      "value": "Buy the best!"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "image-with-information-layout"
+      }
+    }
+  ],
+  "kind": [],
+  "lastModified": "2018-02-27T19:41:27.404Z",
+  "created": "2018-02-27T19:40:33.501Z",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "classification": "content",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "description": ""
+}

@@ -1,12 +1,11 @@
 {
   "id": "login-layout",
-  "rev": "9-19d11772e01d32b173368761e4b4506e",
+  "rev": "16-79b401a1ba20833821e7a80fd00a9871",
   "name": "loginLayout",
   "classification": "layout",
   "prerender": false,
   "thumbnail": {
-    "path": "/dxauth/layoutThumbs/login-layout.jpg",
-    "url": "/authoring/v1/resources/a9b7575381cd03962dbe81e4116c8663_53e4696ec60985584227484cc6e96645"
+    "path": "/dxauth/layoutThumbs/login-layout.jpg"
   },
   "template": "login-layout",
   "templateType": "angular"
