@@ -110,12 +110,16 @@ export class WchHeaderComponent implements OnChanges, OnDestroy {
 		});
 	}
 
-	filterPages(taggedPages) {
-		const sitePages = this.rc && this.rc.context ? this.rc.context.site.pages : [];
+	filterPages(taggedPages, sitePages?) {
+		sitePages = sitePages ? sitePages : this.rc && this.rc.context ? this.rc.context.site.pages : [];
 		console.log('Filtering the site pages  %o  by the tagged page content item search result  %o', sitePages, taggedPages);
 		// filter sitePages by what is in taggedPages
 		// a sitePage is rejected if there is not a taggedPage with an id that matches the sitePage's contentId
 		return sitePages.filter(sitePage => {
+			// filter 1 level of children
+			if(sitePage.children.length) {
+				sitePage.children = this.filterPages(taggedPages, sitePage.children);
+			}
 			return taggedPages.some(taggedPage => taggedPage.id === sitePage.contentId);
 		});
 	}
