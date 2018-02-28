@@ -23,7 +23,6 @@ export class Constants {
 
   static readonly FOOTER_CONFIG = 'footerConfig';
   static readonly HEADER_CONFIG = 'headerConfig';
-  static readonly PZN_KEY = 'wch_pzn_user_info';
 
   /* Sort order */
   static readonly ALPHABETICAL_ASCENDING = 'Alphabetical ascending';

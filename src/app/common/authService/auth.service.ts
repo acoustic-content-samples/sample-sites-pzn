@@ -24,6 +24,8 @@ import { Constants } from '../../Constants';
 @Injectable()
 export class AuthService {
 
+	public readonly PZN_KEY: string = 'wch_pzn_user_info';
+
 	// Observable authentication status
 	private _isLoggedIn: boolean = false;
 	private _name: string = '';
@@ -36,7 +38,7 @@ export class AuthService {
 		this.authUpdate = new Observable<boolean>(observer => this._observer = observer).share();
 
 		// get cached user info
-		const userInfoStr = localStorage[Constants.PZN_KEY];
+		const userInfoStr = localStorage[this.PZN_KEY];
 		const userInfo = userInfoStr ? JSON.parse(userInfoStr) : null;
 		if(userInfo) {
 			this._isLoggedIn = true;
@@ -64,7 +66,7 @@ export class AuthService {
 			pzn: pzn
 		};
 		try {
-			localStorage.setItem(Constants.PZN_KEY, JSON.stringify(userInfo));
+			localStorage.setItem(this.PZN_KEY, JSON.stringify(userInfo));
 		} catch(e) {
 			console.warn('Local storage is filled. Login information will not be persisted until it is cleared.');
 		}
@@ -79,7 +81,7 @@ export class AuthService {
 
 	logout() {
 		// delete the cached user info
-		localStorage.removeItem(Constants.PZN_KEY);
+		localStorage.removeItem(this.PZN_KEY);
 		// reset all internal variables 
 		this._isLoggedIn = false;
 		this._name = '';
