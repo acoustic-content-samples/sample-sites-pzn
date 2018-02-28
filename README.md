@@ -2,20 +2,27 @@
 
 ### Use case
 
-You want your website to show a personalized navigation based on attributes of the current user. Examples of an attribute could be a brand or a user role. After a user logs in, new page links appear that are relevant to that person. Access via a direct URL to hidden pages is not restricted, but only targeted links are shown in the UI.
+You want your website to show a personalized navigation based on attributes of the current user. Examples of an attribute could be a brand or a user role. After a user logs in, new page links appear that are relevant to that person. Access via a direct URL to hidden pages is not restricted, but only targeted links are shown in the UI. The home page also updates to show content reflecting the current user's role or brand.
 
 ### Features
 
-* Package contains a full WCH site, with editable source code based on the [Oslo sample site](https://github.com/ibm-wch/wch-site-application)
-* Includes a mock login layout and angular component, where users can select their role on the site
-* Login status is persisted in `localStorage` until the user explicitly logs out
-* The site header filters the page navigation, based on tags associated with the current user role
-* Anonymous users see pages which contain no user role tags
-* Users that are logged in see pages that are not tagged, plus pages tagged for their role
-* An angular login service ensures user data stay in sync between the login component and the header
-* Header displays the current username with a role-based icon
-* Header and footer information are customizable based on WCH content items (ie: `headerConfig` and `footerConfig`)
-* The JSON list of user roles and associated tags can be edited in the `Login form` content item, no code change required
+* Login:
+    * Includes a mock login layout and angular component, where users can select their role on the site
+    * Login status is persisted in `localStorage` until the user explicitly logs out
+    * An angular login service ensures user data stay in sync between the login component and the header
+    * The JSON list of user roles and associated tags can be edited in the `Login form` content item, no code change required
+* Navigation:
+    * The site header filters the page navigation, based on tags associated with the current user role
+    * Anonymous users see pages which contain no user role tags
+    * Users that are logged in see pages that are not tagged, plus pages tagged for their role
+* Personalized content:
+    * The home page shows personalized content, based on the user role tags
+    * Anonymous users see generic information on the home page
+    * Users that are logged in see extra content on the home page, which is tagged for their role
+* Site:
+    * Package contains a full WCH site, with editable source code based on the [Oslo sample site](https://github.com/ibm-wch/wch-site-application)
+    * Header and home page display the current username with a role-based icon
+    * All content, header and footer information are customizable through the WCH UI
 
 Mock login screen:
 
@@ -24,6 +31,10 @@ Mock login screen:
 Site as seen by a Farmer:
 
 ![site as seen by a Farmer](doc/screenshot-farmer.png?raw=true "site as seen by a Farmer")
+
+Home page as seen by a Farmer:
+
+![home page as seen by a Farmer](doc/screenshot-farmer-home.png?raw=true "home page as seen by a Farmer")
 
 ## Set up
 
@@ -79,12 +90,12 @@ Page content items that have these tags are shown to users with the correspondin
 
 To get the list of pages for the navigation, an [Apache Solr search](https://developer.ibm.com/customer-engagement/docs/wch/searching-content/searching-published-items/) is performed:
 ```
-<API URL>/delivery/v1/search?q=*:*&fl=name,id&fq=classification:content&fq=type:("Standard page")&fq=((*:* AND -tags:wch_pzn_*) OR tags:(<user role tag>))
+<API URL>/delivery/v1/search?q=*:*&fl=name,id&fq=classification:content&fq=type:("Standard page" OR "Design page")&fq=((*:* AND -tags:wch_pzn_*) OR tags:(<user role tag>))
 ```
 It looks for:
 * published items
 * those classified as `content`
-* content of type `Standard page`
+* content of type `Standard page` or `Design page`
 * items that do not have any tags prefixed with `wch_pzn_` (everybody sees these pages)
 * items with a role-based tag from the JSON above (only for authenticated users)
 
@@ -99,6 +110,29 @@ This list of "allowed" content items (`taggedPages`) is used to filter the full 
 	});
 ```
 Read more in `/sample-sites-pzn/src/app/wchHeader/wchHeader.component.ts`
+
+### Personalized home page
+
+The Home page contains a content item of the `Personalized item` type. This item performs a search to retrieve and display custom content based on the current user's role:
+```
+readonly TYPE: string = 'Image with information';
+this.queryString = fl=document:%5Bjson%5D,lastModified&fq=classification:(content)&fq=type:("${this.TYPE}")&fq=tags:(${this.pzn_tag})&rows=1
+```
+It looks for:
+* 1 item
+* those classified as `content`
+* content of type `Image with information` (note: this can be changed to any type you want, by updating the `TYPE` variable)
+* an item with the current role-based tag (`pzn_tag`)
+
+This query is fed into a special [query component](https://github.com/ibm-wch/wch-site-application/blob/master/doc/README-programming-model.md#triggering-a-search-and-showing-results-referencing-their-layouts):
+```
+	<div *ngIf="isLoggedIn" class="pzn-pic">
+		<wch-contentquery [query]='queryString' #q>
+			<wch-contentref *ngFor="let rc of q.onRenderingContexts | async" [renderingContext]="rc"></wch-contentref>
+		</wch-contentquery>
+	</div>
+```
+Read more in `/sample-sites-pzn/src/app/layouts/personalized-item/personalizedItemLayout.ts`
 
 ### Mock login
 
