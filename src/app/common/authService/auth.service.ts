@@ -58,6 +58,7 @@ export class AuthService {
 	}
 
 	login(name: string, pzn: string)/*: Promise<any>*/ {
+		// cache user info
 		const userInfo = {
 			name: name,
 			pzn: pzn
@@ -67,15 +68,22 @@ export class AuthService {
 		} catch(e) {
 			console.warn('Local storage is filled. Login information will not be persisted until it is cleared.');
 		}
+		// update internal variables
 		this._isLoggedIn = true;
+		this._name = name;
+		this._pzn = pzn;
 		if(this._observer) {
 			this._observer.next(userInfo);	// update the subscribers to the user info
 		}
 	}
 
 	logout() {
+		// delete the cached user info
 		localStorage.removeItem(Constants.PZN_KEY);
+		// reset all internal variables 
 		this._isLoggedIn = false;
+		this._name = '';
+		this._pzn = '';
 		if(this._observer) {
 			this._observer.next(null);	// update the subscribers to the user info
 		}

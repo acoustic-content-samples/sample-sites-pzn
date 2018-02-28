@@ -1,0 +1,17 @@
+<div  class="{{ pzn_tag }}">
+	<h2 *ngIf="title" wchEditable="title">{{ title }}</h2>
+	<div class="row">
+		<div *ngIf="isLoggedIn" class="pzn-pic">
+			<wch-contentquery [query]='queryString' #q>
+				<wch-contentref *ngFor="let rc of q.onRenderingContexts | async" [renderingContext]="rc"></wch-contentref>
+			</wch-contentquery>
+		</div>
+		<div class="column">
+			<span *ngIf="isLoggedIn" class="logo pzn-icon">
+				<i class="material-icons mdc-button__icon"></i>
+				{{ username }}
+			</span>
+			<div *ngIf="message" wchEditable="message" [innerHTML]="message"></div>
+		</div>
+	</div>
+</div>

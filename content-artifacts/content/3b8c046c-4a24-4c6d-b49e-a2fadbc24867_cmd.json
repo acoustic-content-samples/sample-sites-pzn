@@ -1,6 +1,6 @@
 {
   "id": "3b8c046c-4a24-4c6d-b49e-a2fadbc24867",
-  "rev": "9-8985da2ea1f25bdea58e79be92413eb0",
+  "rev": "11-2fd532659cf55829e700c59e80ccbf53",
   "name": "Home content",
   "description": "",
   "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
@@ -15,8 +15,7 @@
       "elementType": "text"
     },
     "body": {
-      "elementType": "text",
-      "value": "Integer pellentesque sapien nec tempor pulvinar. Fusce nec nibh tellus. Mauris turpis lorem, molestie ac eros ac, tincidunt tempor nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla commodo elit eu leo tristique convallis. Pellentesque quis enim eget ligula aliquam egestas. Etiam elementum dui diam, sed lacinia eros gravida quis.\n\nNam vel consequat magna, in ultrices nisl. Pellentesque eleifend, nibh sit amet malesuada semper, ipsum lacus lacinia dui, at pulvinar eros nisi quis dui. Pellentesque malesuada ipsum in dictum vehicula. Fusce bibendum rhoncus metus in ullamcorper. Fusce aliquam est ut faucibus congue. Nam et eros risus. In sit amet ex nisi. Phasellus sem dolor, pretium eu suscipit ac, tempus vel turpis. Etiam arcu lectus, condimentum non arcu sed, volutpat pretium justo. Suspendisse potenti. Phasellus id diam quis eros dapibus posuere. Donec ipsum diam, luctus non dui ut, sollicitudin congue sapien. Phasellus id faucibus tortor. Donec vel ligula lacus. Quisque placerat consequat ex at finibus. Cras sed ex nec mauris placerat ultrices sodales at tellus."
+      "elementType": "text"
     },
     "image": {
       "elementType": "image",
@@ -45,16 +44,17 @@
       }
     }
   },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "page-contents-layout"
+      }
+    }
+  ],
   "kind": [],
-  "lastModified": "2018-02-27T17:32:36.469Z",
+  "lastModified": "2018-02-28T01:46:28.548Z",
   "created": "2018-02-23T03:03:45.688Z",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "classification": "content",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "type": "Page contents",
-  "creator": "LAURA POMERLEAU",
-  "lastModifier": "LAURA POMERLEAU",
-  "publishing": {
-    "status": "not-available"
-  }
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597"
 }

@@ -1,0 +1,36 @@
+{
+  "id": "22fbe405-fbbd-49af-9f1c-9e2eafe5b61e",
+  "rev": "21-b7b880f9f474ed1b8b810e91fe43a874",
+  "name": "Personalized homepage item",
+  "description": "",
+  "typeId": "1712ddc2-4547-4674-b9e7-821fab15061a",
+  "locale": "en",
+  "tags": [
+    "user:IBM sample"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "title": {
+      "elementType": "text",
+      "value": "Farm to Table welcomes you!"
+    },
+    "message": {
+      "elementType": "formattedtext",
+      "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit felis non accumsan vestibulum lobortis.&nbsp;Nunc purus risus, scelerisque porttitor pellentesque velit ac, imperdiet consequat tortor. Integer scelerisque ex nisi, iaculis nibh bibendum ante tincidunt nec aliquet lobortis pellentesque. Nulla condimentum orci ac ipsum porta consequat imperdiet. Mauris tristique felis non vestibulum lobortis. Aliquam accumsanaliquet lobortis pellentesque massa, ac scelerisque accumsan mauris sodales non. Curabitur vel mi ut nibh iaculis pretium. Nam purus eget&nbsp;pellentesque viverra nulla. Nam quis mattis ante, et accumsan nibh.</p>\n\n<ul>\n\t<li>Nam pellentesque nunc euismod rhoncus interdum.</li>\n\t<li>Nunc eget sapien sed magna pretium dignissim vel vel enim.</li>\n\t<li>Aenean aliquet dolor in scelerisque dapibus.</li>\n\t<li>Proin id tortor malesuada, dictum lacus vitae, tempus ex.</li>\n\t<li>Etiam tincidunt metus sit amet quam blandit, vel placerat purus lobortis.</li>\n\t<li>Morbi in massa lacinia ante blandit pellentesque vel non nibh.</li>\n</ul>\n"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "personalized-item-layout"
+      }
+    }
+  ],
+  "kind": [],
+  "lastModified": "2018-02-28T02:23:43.540Z",
+  "created": "2018-02-27T20:27:43.469Z",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "classification": "content",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597"
+}

@@ -29,3 +29,17 @@ app {
 .content-placeholder {
 	flex: 1;
 }
+
+/* custom role-based logos */
+.wch_pzn_chef .logo.pzn-icon i:before {
+	content: "restaurant_menu";
+}
+.wch_pzn_customer .logo.pzn-icon i:before {
+	content: "face";
+}
+.wch_pzn_farmer .logo.pzn-icon i:before {
+	content: "spa";
+}
+.wch_pzn_restaurateur .logo.pzn-icon i:before {
+	content: "lightbulb_outline";
+}

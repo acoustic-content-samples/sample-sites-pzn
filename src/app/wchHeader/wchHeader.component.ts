@@ -53,10 +53,10 @@ export class WchHeaderComponent implements OnChanges, OnDestroy {
 	configSub: Subscription;
 	authSub: Subscription;
 	pages = [];
-	loading = false;
-	isLoggedIn = false;
-	username = '';
-	pzn = '';
+	loading: boolean = false;
+	isLoggedIn: boolean = false;
+	username: string = '';
+	pzn_tag: string = '';
 
 	constructor(private http: Http, private router: Router, private configService: ConfigServiceService, private authService: AuthService) {
 		this.configSub = configService.getConfig(Constants.HEADER_CONFIG).subscribe(context => {
@@ -67,12 +67,12 @@ export class WchHeaderComponent implements OnChanges, OnDestroy {
 	ngOnInit() {
 		this.isLoggedIn = this.authService.isLoggedIn();
 		this.username = this.authService.getName();
-		this.pzn = this.authService.getPZN();
+		this.pzn_tag = this.authService.getPZN();
 		this.refreshPages();
 		this.authSub = this.authService.authUpdate.subscribe(userInfo => {
 			this.isLoggedIn = !!userInfo;
 			this.username = userInfo ? userInfo.name : '';
-			this.pzn = userInfo ? userInfo.pzn : '';
+			this.pzn_tag = userInfo ? userInfo.pzn : '';
 			this.refreshPages();
 		});
 	}
@@ -94,8 +94,8 @@ export class WchHeaderComponent implements OnChanges, OnDestroy {
 	}
 
 	refreshPages() {
-		const pznTagQuery = this.pzn ? `OR tags:(${this.pzn}))` : ')';
-		const pageSearchUrl = `${environment.apiUrl}/delivery/v1/search?q=*:*&fl=name,id&fq=classification:content&fq=type:("Standard page")&fq=((*:* AND -tags:wch_pzn_*)${pznTagQuery}`;
+		const pznTagQuery = this.pzn_tag ? `OR tags:(${this.pzn_tag}))` : ')';
+		const pageSearchUrl = `${environment.apiUrl}/delivery/v1/search?q=*:*&fl=name,id&fq=classification:content&fq=type:("Standard page" OR "Design page")&fq=((*:* AND -tags:wch_pzn_*)${pznTagQuery}`;
 
 		this.loading = true;
 		this.http.get(pageSearchUrl).subscribe(res => {

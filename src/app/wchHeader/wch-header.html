@@ -1,9 +1,9 @@
-<div [class]="'mdc-toolbar mdc-elevation--z6 ' + pzn">
+<div [class]="'mdc-toolbar mdc-elevation--z6 ' + pzn_tag">
 	<div class="mdc-toolbar__row">
 		<div class="mdc-toolbar__section mdc-toolbar__section--shrink-to-fit mdc-toolbar__section--align-start">
 			<span *ngIf="isUrlAvailable(LOGO) && !isLoggedIn" class="logo" [style.background-image]="'url(' + getURL(LOGO) + ')'"></span>
 			<h2 *ngIf="isStrAvailable(TITLE)" class="title"><a [routerLink]="['home']">{{ getStr(TITLE) }}</a></h2>
-			<span *ngIf="isLoggedIn" class="logo pzn"><i class="material-icons mdc-button__icon"></i></span>
+			<span *ngIf="isLoggedIn" class="logo pzn-icon"><i class="material-icons mdc-button__icon"></i></span>
 			<span *ngIf="isLoggedIn">Hello {{username}}!</span>
 		</div>
 		<div class="mdc-toolbar__section mdc-toolbar__section--align-end">

@@ -6,10 +6,11 @@ import { CarouselListLayoutComponent } from './layouts/carousel-list/carouselLis
 import { ErrorPageLayoutComponent } from './layouts/error-page/errorPageLayout';
 import { GalleryDynamicListLayoutComponent } from './layouts/gallery-dynamic-list/galleryDynamicListLayout';
 import { GalleryListLayoutComponent } from './layouts/gallery-list/galleryListLayout';
-import { LoginLayoutComponent } from './layouts/login/loginLayout';
 import { ImageWithInformationLayoutComponent } from './layouts/image-with-information/imageWithInformationLayout';
+import { LoginLayoutComponent } from './layouts/login/loginLayout';
 import { PageContentsLayoutComponent } from './layouts/page-contents/pageContentsLayout';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PersonalizedItemLayoutComponent } from './layouts/personalized-item/personalizedItemLayout';
 import { StandardPageHero2BlocksLayoutComponent } from './layouts/standard-page-hero-2-blocks/standardPageHero2BlocksLayout';
 import { StandardPageHero4BlocksLayoutComponent } from './layouts/standard-page-hero-4-blocks/standardPageHero4BlocksLayout';
 import { StandardPageLayoutComponent } from './layouts/standard-page/standardPageLayout';
@@ -22,10 +23,11 @@ export const LAYOUTS = [
   ErrorPageLayoutComponent,
   GalleryDynamicListLayoutComponent,
   GalleryListLayoutComponent,
-  LoginLayoutComponent,
   ImageWithInformationLayoutComponent,
+  LoginLayoutComponent,
   PageContentsLayoutComponent,
   PageNotFoundComponent,
+  PersonalizedItemLayoutComponent,
   StandardPageHero2BlocksLayoutComponent,
   StandardPageHero4BlocksLayoutComponent,
   StandardPageLayoutComponent,

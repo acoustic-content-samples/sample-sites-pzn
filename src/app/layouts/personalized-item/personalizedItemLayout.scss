@@ -1,0 +1,40 @@
+h2 {
+	margin: 0 0 40px;
+	color: #004040;
+	text-align: center;
+}
+
+.pzn-pic {
+	width: 600px;
+	height: 400px;
+	flex-shrink: 0;
+	margin-left: 50px;
+}
+
+.pzn-icon {
+	float: left;
+	height: 11em;
+	width: 9em;
+	color: #444;
+	font-size: .8em;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto 60px;	
+	min-width: 600px;
+	max-width: 1300px;
+	justify-content: center;
+}
+
+.column {
+	margin-left: 50px;
+	overflow: auto;
+	flex-basis: 600px;
+}
+
+.material-icons {
+	font-size: 10em;
+	color: #02CECC;
+}

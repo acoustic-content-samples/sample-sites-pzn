@@ -1,0 +1,12 @@
+{
+  "id": "image-with-information-layout",
+  "rev": "4-357765073d41f10a68576d065fb21483",
+  "name": "Image with caption",
+  "classification": "layout",
+  "prerender": false,
+  "thumbnail": {
+    "path": "/layouts/thumbnails/article_220.svg"
+  },
+  "template": "image-with-information-layout",
+  "templateType": "angular"
+}

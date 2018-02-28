@@ -1,0 +1,26 @@
+{
+  "id": "1712ddc2-4547-4674-b9e7-821fab15061a",
+  "rev": "6-86062b59a4e648127d27ac0d5b060436",
+  "name": "Personalized item",
+  "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
+  "description": "",
+  "status": "ready",
+  "tags": [
+    "IBM sample"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "Title",
+      "key": "title"
+    },
+    {
+      "elementType": "formattedtext",
+      "label": "Message",
+      "key": "message"
+    }
+  ]
+}

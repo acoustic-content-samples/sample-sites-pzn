@@ -1,12 +1,12 @@
 {
-  "classification": "layout",
   "id": "page-contents-layout",
+  "rev": "17-1151889df6b4111e77f5b5947777b6e4",
   "name": "pageContentsLayout",
+  "classification": "layout",
   "prerender": false,
-  "rev": "Cewk90PGNG7jUwoOE+M19YvOs6Xsp7vfk9TbwEaxdNw=",
-  "template": "page-contents-layout",
-  "templateType": "angular",
   "thumbnail": {
     "path": "/dxauth/layoutThumbs/page-contents-layout.jpg"
-  }
+  },
+  "template": "page-contents-layout",
+  "templateType": "angular"
 }
