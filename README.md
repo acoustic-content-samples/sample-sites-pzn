@@ -31,7 +31,9 @@
 
 ### Use case
 
-You want your website to show a personalized navigation based on attributes of the current user. Examples of an attribute could be a brand or a user role. After a user logs in, new page links appear that are relevant to that person. Access via a direct URL to hidden pages is not restricted, but only targeted links are shown in the UI. The home page also updates to show content reflecting the current user's role or brand.
+You want your website to show a personalized pages and content based on attributes of the current user. Examples of an attribute could be a brand or a user role. After a user logs in, new page links appear that are relevant to that person. The home page also updates to show content reflecting the current user's role or brand.
+
+This is not a security feature. Access via a direct URL to currently hidden pages is not restricted, but only targeted links are shown in the header navigation.
 
 ### Features
 
