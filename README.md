@@ -3,31 +3,56 @@
 ### Table of contents
 
 [Use case](#use-case)
+
 [Features](#features)
+
 [Set up](#set-up)
-	[Prerequisites](#prerequisites)
-	[Download and install](#download-and-install)
-	[Configure your tenant](#configure-your-tenant)
-	[Deploy the code](#deploy-the-code)
+
+   [Prerequisites](#prerequisites)
+
+   [Download and install](#download-and-install)
+
+   [Configure your tenant](#configure-your-tenant)
+
+   [Deploy the code](#deploy-the-code)
+
 [SPA customization](#spa-customization)
-	[Local development server](#local-development-server)
-	[Build and deploy](#build-and-deploy)
+
+   [Local development server](#local-development-server)
+
+   [Build and deploy](#build-and-deploy)
+
 [Implementation details](#implementation-details)
-	[Role tags](#role-tags)
-	[Page filtering](#page-filtering)
-	[Personalized home page](#personalized-home-page)
-	[Role-based icons](#role-based-icons)
-	[Mock login](#mock-login)
+
+   [Role tags](#role-tags)
+
+   [Page filtering](#page-filtering)
+
+   [Personalized home page](#personalized-home-page)
+
+   [Role-based icons](#role-based-icons)
+
+   [Mock login](#mock-login)
+
 [Integrate with an existing Oslo-based site](#integrate-with-an-existing-oslo-based-site)
-	[Download](#download)
-	[Install the Login and Personalized item components](#install-the-login-and-personalized-item-components)
-	[Integrate the authentication service](#integrate-the-authentication-service)
-	[Create your roles](#create-your-roles)
-	[Filter the header navigation](#filter-the-header-navigation)
-	[Create authentication status, Login and Logout buttons](#create-authentication-status-login-and-logout-buttons)
-	[Add the personalized item component](#add-the-personalized-item-component)
-	[Tag your content](#tag-your-content)
-	[Build and deploy your updates](#build-and-deploy-your-updates)
+
+   [Download](#download)
+
+   [Install the Login and Personalized item components](#install-the-login-and-personalized-item-components)
+
+   [Integrate the authentication service](#integrate-the-authentication-service)
+
+   [Create your roles](#create-your-roles)
+
+   [Filter the header navigation](#filter-the-header-navigation)
+
+   [Create authentication status, Login and Logout buttons](#create-authentication-status-login-and-logout-buttons)
+
+   [Add the personalized item component](#add-the-personalized-item-component)
+
+   [Tag your content](#tag-your-content)
+
+   [Build and deploy your updates](#build-and-deploy-your-updates)
 
 ### Use case
 
