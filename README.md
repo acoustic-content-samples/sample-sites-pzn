@@ -255,6 +255,8 @@ import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 
 ### Filter the header navigation
 
+1. Open _<root directory of your site>/src/app/responsiveHeader/responsive-header.html_ for editing
+2. Replace `rc?.context?.site.pages` with `this.pages`
 1. Open _<root directory of your site>/src/app/responsiveHeader/responsiveHeader.component.ts_ for editing
 2. Import the services and constants:
 ```
@@ -278,6 +280,27 @@ import {environment} from '../environment/environment';
 	ngOnDestroy() {
 		this.configSub.unsubscribe();
 		this.authSub.unsubscribe();
+	}
+```
+9. Replace the `set renderingContext` function with:
+```
+	public set renderingContext(aValue: RenderingContext) {
+		if(aValue) {
+			if(this._hasPagesChanged(aValue.context.site.pages)){
+				this.refreshPages();
+			}
+		}
+		this.rc = aValue;
+		this.cachedChildren = new Map<string, any[]>();
+	}
+```
+8. Replace the `_hasPagesChanged` function with:
+```
+	_hasPagesChanged(newPages){
+		let current = newPages || [];
+		let previous = this.rc && this.rc.context ? this.rc.context.site.pages : [];
+
+		return (JSON.stringify(current) != JSON.stringify(previous));
 	}
 ```
 5. Add these functions to subscribe to authentication changes and filter the page navigation list whenever a user logs in or out:
@@ -305,7 +328,7 @@ import {environment} from '../environment/environment';
 		const pageSearchUrl = `${environment.apiUrl}/delivery/v1/search?q=*:*&fl=name,id&fq=classification:content&fq=type:("Standard page" OR "Design page")&fq=((*:* AND -tags:wch_pzn_*)${pznTagQuery}`;
 
 		this.loading = true;
-		this.http.get<any>(pageSearchUrl).subscribe(pageDocs => { console.warn('res %o',pageDocs);
+		this.http.get<any>(pageSearchUrl).subscribe(pageDocs => {
 			this.pages = pageDocs && pageDocs.numFound > 0 ? this.filterPages(pageDocs.documents) : [];
 			this.loading = false;
 			console.log('Filtered pages are: %o', this.pages);
@@ -317,7 +340,7 @@ import {environment} from '../environment/environment';
 	}
 
 	filterPages(taggedPages, sitePages?) {
-		sitePages = sitePages ? sitePages : this.rc && this.rc.context ? this.rc.context.site.pages : [];
+		sitePages = sitePages ? sitePages : this.rc && this.rc.context ? JSON.parse(JSON.stringify(this.rc.context.site.pages)) : [];
 		console.log('Filtering the site pages  %o  by the tagged page content item search result  %o', sitePages, taggedPages);
 		// filter sitePages by what is in taggedPages
 		// a sitePage is rejected if there is not a taggedPage with an id that matches the sitePage's contentId
