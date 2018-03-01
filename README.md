@@ -257,8 +257,8 @@ import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 
 1. Open _<root directory of your site>/src/app/responsiveHeader/responsive-header.html_ for editing
 2. Replace `rc?.context?.site.pages` with `this.pages`
-1. Open _<root directory of your site>/src/app/responsiveHeader/responsiveHeader.component.ts_ for editing
-2. Import the services and constants:
+3. Open _<root directory of your site>/src/app/responsiveHeader/responsiveHeader.component.ts_ for editing
+4. Import the services and constants:
 ```
 import {HttpClient} from '@angular/common/http';
 import {Router} from '@angular/router';
@@ -267,7 +267,7 @@ import {environment} from '../environment/environment';
 //...
 	constructor(configService: ConfigServiceService, private authService: AuthService, private http: HttpClient, private router: Router) {
 ```
-3. Add these variables to the class under `pages: Array<any> = [];`:
+5. Add these variables to the class under `pages: Array<any> = [];`:
 ```
 	authSub: Subscription;
 	loading: boolean = false;
@@ -275,14 +275,14 @@ import {environment} from '../environment/environment';
 	username: string = '';
 	pzn_tag: string = '';
 ```
-4. Unsubscribe from the authentication service:
+6. Unsubscribe from the authentication service:
 ```
 	ngOnDestroy() {
 		this.configSub.unsubscribe();
 		this.authSub.unsubscribe();
 	}
 ```
-9. Replace the `set renderingContext` function with:
+7. Replace the `set renderingContext` function with:
 ```
 	public set renderingContext(aValue: RenderingContext) {
 		if(aValue) {
@@ -303,7 +303,7 @@ import {environment} from '../environment/environment';
 		return (JSON.stringify(current) != JSON.stringify(previous));
 	}
 ```
-5. Add these functions to subscribe to authentication changes and filter the page navigation list whenever a user logs in or out:
+9. Add these functions to subscribe to authentication changes and filter the page navigation list whenever a user logs in or out:
 ```
 	ngOnInit() {
 		this.isLoggedIn = this.authService.isLoggedIn();
