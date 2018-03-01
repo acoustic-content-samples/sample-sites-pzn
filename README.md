@@ -353,6 +353,10 @@ import {environment} from '../environment/environment';
 		});
 	}
 ```
+10. Open _<root directory of your site>/src/app/responsiveHeader/wch-menu-item/wchMenuItem.component.ts_ for editing
+11. Remove child page caching in the `getVisibleChildren` function, so pages in the drop-down menus can be updated when a user logs in or out:
+```
+```
 
 ### Create authentication status, Login and Logout buttons
 
