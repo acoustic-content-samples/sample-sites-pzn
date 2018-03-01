@@ -1,5 +1,5 @@
 {
-  "rev": "18-9dd0af1aa00098d827c2d3eec56b4fa9",
+  "rev": "23-12ed58d988c7930be3ed86df75bc1264",
   "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
   "name": "page-home-220px.png",
   "resource": "d22cb3c0070450e37c5d7515b6d3906a",
@@ -26,23 +26,7 @@
       "classification:gray color"
     ],
     "declined": [],
-    "suggested": [
-      "classification:automated teller machine",
-      "classification:machine",
-      "classification:shredder",
-      "classification:dialog box",
-      "classification:window",
-      "classification:video display",
-      "classification:electronic device",
-      "classification:magnetic stripe",
-      "classification:memory device",
-      "classification:home appliance",
-      "classification:appliance",
-      "classification:printer",
-      "classification:beige color",
-      "classification:gray color"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "categoryIds": [],
   "usageRights": {
@@ -58,36 +42,13 @@
     "width": 220,
     "height": 145
   },
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModified": "2018-02-27T17:32:25.434Z",
-  "created": "2018-02-23T03:03:29.366Z",
+  "lastModified": "2018-03-01T20:21:36.178Z",
+  "created": "2018-03-01T20:21:36.178Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "classifications": [
-      "automated teller machine",
-      "machine",
-      "shredder",
-      "dialog box",
-      "window",
-      "video display",
-      "electronic device",
-      "magnetic stripe",
-      "memory device",
-      "home appliance",
-      "appliance",
-      "printer",
-      "beige color",
-      "gray color"
-    ],
-    "faces": [],
-    "colors": {
-      "muted": "#836847",
-      "darkMuted": "#645c64",
-      "lightVibrant": "#ecc48c",
-      "lightMuted": "#bcbcbc"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "renditions": {
     "default": {

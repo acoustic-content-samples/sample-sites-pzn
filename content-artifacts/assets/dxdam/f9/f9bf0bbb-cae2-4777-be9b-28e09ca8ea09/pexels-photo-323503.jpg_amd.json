@@ -1,10 +1,11 @@
 {
-  "rev": "4-27acc65ef10db497d4a4860dd0400950",
+  "rev": "9-ee7f5fd83b4b87a0446b9afbdac7360d",
   "id": "f9bf0bbb-cae2-4777-be9b-28e09ca8ea09",
   "name": "pexels-photo-323503.jpg",
   "resource": "201923b4-65d3-4088-9aea-c23656a15c28",
   "description": "",
   "altText": "",
+  "path": "/dxdam/f9/f9bf0bbb-cae2-4777-be9b-28e09ca8ea09/pexels-photo-323503.jpg",
   "tags": {
     "values": [
       "user:IBM sample"
@@ -20,18 +21,7 @@
       "classification:television reporter",
       "classification:jade green color"
     ],
-    "suggested": [
-      "classification:waitress",
-      "classification:person",
-      "classification:signorina (woman)",
-      "classification:woman",
-      "classification:female",
-      "classification:hotel desk clerk",
-      "classification:barmaid",
-      "classification:television reporter",
-      "classification:jade green color"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "categoryIds": [],
   "usageRights": {
@@ -47,33 +37,13 @@
     "width": 1920,
     "height": 1281
   },
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModified": "2018-02-27T19:43:30.815Z",
-  "created": "2018-02-27T19:08:42.333Z",
+  "lastModified": "2018-03-01T20:21:44.482Z",
+  "created": "2018-03-01T20:21:44.481Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "classifications": [
-      "waitress",
-      "person",
-      "signorina (woman)",
-      "woman",
-      "female",
-      "hotel desk clerk",
-      "barmaid",
-      "television reporter",
-      "jade green color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#9e2137",
-      "muted": "#a77e5f",
-      "darkVibrant": "#7d1a2d",
-      "darkMuted": "#5a4038",
-      "lightVibrant": "#e0d2ba",
-      "lightMuted": "#b4ced4"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "renditions": {
     "default": {
@@ -81,6 +51,25 @@
       "source": "/authoring/v1/resources/201923b4-65d3-4088-9aea-c23656a15c28"
     }
   },
-  "path": "/dxdam/f9/f9bf0bbb-cae2-4777-be9b-28e09ca8ea09/pexels-photo-323503.jpg",
-  "isManaged": true
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/f9bf0bbb-cae2-4777-be9b-28e09ca8ea09"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/201923b4-65d3-4088-9aea-c23656a15c28.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/201923b4-65d3-4088-9aea-c23656a15c28?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/f9bf0bbb-cae2-4777-be9b-28e09ca8ea09/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
 }

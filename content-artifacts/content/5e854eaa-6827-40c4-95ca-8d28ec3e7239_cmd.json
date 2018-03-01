@@ -1,6 +1,5 @@
 {
   "id": "5e854eaa-6827-40c4-95ca-8d28ec3e7239",
-  "rev": "9-c0b9dd9da61c6bc9d5d3f9ac528b2928",
   "name": "Mise en place",
   "description": "",
   "typeId": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
@@ -43,15 +42,16 @@
     "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
     "url": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
   },
-  "lastModified": "2018-02-27T17:32:36.482Z",
-  "created": "2018-02-23T03:03:46.893Z",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModified": "2018-03-01T20:22:04.884Z",
+  "created": "2018-03-01T20:22:04.884Z",
   "classification": "content",
   "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "type": "Standard page",
   "creator": "LAURA POMERLEAU",
   "lastModifier": "LAURA POMERLEAU",
   "publishing": {
     "status": "not-available"
-  }
+  },
+  "rev": "13-8ec27189db3cfa359ece7d99af5cedbf"
 }

@@ -1,10 +1,11 @@
 {
-  "rev": "4-f9ab14609ea99f09eee4e8c3b3fac230",
+  "rev": "9-87b0263d3a6e7b0bc8f2f9a57de1f015",
   "id": "ca5890c2-6710-484a-b5c6-ffe8b0d7ac7e",
   "name": "peasant-rice-fields-rice-crops-colombia-50715.jpg",
   "resource": "39ddd3d9-05ac-4c04-90ee-01a244bfb300",
   "description": "",
   "altText": "",
+  "path": "/dxdam/ca/ca5890c2-6710-484a-b5c6-ffe8b0d7ac7e/peasant-rice-fields-rice-crops-colombia-50715.jpg",
   "tags": {
     "values": [
       "user:IBM sample"
@@ -22,20 +23,7 @@
       "classification:greenishness color",
       "classification:green color"
     ],
-    "suggested": [
-      "classification:farmer",
-      "classification:person",
-      "classification:rough",
-      "classification:Rice Paddy",
-      "classification:farmhand",
-      "classification:laborer",
-      "classification:workman",
-      "classification:plant",
-      "classification:fish",
-      "classification:greenishness color",
-      "classification:green color"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "categoryIds": [],
   "usageRights": {
@@ -59,35 +47,13 @@
       "aperture": 6.3
     }
   },
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModified": "2018-02-27T19:44:53.283Z",
-  "created": "2018-02-27T19:08:42.356Z",
+  "lastModified": "2018-03-01T20:21:42.263Z",
+  "created": "2018-03-01T20:21:42.262Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "classifications": [
-      "farmer",
-      "person",
-      "rough",
-      "Rice Paddy",
-      "farmhand",
-      "laborer",
-      "workman",
-      "plant",
-      "fish",
-      "greenishness color",
-      "green color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#90b408",
-      "muted": "#afa769",
-      "darkVibrant": "#739808",
-      "darkMuted": "#26351a",
-      "lightVibrant": "#b7d2e4",
-      "lightMuted": "#b4c4d4"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "renditions": {
     "default": {
@@ -95,6 +61,25 @@
       "source": "/authoring/v1/resources/39ddd3d9-05ac-4c04-90ee-01a244bfb300"
     }
   },
-  "path": "/dxdam/ca/ca5890c2-6710-484a-b5c6-ffe8b0d7ac7e/peasant-rice-fields-rice-crops-colombia-50715.jpg",
-  "isManaged": true
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/ca5890c2-6710-484a-b5c6-ffe8b0d7ac7e"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/39ddd3d9-05ac-4c04-90ee-01a244bfb300.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/39ddd3d9-05ac-4c04-90ee-01a244bfb300?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/ca5890c2-6710-484a-b5c6-ffe8b0d7ac7e/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
 }

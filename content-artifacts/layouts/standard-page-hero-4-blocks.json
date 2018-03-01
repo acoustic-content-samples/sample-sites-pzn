@@ -1,11 +1,12 @@
 {
   "id": "standard-page-hero-4-blocks",
-  "rev": "20-37d849846906d644be11398a16f6910e",
+  "rev": "24-af5d197390ec8fb12bf99168daf28b40",
   "name": "Four blocks and Hero",
   "classification": "layout",
   "prerender": false,
   "thumbnail": {
-    "path": "/layouts/thumbnails/standard-page-hero-4-blocks_220.svg"
+    "path": "/layouts/thumbnails/standard-page-hero-4-blocks_220.svg",
+    "url": "/authoring/v1/resources/69a4414b7485dc8ca2d5a8f45255fc1f_3b5aae67ba7d94c2d6f6ce13fce3be58"
   },
   "template": "standard-page-hero-4-blocks",
   "templateType": "angular"

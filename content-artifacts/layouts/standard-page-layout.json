@@ -1,11 +1,12 @@
 {
   "id": "standard-page-layout",
-  "rev": "20-4eac8187345686125398af8bccd50878",
+  "rev": "24-49202d857557a372d697864e15102f5f",
   "name": "Hero",
   "classification": "layout",
   "prerender": false,
   "thumbnail": {
-    "path": "/layouts/thumbnails/standard-page-hero_220.svg"
+    "path": "/layouts/thumbnails/standard-page-hero_220.svg",
+    "url": "/authoring/v1/resources/1291d84b6a43a062178553d6c9dd8053_94fc862fb74f826c4dfb0ff44f22ba13"
   },
   "template": "standard-page-layout",
   "templateType": "angular"

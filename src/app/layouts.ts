@@ -10,7 +10,7 @@ import { ImageWithInformationLayoutComponent } from './layouts/image-with-inform
 import { LoginLayoutComponent } from './layouts/login/loginLayout';
 import { PageContentsLayoutComponent } from './layouts/page-contents/pageContentsLayout';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { PersonalizedItemLayoutComponent } from './layouts/personalized-item/personalizedItemLayout';
+import { PersonalizedContentLayoutComponent } from './layouts/personalized-content/personalizedContentLayout';
 import { StandardPageHero2BlocksLayoutComponent } from './layouts/standard-page-hero-2-blocks/standardPageHero2BlocksLayout';
 import { StandardPageHero4BlocksLayoutComponent } from './layouts/standard-page-hero-4-blocks/standardPageHero4BlocksLayout';
 import { StandardPageLayoutComponent } from './layouts/standard-page/standardPageLayout';
@@ -27,7 +27,7 @@ export const LAYOUTS = [
   LoginLayoutComponent,
   PageContentsLayoutComponent,
   PageNotFoundComponent,
-  PersonalizedItemLayoutComponent,
+  PersonalizedContentLayoutComponent,
   StandardPageHero2BlocksLayoutComponent,
   StandardPageHero4BlocksLayoutComponent,
   StandardPageLayoutComponent,

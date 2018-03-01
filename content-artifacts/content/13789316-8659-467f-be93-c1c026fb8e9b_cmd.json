@@ -1,6 +1,5 @@
 {
   "id": "13789316-8659-467f-be93-c1c026fb8e9b",
-  "rev": "9-1ff4cc1a69280d85b05151fff8d57082",
   "name": "Restaurateur main content",
   "typeId": "f9e7f0b9-f57d-4d91-a257-54a64c1ff52f",
   "locale": "en",
@@ -56,6 +55,9 @@
       "elementType": "category",
       "categoryIds": [
         "7225c4dd-dc02-48e3-9d80-0f84c0c1340f"
+      ],
+      "categories": [
+        "Image size and placement/Size/Medium"
       ]
     },
     "imageCredit": {
@@ -74,10 +76,21 @@
     }
   ],
   "kind": [],
-  "lastModified": "2018-02-27T19:43:31.021Z",
-  "created": "2018-02-27T19:42:04.572Z",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "description": "",
+  "thumbnail": {
+    "id": "f9bf0bbb-cae2-4777-be9b-28e09ca8ea09",
+    "url": "/authoring/v1/resources/201923b4-65d3-4088-9aea-c23656a15c28?fit=inside%7C220:145"
+  },
+  "lastModified": "2018-03-01T20:21:58.287Z",
+  "created": "2018-03-01T20:21:58.287Z",
   "classification": "content",
   "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "description": ""
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "type": "Image with information",
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "13-e7dcaf042a26e2f8d306f94537695936"
 }

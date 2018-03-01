@@ -1,10 +1,11 @@
 {
-  "rev": "4-54dff14bb41267336f6f12ba64f8ef80",
+  "rev": "9-801c6979aa876c41d95d03bf53d86cca",
   "id": "2756604a-77c3-4da3-a2d2-c199d9144baf",
   "name": "pexels-photo-159991.jpg",
   "resource": "7b1fa018-39e8-4c64-877f-ce352aba1a6b",
   "description": "",
   "altText": "",
+  "path": "/dxdam/27/2756604a-77c3-4da3-a2d2-c199d9144baf/pexels-photo-159991.jpg",
   "tags": {
     "values": [
       "user:IBM sample"
@@ -24,22 +25,7 @@
       "classification:beverage",
       "classification:olive color"
     ],
-    "suggested": [
-      "classification:person",
-      "classification:Bakery Shop",
-      "classification:deli",
-      "classification:shop",
-      "classification:retail store",
-      "classification:building",
-      "classification:incubator",
-      "classification:apparatus",
-      "classification:punnet (basket)",
-      "classification:handbasket",
-      "classification:marketplace",
-      "classification:beverage",
-      "classification:olive color"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "categoryIds": [],
   "usageRights": {
@@ -64,37 +50,13 @@
     },
     "date": "2015-04-11T17:36:13"
   },
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModified": "2018-02-27T19:41:27.182Z",
-  "created": "2018-02-27T19:08:43.717Z",
+  "lastModified": "2018-03-01T20:21:37.507Z",
+  "created": "2018-03-01T20:21:37.504Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "classifications": [
-      "person",
-      "Bakery Shop",
-      "deli",
-      "shop",
-      "retail store",
-      "building",
-      "incubator",
-      "apparatus",
-      "punnet (basket)",
-      "handbasket",
-      "marketplace",
-      "beverage",
-      "olive color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#b77f5b",
-      "muted": "#a87b5c",
-      "darkVibrant": "#0e2c44",
-      "darkMuted": "#5c382d",
-      "lightVibrant": "#97b3d7",
-      "lightMuted": "#c1a68b"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "renditions": {
     "default": {
@@ -102,6 +64,25 @@
       "source": "/authoring/v1/resources/7b1fa018-39e8-4c64-877f-ce352aba1a6b"
     }
   },
-  "path": "/dxdam/27/2756604a-77c3-4da3-a2d2-c199d9144baf/pexels-photo-159991.jpg",
-  "isManaged": true
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/2756604a-77c3-4da3-a2d2-c199d9144baf"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/7b1fa018-39e8-4c64-877f-ce352aba1a6b.jpg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/7b1fa018-39e8-4c64-877f-ce352aba1a6b?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/2756604a-77c3-4da3-a2d2-c199d9144baf/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
 }

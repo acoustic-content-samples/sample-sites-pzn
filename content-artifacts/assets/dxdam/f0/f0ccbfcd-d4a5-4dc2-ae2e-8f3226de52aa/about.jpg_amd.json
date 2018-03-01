@@ -1,5 +1,5 @@
 {
-  "rev": "15-a744b1062e8864bea0049845ad230108",
+  "rev": "20-6aa124374f63d26954ce76482ff2a2de",
   "id": "f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa",
   "name": "about.jpg",
   "resource": "98d4d862-8dbe-437b-a32a-fb4154a43273",
@@ -28,26 +28,7 @@
       "user:IBM sample"
     ],
     "declined": [],
-    "suggested": [
-      "classification:Italian parsley",
-      "classification:herb",
-      "classification:plant",
-      "classification:coriander",
-      "classification:food seasoning",
-      "classification:food ingredient",
-      "classification:food product",
-      "classification:food",
-      "classification:parsley",
-      "classification:celeriac",
-      "classification:root vegetable",
-      "classification:vegetable",
-      "classification:turnip greens",
-      "classification:leafy vegetable",
-      "classification:lovage",
-      "classification:tree",
-      "classification:greenishness color"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "categoryIds": [],
   "usageRights": {
@@ -72,41 +53,13 @@
     },
     "date": "2017-10-07T12:11:34.042"
   },
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModified": "2018-02-27T17:32:28.312Z",
-  "created": "2018-02-23T03:03:36.134Z",
+  "lastModified": "2018-03-01T20:21:47.053Z",
+  "created": "2018-03-01T20:21:47.052Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "classifications": [
-      "Italian parsley",
-      "herb",
-      "plant",
-      "coriander",
-      "food seasoning",
-      "food ingredient",
-      "food product",
-      "food",
-      "parsley",
-      "celeriac",
-      "root vegetable",
-      "vegetable",
-      "turnip greens",
-      "leafy vegetable",
-      "lovage",
-      "tree",
-      "greenishness color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#90bf54",
-      "muted": "#7da653",
-      "darkVibrant": "#5d8522",
-      "darkMuted": "#415830",
-      "lightVibrant": "#98c570",
-      "lightMuted": "#c3c4af"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "renditions": {
     "default": {

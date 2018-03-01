@@ -10,10 +10,10 @@ import {
 } from 'rxjs/Observable';
 
 /*
- * @name Personalized item
+ * @name Personalized content
  * @id 1712ddc2-4547-4674-b9e7-821fab15061a
  */
-export abstract class AbstractPersonalizedItemComponent extends AbstractRenderingComponent {
+export abstract class AbstractPersonalizedContentComponent extends AbstractRenderingComponent {
 
     /*
      * {

@@ -10,7 +10,7 @@ export { ImageWithInformationLayoutComponent } from './layouts/image-with-inform
 export { LoginLayoutComponent } from './layouts/login/loginLayout';
 export { PageContentsLayoutComponent } from './layouts/page-contents/pageContentsLayout';
 export { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-export { PersonalizedItemLayoutComponent } from './layouts/personalized-item/personalizedItemLayout';
+export { PersonalizedContentLayoutComponent } from './layouts/personalized-content/personalizedContentLayout';
 export { StandardPageHero2BlocksLayoutComponent } from './layouts/standard-page-hero-2-blocks/standardPageHero2BlocksLayout';
 export { StandardPageHero4BlocksLayoutComponent } from './layouts/standard-page-hero-4-blocks/standardPageHero4BlocksLayout';
 export { StandardPageLayoutComponent } from './layouts/standard-page/standardPageLayout';

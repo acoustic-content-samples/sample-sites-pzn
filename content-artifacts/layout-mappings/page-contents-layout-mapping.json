@@ -1,19 +1,22 @@
 {
   "id": "page-contents-layout-mapping",
-  "rev": "15-f0a021baf998949a396e03223228d419",
+  "rev": "19-ba0762c81119f5911fac10da62d83052",
   "name": "pageContentsLayoutMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "24490027-e55b-4739-a5a9-5c091c5d4a72"
+    "id": "24490027-e55b-4739-a5a9-5c091c5d4a72",
+    "name": "Page contents"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "page-contents-layout"
+        "id": "page-contents-layout",
+        "name": "pageContentsLayout"
       },
       "layouts": [
         {
-          "id": "page-contents-layout"
+          "id": "page-contents-layout",
+          "name": "pageContentsLayout"
         }
       ]
     }

@@ -3,7 +3,6 @@
   "locationY": 2,
   "height": 797,
   "locationX": 0,
-  "rev": "1-0388f0b777894ea3e9326f5759af990e",
   "id": "6bbfab9d-0be3-458b-bd05-9c62d318ac2d",
   "classification": "rendition",
   "asset": {
@@ -17,5 +16,6 @@
     "width": 1920
   },
   "width": 1200,
-  "created": "2018-02-27T19:29:11.469Z"
+  "created": "2018-03-01T20:21:49.508Z",
+  "rev": "5-f2436511ef3d1e1729d89f2a438c436d"
 }

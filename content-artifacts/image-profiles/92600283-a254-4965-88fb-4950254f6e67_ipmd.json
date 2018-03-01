@@ -1,6 +1,6 @@
 {
   "id": "92600283-a254-4965-88fb-4950254f6e67",
-  "rev": "3-05a9398c651f0c7ddeb6fc3e74c8c2e4",
+  "rev": "7-71b86b26dd2c64a58b71c2667750b056",
   "name": "Profile for design articles",
   "classification": "image-profile",
   "description": "Provides different renditions of images for the design articles.",
@@ -9,7 +9,7 @@
   "created": "2017-08-11T01:03:48.504Z",
   "lastModifier": "LAURA POMERLEAU",
   "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModified": "2018-02-27T17:32:17.842Z",
+  "lastModified": "2018-03-01T20:21:26.705Z",
   "dimensions": [
     {
       "label": "Large",

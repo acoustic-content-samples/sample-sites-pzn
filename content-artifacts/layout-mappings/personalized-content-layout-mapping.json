@@ -1,0 +1,24 @@
+{
+  "id": "personalized-content-layout-mapping",
+  "rev": "3-192c3f9a790528b78d3580507b6f6d93",
+  "name": "personalizedContentLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "1712ddc2-4547-4674-b9e7-821fab15061a",
+    "name": "Personalized content"
+  },
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "personalized-content-layout",
+        "name": "personalizedContentLayout"
+      },
+      "layouts": [
+        {
+          "id": "personalized-content-layout",
+          "name": "personalizedContentLayout"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "rev": "15-09a765f338872332b82b7eb54420ee9a",
+  "rev": "20-2d1f55be5d011e630f496d2d545b0c24",
   "id": "ef200e55-27ca-4f5b-975e-11c61e9f9a60",
   "name": "restaurateur2.jpg",
   "resource": "95bf7f10-f357-4632-9dbf-715c946e1838",
@@ -24,22 +24,7 @@
       "user:IBM sample"
     ],
     "declined": [],
-    "suggested": [
-      "classification:breakfast area",
-      "classification:dinette (dining space)",
-      "classification:indoors",
-      "classification:morning room",
-      "classification:living room",
-      "classification:dining room",
-      "classification:breakfast table",
-      "classification:table",
-      "classification:furniture",
-      "classification:lanai (roofed patio)",
-      "classification:porch",
-      "classification:beige color",
-      "classification:sage green color"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "categoryIds": [],
   "usageRights": {
@@ -62,37 +47,13 @@
       "aperture": 8
     }
   },
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModified": "2018-02-27T17:32:28.319Z",
-  "created": "2018-02-23T03:03:36.143Z",
+  "lastModified": "2018-03-01T20:21:45.798Z",
+  "created": "2018-03-01T20:21:45.798Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "classifications": [
-      "breakfast area",
-      "dinette (dining space)",
-      "indoors",
-      "morning room",
-      "living room",
-      "dining room",
-      "breakfast table",
-      "table",
-      "furniture",
-      "lanai (roofed patio)",
-      "porch",
-      "beige color",
-      "sage green color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#9f871c",
-      "muted": "#a37f5a",
-      "darkVibrant": "#643923",
-      "darkMuted": "#654634",
-      "lightVibrant": "#c7ad83",
-      "lightMuted": "#c8beb3"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "renditions": {
     "default": {

@@ -1,0 +1,12 @@
+{
+  "classification": "layout",
+  "id": "personalized-content-layout",
+  "name": "personalizedContentLayout",
+  "prerender": false,
+  "rev": "UsZ1mMZQFPfdbSfMjGTaFamfZMgMVL80Sig0D8XCz5Q=",
+  "template": "personalized-content-layout",
+  "templateType": "angular",
+  "thumbnail": {
+    "path": "/dxauth/layoutThumbs/personalized-content-layout.jpg"
+  }
+}

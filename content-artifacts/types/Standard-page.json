@@ -1,6 +1,6 @@
 {
   "id": "2af1d22a-fecf-41e1-a808-7301cb37b79f",
-  "rev": "19-562ccb60cc66687fe82b337f7a0b7ac9",
+  "rev": "23-6d07911e7e8944297ec5998399f33afc",
   "name": "Standard page",
   "classification": "content-type",
   "kind": [
@@ -8,7 +8,9 @@
     "page"
   ],
   "thumbnail": {
-    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98"
+    "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
+    "path": "/dxdam/25/257b578f-7f29-49e5-9e50-97c3846ccf98/page-home-220px.png",
+    "url": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
   },
   "contentThumbnail": {
     "imageElement": "",

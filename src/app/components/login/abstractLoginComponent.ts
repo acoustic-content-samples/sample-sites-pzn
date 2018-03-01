@@ -35,18 +35,18 @@ export abstract class AbstractLoginComponent extends AbstractRenderingComponent 
     /*
      * {
      *   "elementType": "text",
-     *   "key": "pznMembers",
-     *   "label": "PZN members"
+     *   "key": "pznRoleTags",
+     *   "label": "PZN role tags"
      * }
      */
-    @RenderingContextBinding('text.pznMembers', '')
-    readonly onPznMembers: Observable<string>;
+    @RenderingContextBinding('text.pznRoleTags', '')
+    readonly onPznRoleTags: Observable<string>;
 
     /*
-     * @see #onPznMembers
+     * @see #onPznRoleTags
      */
     @RenderingContextBinding()
-    readonly pznMembers: string;
+    readonly pznRoleTags: string;
 
     protected constructor() {
         super();

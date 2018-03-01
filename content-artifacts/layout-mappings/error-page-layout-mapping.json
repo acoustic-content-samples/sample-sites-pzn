@@ -1,19 +1,22 @@
 {
   "id": "error-page-layout-mapping",
-  "rev": "18-959763dfecba069f3f19e7e5bafe2644",
+  "rev": "22-eb32298a7af026333fcf534c634a1dbc",
   "name": "errorPageLayoutMapping",
   "classification": "layout-mapping",
   "type": {
-    "id": "16f3938f-90a7-44e9-baf0-751d861a6164"
+    "id": "16f3938f-90a7-44e9-baf0-751d861a6164",
+    "name": "Error page"
   },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "error-page-layout"
+        "id": "error-page-layout",
+        "name": "errorPageLayout"
       },
       "layouts": [
         {
-          "id": "error-page-layout"
+          "id": "error-page-layout",
+          "name": "errorPageLayout"
         }
       ]
     }

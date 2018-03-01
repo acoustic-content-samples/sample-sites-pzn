@@ -1,6 +1,6 @@
 {
   "id": "b0f151db-f00c-43de-b3e7-613b83d65d8b",
-  "rev": "18-b72b40c2c104383022f1b6621455082f",
+  "rev": "23-5080962de949226adad476485ec995c5",
   "name": "Login",
   "classification": "content-type",
   "kind": [
@@ -14,8 +14,8 @@
   "elements": [
     {
       "elementType": "text",
-      "label": "PZN members",
-      "key": "pznMembers"
+      "label": "PZN role tags",
+      "key": "pznRoleTags"
     },
     {
       "elementType": "text",

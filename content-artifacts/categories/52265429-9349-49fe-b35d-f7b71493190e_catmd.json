@@ -1,6 +1,6 @@
 {
   "id": "52265429-9349-49fe-b35d-f7b71493190e",
-  "rev": "12-5eed43f69359914b080e12ac19861ce9",
+  "rev": "16-556d88c23eb529077185df3d18268831",
   "name": "List ordering options",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "creator": "LAURA POMERLEAU",
@@ -17,6 +17,6 @@
       "href": "/authoring/v1/categories/52265429-9349-49fe-b35d-f7b71493190e"
     }
   },
-  "created": "2018-02-23T03:03:21.875Z",
-  "lastModified": "2018-02-27T17:32:18.751Z"
+  "created": "2018-03-01T20:21:28.012Z",
+  "lastModified": "2018-03-01T20:21:28.012Z"
 }

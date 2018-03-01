@@ -1,24 +1,24 @@
 import { LayoutComponent } from 'ibm-wch-sdk-ng';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs/Subscription';
-import { TypePersonalizedItemComponent } from './../../components/personalized-item/typePersonalizedItemComponent';
+import { TypePersonalizedContentComponent } from './../../components/personalized-content/typePersonalizedContentComponent';
 import { AuthService } from '../../common/authService/auth.service';
 import { UtilsService } from '../../common/utils/utils.service';
 
 /*
- * @name personalizedItemLayout
- * @id personalized-item-layout
+ * @name personalizedContentLayout
+ * @id personalized-content-layout
  */
 @LayoutComponent({
-	selector: 'personalized-item-layout'
+	selector: 'personalized-content-layout'
 })
 @Component({
-  selector: 'app-personalized-item-layout-component',
-  templateUrl: './personalizedItemLayout.html',
-  styleUrls: ['./personalizedItemLayout.scss'],
+  selector: 'app-personalized-content-layout-component',
+  templateUrl: './personalizedContentLayout.html',
+  styleUrls: ['./personalizedContentLayout.scss'],
   preserveWhitespaces: false
 })
-export class PersonalizedItemLayoutComponent extends TypePersonalizedItemComponent implements OnInit, OnDestroy {
+export class PersonalizedContentLayoutComponent extends TypePersonalizedContentComponent implements OnInit, OnDestroy {
 
 	readonly TYPE: string = 'Image with information';
 	authSub: Subscription;
@@ -49,7 +49,7 @@ export class PersonalizedItemLayoutComponent extends TypePersonalizedItemCompone
 	}
 
 	updateQuery() {
-		// query for 1 item if the user is logged in, based on the personalization tag for that user's role
+		// query for 1 piece of content if the user is logged in, based on the personalization tag for that user's role
 		if(this.isLoggedIn && this.pzn_tag) {
 			this.queryString = `fl=document:%5Bjson%5D,lastModified&fq=classification:(content)&fq=type:("${this.TYPE}")&fq=tags:(${this.pzn_tag})&rows=1`;
 		}

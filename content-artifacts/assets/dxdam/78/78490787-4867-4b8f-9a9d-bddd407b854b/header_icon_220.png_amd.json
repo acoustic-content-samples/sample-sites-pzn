@@ -1,5 +1,5 @@
 {
-  "rev": "18-7ab4169e4de859fef208febe907308c5",
+  "rev": "23-f9289903c7c932f9ce33c65117f29672",
   "id": "78490787-4867-4b8f-9a9d-bddd407b854b",
   "name": "header_icon_220.png",
   "resource": "9a069bfa086cfe1ae7c98e789fed8146",
@@ -25,22 +25,7 @@
       "classification:black color"
     ],
     "declined": [],
-    "suggested": [
-      "classification:dialog box",
-      "classification:window",
-      "classification:video display",
-      "classification:electronic device",
-      "classification:digital clock",
-      "classification:clock",
-      "classification:timepiece",
-      "classification:measuring instrument",
-      "classification:digital display",
-      "classification:automated teller machine",
-      "classification:machine",
-      "classification:coal black color",
-      "classification:black color"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "categoryIds": [],
   "usageRights": {
@@ -56,37 +41,13 @@
     "width": 220,
     "height": 145
   },
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModified": "2018-02-27T17:32:26.128Z",
-  "created": "2018-02-23T03:03:30.187Z",
+  "lastModified": "2018-03-01T20:21:38.172Z",
+  "created": "2018-03-01T20:21:38.171Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "classifications": [
-      "dialog box",
-      "window",
-      "video display",
-      "electronic device",
-      "digital clock",
-      "clock",
-      "timepiece",
-      "measuring instrument",
-      "digital display",
-      "automated teller machine",
-      "machine",
-      "coal black color",
-      "black color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#5177b0",
-      "muted": "#648cbc",
-      "darkVibrant": "#142c5c",
-      "darkMuted": "#34343c",
-      "lightVibrant": "#91aad4",
-      "lightMuted": "#9bb4d3"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "renditions": {
     "default": {

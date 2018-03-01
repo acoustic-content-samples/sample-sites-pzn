@@ -1,7 +1,6 @@
 {
   "id": "22fbe405-fbbd-49af-9f1c-9e2eafe5b61e",
-  "rev": "21-b7b880f9f474ed1b8b810e91fe43a874",
-  "name": "Personalized homepage item",
+  "name": "Personalized homepage content",
   "description": "",
   "typeId": "1712ddc2-4547-4674-b9e7-821fab15061a",
   "locale": "en",
@@ -23,14 +22,21 @@
   "selectedLayouts": [
     {
       "layout": {
-        "id": "personalized-item-layout"
+        "id": "personalized-content-layout"
       }
     }
   ],
   "kind": [],
-  "lastModified": "2018-02-28T02:23:43.540Z",
-  "created": "2018-02-27T20:27:43.469Z",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModified": "2018-03-01T20:21:58.179Z",
+  "created": "2018-03-01T20:21:58.179Z",
   "classification": "content",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597"
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "type": "Personalized content",
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "25-7f1cdcbdeb1ea0cbec0bd60933e4082c"
 }

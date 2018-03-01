@@ -1,11 +1,12 @@
 {
   "id": "standard-page-hero-2-blocks",
-  "rev": "20-2a07bb5e8f8be5cd300a874ebe421311",
+  "rev": "24-1dff872fe26f6ecab25558f0488c0e3d",
   "name": "Two blocks and Hero",
   "classification": "layout",
   "prerender": false,
   "thumbnail": {
-    "path": "/layouts/thumbnails/standard-page-hero-2-blocks_220.svg"
+    "path": "/layouts/thumbnails/standard-page-hero-2-blocks_220.svg",
+    "url": "/authoring/v1/resources/1bde280c700f84f1247e19c10ca2ba39_1b352ba60b42ab93badbc0d795d3ae83"
   },
   "template": "standard-page-hero-2-blocks",
   "templateType": "angular"

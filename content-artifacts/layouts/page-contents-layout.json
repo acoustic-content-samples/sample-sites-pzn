@@ -1,11 +1,12 @@
 {
   "id": "page-contents-layout",
-  "rev": "17-1151889df6b4111e77f5b5947777b6e4",
+  "rev": "21-e6842c4dc5907c6bf91c94d09bc6056b",
   "name": "pageContentsLayout",
   "classification": "layout",
   "prerender": false,
   "thumbnail": {
-    "path": "/dxauth/layoutThumbs/page-contents-layout.jpg"
+    "path": "/dxauth/layoutThumbs/page-contents-layout.jpg",
+    "url": "/authoring/v1/resources/a9b7575381cd03962dbe81e4116c8663_4e50875fd8987d727df2d95d8a8d5175"
   },
   "template": "page-contents-layout",
   "templateType": "angular"

@@ -1,5 +1,5 @@
 {
-  "rev": "15-ab78fdd1a4f2b5354aaba9410bc17df6",
+  "rev": "20-b3275fd7806a31d59ff4bfc94cf46080",
   "id": "28bec070-42f1-436f-8aec-2f9a1acd0005",
   "name": "chef.jpg",
   "resource": "ffeaf3a4-326a-404e-bc90-e328015f5e70",
@@ -29,27 +29,7 @@
       "user:IBM sample"
     ],
     "declined": [],
-    "suggested": [
-      "classification:wooden spoon",
-      "classification:spoon",
-      "classification:utensil",
-      "classification:soupspoon",
-      "classification:mesocarp (of fruits)",
-      "classification:pistachio",
-      "classification:nut",
-      "classification:seed",
-      "classification:fruit",
-      "classification:tablespoon",
-      "classification:hard-shell clam",
-      "classification:clam",
-      "classification:bivalve (animal with shell)",
-      "classification:shellfish",
-      "classification:invertebrate",
-      "classification:animal",
-      "classification:pale yellow color",
-      "classification:olive green color"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "categoryIds": [],
   "usageRights": {
@@ -72,42 +52,13 @@
       "aperture": 4
     }
   },
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModified": "2018-02-27T17:32:25.414Z",
-  "created": "2018-02-23T03:03:29.802Z",
+  "lastModified": "2018-03-01T20:21:37.493Z",
+  "created": "2018-03-01T20:21:37.492Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "classifications": [
-      "wooden spoon",
-      "spoon",
-      "utensil",
-      "soupspoon",
-      "mesocarp (of fruits)",
-      "pistachio",
-      "nut",
-      "seed",
-      "fruit",
-      "tablespoon",
-      "hard-shell clam",
-      "clam",
-      "bivalve (animal with shell)",
-      "shellfish",
-      "invertebrate",
-      "animal",
-      "pale yellow color",
-      "olive green color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#8e8c26",
-      "muted": "#ab9160",
-      "darkVibrant": "#548414",
-      "darkMuted": "#504234",
-      "lightVibrant": "#c4a47c",
-      "lightMuted": "#bcac94"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "renditions": {
     "default": {

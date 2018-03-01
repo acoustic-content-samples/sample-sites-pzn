@@ -1,5 +1,5 @@
 {
-  "rev": "15-68046214fbdf1e35248db3c7fdfea427",
+  "rev": "20-5599c1985d1b584da8b108afb3fdd2f6",
   "id": "8a86c07e-6e5f-44ce-8b31-5281a9f805af",
   "name": "restaurateur.jpg",
   "resource": "cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9",
@@ -20,18 +20,7 @@
       "user:IBM sample"
     ],
     "declined": [],
-    "suggested": [
-      "classification:table",
-      "classification:furniture",
-      "classification:dinner table",
-      "classification:dining table",
-      "classification:restaurant",
-      "classification:building",
-      "classification:indoors",
-      "classification:beverage",
-      "classification:reddish brown color"
-    ],
-    "analysis": "complete"
+    "analysis": "pending"
   },
   "categoryIds": [],
   "usageRights": {
@@ -47,33 +36,13 @@
     "width": 3324,
     "height": 2208
   },
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModified": "2018-02-27T17:32:26.767Z",
-  "created": "2018-02-23T03:03:34.005Z",
+  "lastModified": "2018-03-01T20:21:42.237Z",
+  "created": "2018-03-01T20:21:42.236Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "classifications": [
-      "table",
-      "furniture",
-      "dinner table",
-      "dining table",
-      "restaurant",
-      "building",
-      "indoors",
-      "beverage",
-      "reddish brown color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#b45424",
-      "muted": "#a76750",
-      "darkVibrant": "#742404",
-      "darkMuted": "#52322d",
-      "lightVibrant": "#bd7b63",
-      "lightMuted": "#cbafa8"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "renditions": {
     "default": {

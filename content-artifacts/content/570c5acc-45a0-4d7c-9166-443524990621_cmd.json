@@ -1,6 +1,5 @@
 {
   "id": "570c5acc-45a0-4d7c-9166-443524990621",
-  "rev": "9-5d1cbc4260d491afc3a82c94e455a557",
   "name": "Farmer main content",
   "typeId": "f9e7f0b9-f57d-4d91-a257-54a64c1ff52f",
   "locale": "en",
@@ -56,6 +55,9 @@
       "elementType": "category",
       "categoryIds": [
         "7225c4dd-dc02-48e3-9d80-0f84c0c1340f"
+      ],
+      "categories": [
+        "Image size and placement/Size/Medium"
       ]
     },
     "imageCredit": {
@@ -74,10 +76,21 @@
     }
   ],
   "kind": [],
-  "lastModified": "2018-02-27T19:44:53.483Z",
-  "created": "2018-02-27T19:43:59.098Z",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "description": "",
+  "thumbnail": {
+    "id": "ca5890c2-6710-484a-b5c6-ffe8b0d7ac7e",
+    "url": "/authoring/v1/resources/39ddd3d9-05ac-4c04-90ee-01a244bfb300?fit=inside%7C220:145"
+  },
+  "lastModified": "2018-03-01T20:21:59.995Z",
+  "created": "2018-03-01T20:21:59.995Z",
   "classification": "content",
   "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "description": ""
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "type": "Image with information",
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "13-92fbd9d9c389085df9b50cbfbad50236"
 }

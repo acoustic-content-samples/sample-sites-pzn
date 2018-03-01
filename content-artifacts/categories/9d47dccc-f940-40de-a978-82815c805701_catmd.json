@@ -1,6 +1,6 @@
 {
   "id": "9d47dccc-f940-40de-a978-82815c805701",
-  "rev": "12-da792053348554e06a002ddfa173ce75",
+  "rev": "16-332109642668879f4a6d3a08268bb3a6",
   "name": "Dynamic list criteria",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "creator": "LAURA POMERLEAU",
@@ -17,6 +17,6 @@
       "href": "/authoring/v1/categories/9d47dccc-f940-40de-a978-82815c805701"
     }
   },
-  "created": "2018-02-23T03:03:21.689Z",
-  "lastModified": "2018-02-27T17:32:18.748Z"
+  "created": "2018-03-01T20:21:28.063Z",
+  "lastModified": "2018-03-01T20:21:28.063Z"
 }

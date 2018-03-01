@@ -20,12 +20,12 @@
     * [Mock login](#mock-login)
 * [Integrate with an existing Oslo-based site](#integrate-with-an-existing-oslo-based-site)
     * [Download](#download)
-    * [Install the Login and Personalized item components](#install-the-login-and-personalized-item-components)
+    * [Install the Login and Personalized content components](#install-the-login-and-personalized-content-components)
     * [Integrate the authentication service](#integrate-the-authentication-service)
     * [Create your roles](#create-your-roles)
     * [Filter the header navigation](#filter-the-header-navigation)
     * [Create authentication status, Login and Logout buttons](#create-authentication-status-login-and-logout-buttons)
-    * [Add the personalized item component](#add-the-personalized-item-component)
+    * [Add the personalized content component](#add-the-personalized-content-component)
     * [Tag your content](#tag-your-content)
     * [Build and deploy your updates](#build-and-deploy-your-updates)
 
@@ -130,7 +130,7 @@ The sample contains the follow user roles and associated tags/values:
 	}
 ]
 ```
-Page content items that have these tags are shown to users with the corresponding role, chosen from a dropdown menu in the login screen. This list can be edited in the **PZN members** element of the **Login form** content item, without touching the SPA code.
+Page content items that have these tags are shown to users with the corresponding role, chosen from a dropdown menu in the login screen. This list can be edited in the **PZN role tags** element of the **Login form** content item, without touching the SPA code.
 
 ### Page filtering
 
@@ -159,7 +159,7 @@ See more in _/sample-sites-pzn/src/app/wchHeader/wchHeader.component.ts_
 
 ### Personalized home page
 
-The Home page contains a content item of the **Personalized item** type. This item performs a search to retrieve and display custom content based on the current user's role:
+The Home page contains a content item of the **Personalized content** type. This item performs a search to retrieve and display custom content based on the current user's role:
 ```
 readonly TYPE: string = 'Image with information';
 this.queryString = fl=document:%5Bjson%5D,lastModified&fq=classification:(content)&fq=type:("${this.TYPE}")&fq=tags:(${this.pzn_tag})&rows=1
@@ -178,7 +178,7 @@ This query is fed into a special [query component](https://github.com/ibm-wch/wc
 		</wch-contentquery>
 	</div>
 ```
-See more in _/sample-sites-pzn/src/app/layouts/personalized-item/personalizedItemLayout.ts_
+See more in _/sample-sites-pzn/src/app/layouts/personalized-content/personalizedContentLayout.ts_
 
 ### Role-based icons
 
@@ -216,7 +216,7 @@ If you already have a site based on the [Oslo sample](https://github.com/ibm-wch
 
 1. Download the **sample-sites-pzn** zip and unpackage it into an empty directory
 
-### Install the Login and Personalized item components
+### Install the Login and Personalized content components
 
 1. Unpackage _/sample-sites-pzn/scripts/osloPackage.zip_ into _<root directory of your site>/osloPackage_
 2. Run `npm run install-layouts-from-folder osloPackage`
@@ -248,7 +248,7 @@ import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 ### Create your roles
 
 1. In WCH, go to **All content and assets -> Login form**
-2. Create a draft and edit the **PZN members** JSON to define your roles/brands (ie: `label`) and their associated tags (ie: `value`). Example:
+2. Create a draft and edit the **PZN role tags** JSON to define your roles/brands (ie: `label`) and their associated tags (ie: `value`). Example:
 ```
 [{"label":"Living","value":"wch_pzn_living"},{"label":"Dining","value":"wch_pzn_dining"},{"label":"Sleeping","value":"wch_pzn_sleeping"}]
 ```
@@ -371,13 +371,13 @@ import {environment} from '../environment/environment';
 ```
 3. Re-style as necessary to match your site
 
-### Add the personalized item component
+### Add the personalized content component
 
-1. In WCH, go to **All content and assets -> Personalized item**
+1. In WCH, go to **All content and assets -> Personalized content**
 2. Create a draft and edit or delete the **Title** and **Message** elements. These pieces of text are shown to all users, anonymous or logged in.
 3. Go to **Website -> Site manager**
 4. Pick a page on which to place the personalized component, go to **menu -> Edit content** and click **Create draft**
-5. Add the **Personalized item** to the page and publish your changes
+5. Add the **Personalized content** to the page and publish your changes
 6. Open _<root directory of your site>/src/app/app.scss_ and add styles to display a custom icon for each role/brand. This example just uses initials, but you can easily replace these with strings from a font-based icon set (eg: [Material icons](https://material.io/icons/)):
 ```
 /* custom role-based logos */
@@ -392,7 +392,7 @@ import {environment} from '../environment/environment';
 }
 ```
 
-**Note**: This component queries again items of content type **Image with information**. You can change this by updating the `TYPE` variable in _<root directory of your site>/src/app/layouts/personalized-item/personalizedItemLayout.ts_. For example:
+**Note**: This component queries again items of content type **Image with information**. You can change this by updating the `TYPE` variable in _<root directory of your site>/src/app/layouts/personalized-content/personalizedContentLayout.ts_. For example:
 ```
 readonly TYPE: string = 'Lead image with information';
 ```
@@ -401,7 +401,7 @@ readonly TYPE: string = 'Lead image with information';
 
 1. In WCH, go to **All content and assets**
 2. Add one or more `wch_pzn_*` tags defined in the [Create your roles](#create-your-roles) section to some of your pages
-3. Tag one content item of type **Image with information** (unless you've changed this in _personalizedItemLayout.ts_) for each role. We tag 1 item for each role because the **Personalized item** displays one piece of content.
+3. Tag one content item of type **Image with information** (unless you've changed this in _personalizedContentLayout.ts_) for each role. We tag 1 item for each role because the **Personalized content** displays one piece of content.
 
 **Note**: Remember that any tagged item will now _only_ show up for logged in users with the associated role or brand.
 

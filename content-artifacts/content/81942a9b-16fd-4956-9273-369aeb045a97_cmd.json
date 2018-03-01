@@ -1,6 +1,5 @@
 {
   "id": "81942a9b-16fd-4956-9273-369aeb045a97",
-  "rev": "9-0d6c4549ceb855378b68f977b7f9f6f2",
   "name": "Chef 1 content",
   "description": "",
   "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
@@ -47,15 +46,20 @@
     }
   },
   "kind": [],
-  "lastModified": "2018-02-27T17:32:37.592Z",
-  "created": "2018-02-23T03:03:46.390Z",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "thumbnail": {
+    "id": "28bec070-42f1-436f-8aec-2f9a1acd0005",
+    "url": "/authoring/v1/resources/ffeaf3a4-326a-404e-bc90-e328015f5e70?fit=inside%7C220:145"
+  },
+  "lastModified": "2018-03-01T20:21:59.649Z",
+  "created": "2018-03-01T20:21:59.649Z",
   "classification": "content",
   "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "type": "Page contents",
   "creator": "LAURA POMERLEAU",
   "lastModifier": "LAURA POMERLEAU",
   "publishing": {
     "status": "not-available"
-  }
+  },
+  "rev": "13-1a52a56ab1975ba15e95feda5e9a4f50"
 }

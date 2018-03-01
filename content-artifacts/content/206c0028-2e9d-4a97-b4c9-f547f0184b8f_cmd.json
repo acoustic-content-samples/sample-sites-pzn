@@ -1,6 +1,5 @@
 {
   "id": "206c0028-2e9d-4a97-b4c9-f547f0184b8f",
-  "rev": "9-034e10e62b5f942dad96d3735a458aa3",
   "name": "Restaurateur 1 content",
   "description": "",
   "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
@@ -47,15 +46,20 @@
     }
   },
   "kind": [],
-  "lastModified": "2018-02-27T17:32:35.813Z",
-  "created": "2018-02-23T03:03:45.279Z",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "thumbnail": {
+    "id": "8a86c07e-6e5f-44ce-8b31-5281a9f805af",
+    "url": "/authoring/v1/resources/cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9?fit=inside%7C220:145"
+  },
+  "lastModified": "2018-03-01T20:21:59.206Z",
+  "created": "2018-03-01T20:21:59.206Z",
   "classification": "content",
   "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "type": "Page contents",
   "creator": "LAURA POMERLEAU",
   "lastModifier": "LAURA POMERLEAU",
   "publishing": {
     "status": "not-available"
-  }
+  },
+  "rev": "13-9c078b91c7eb3034ec6e8fef596558bc"
 }

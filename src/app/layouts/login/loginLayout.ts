@@ -51,7 +51,7 @@ export class LoginLayoutComponent extends TypeLoginComponent implements OnInit {
 
 	ngOnInit() {
 		super.ngOnInit();
-		this.pznArr = this.pznMembers ? JSON.parse(this.pznMembers) : [];
+		this.pznArr = this.pznRoleTags ? JSON.parse(this.pznRoleTags) : [];
 	}
 
 	onSubmit(form: any) {
