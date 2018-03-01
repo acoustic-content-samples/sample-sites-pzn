@@ -1,5 +1,7 @@
 # WCH sites personalization sample
 
+### Table of contents
+
 ### Use case
 
 You want your website to show a personalized navigation based on attributes of the current user. Examples of an attribute could be a brand or a user role. After a user logs in, new page links appear that are relevant to that person. Access via a direct URL to hidden pages is not restricted, but only targeted links are shown in the UI. The home page also updates to show content reflecting the current user's role or brand.
@@ -342,7 +344,7 @@ readonly TYPE: string = 'Lead image with information';
 ### Tag your content
 
 1. In WCH, go to **All content and assets**
-2. Add one or more `wch_pzn_*` tags defined in the [Create your roles](create-your-roles) section to some of your pages
+2. Add one or more `wch_pzn_*` tags defined in the [Create your roles](#create-your-roles) section to some of your pages
 3. Tag one content item of type **Image with information** (unless you've changed this in _personalizedItemLayout.ts_) for each role. We tag 1 item for each role because the **Personalized item** displays one piece of content.
 
 **Note**: Remember that any tagged item will now _only_ show up for logged in users with the associated role or brand.
