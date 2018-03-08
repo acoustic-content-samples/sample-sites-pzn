@@ -268,7 +268,7 @@ If you already have a site based on the [Oslo sample](https://github.com/ibm-wch
 
 1. Unpackage _/sample-sites-pzn/scripts/osloPackage.zip_ into _[root directory of your site]/osloPackage_
 2. Run `npm run install-layouts-from-folder osloPackage`
-3. Run `wchtools push -c -v -p -a -w --dir osloPackage/content-artifacts`
+3. Run `wchtools push -c -v -p -a -w -t --dir osloPackage/content-artifacts`
 
 ### Integrate the authentication service
 
