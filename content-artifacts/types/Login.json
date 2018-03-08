@@ -1,6 +1,6 @@
 {
   "id": "b0f151db-f00c-43de-b3e7-613b83d65d8b",
-  "rev": "23-5080962de949226adad476485ec995c5",
+  "rev": "29-16059ad3713ca6421fb303f66f93101f",
   "name": "Login",
   "classification": "content-type",
   "kind": [
@@ -14,6 +14,11 @@
   "elements": [
     {
       "elementType": "text",
+      "label": "PZN user tags",
+      "key": "pznUserTags"
+    },
+    {
+      "elementType": "text",
       "label": "PZN role tags",
       "key": "pznRoleTags"
     },
@@ -21,6 +26,16 @@
       "elementType": "text",
       "label": "Title",
       "key": "title"
+    },
+    {
+      "elementType": "text",
+      "label": "Message",
+      "key": "message"
+    },
+    {
+      "elementType": "toggle",
+      "label": "Render role tags list",
+      "key": "renderRoleTagsList"
     }
   ]
 }

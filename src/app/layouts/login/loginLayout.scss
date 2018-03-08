@@ -104,4 +104,38 @@ form {
 	font-size: 12px;
 }
 
+.message {
+	margin-top: 40px;
+	max-width: 250px;
+}
 
+/* loading */
+.spinner {
+	animation: rotator 1.5s linear infinite;
+	margin-right: 7px;
+}
+
+@keyframes rotator {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(270deg); }
+}
+
+.path {
+	stroke-dasharray: 200;
+	stroke-dashoffset: 0;
+	transform-origin: center;
+	animation: colors (6s) ease-in-out infinite;
+}
+
+@keyframes colors {
+	0% { stroke:  #80CBC4; }
+	11% { stroke: #26A69A; }
+	22% { stroke: #009688; }
+	33% { stroke: #00796B; }
+	44% { stroke: #004D40; }
+	55% { stroke: #00796B; }
+	66% { stroke: #009688; }
+	77% { stroke: #26A69A; }
+	88% { stroke: #80CBC4; }
+	100% { stroke: #80CBC4; }
+}

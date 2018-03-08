@@ -1,24 +1,21 @@
 {
-  "classification": "layout-mapping",
   "id": "personalized-content-layout-mapping",
+  "rev": "4-809e8446602a745a0b79e8799f7366cb",
+  "name": "personalizedContentLayoutMapping",
+  "classification": "layout-mapping",
+  "type": {
+    "id": "1712ddc2-4547-4674-b9e7-821fab15061a"
+  },
   "mappings": [
     {
       "defaultLayout": {
-        "id": "personalized-content-layout",
-        "name": "personalizedContentLayout"
+        "id": "personalized-content-layout"
       },
       "layouts": [
         {
-          "id": "personalized-content-layout",
-          "name": "personalizedContentLayout"
+          "id": "personalized-content-layout"
         }
       ]
     }
-  ],
-  "name": "personalizedContentLayoutMapping",
-  "rev": "jIZQ73UmqWin6XDhPwc7PofkD9XqViKb5BP1DEOG1hA=",
-  "type": {
-    "id": "1712ddc2-4547-4674-b9e7-821fab15061a",
-    "name": "Personalized content"
-  }
+  ]
 }

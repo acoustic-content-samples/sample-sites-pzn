@@ -2,7 +2,6 @@
  * Do not modify this file, it will be auto-generated.
  */
 import {
-    RenderingContext,
     RenderingContextBinding,
     AbstractRenderingComponent
 } from 'ibm-wch-sdk-ng';
@@ -15,6 +14,38 @@ import {
  * @id b0f151db-f00c-43de-b3e7-613b83d65d8b
  */
 export abstract class AbstractLoginComponent extends AbstractRenderingComponent {
+
+    /*
+     * {
+     *   "elementType": "text",
+     *   "key": "pznUserTags",
+     *   "label": "PZN user tags"
+     * }
+     */
+    @RenderingContextBinding('text.pznUserTags', '')
+    readonly onPznUserTags: Observable<string>;
+
+    /*
+     * @see #onPznUserTags
+     */
+    @RenderingContextBinding()
+    readonly pznUserTags: string;
+
+    /*
+     * {
+     *   "elementType": "text",
+     *   "key": "pznRoleTags",
+     *   "label": "PZN role tags"
+     * }
+     */
+    @RenderingContextBinding('text.pznRoleTags', '')
+    readonly onPznRoleTags: Observable<string>;
+
+    /*
+     * @see #onPznRoleTags
+     */
+    @RenderingContextBinding()
+    readonly pznRoleTags: string;
 
     /*
      * {
@@ -35,18 +66,34 @@ export abstract class AbstractLoginComponent extends AbstractRenderingComponent 
     /*
      * {
      *   "elementType": "text",
-     *   "key": "pznRoleTags",
-     *   "label": "PZN role tags"
+     *   "key": "message",
+     *   "label": "Message"
      * }
      */
-    @RenderingContextBinding('text.pznRoleTags', '')
-    readonly onPznRoleTags: Observable<string>;
+    @RenderingContextBinding('text.message', '')
+    readonly onMessage: Observable<string>;
 
     /*
-     * @see #onPznRoleTags
+     * @see #onMessage
      */
     @RenderingContextBinding()
-    readonly pznRoleTags: string;
+    readonly message: string;
+
+    /*
+     * {
+     *   "elementType": "toggle",
+     *   "key": "renderRoleTagsList",
+     *   "label": "Render role tags list"
+     * }
+     */
+    @RenderingContextBinding('toggle.renderRoleTagsList', false)
+    readonly onRenderRoleTagsList: Observable<boolean>;
+
+    /*
+     * @see #onRenderRoleTagsList
+     */
+    @RenderingContextBinding()
+    readonly renderRoleTagsList: boolean;
 
     protected constructor() {
         super();

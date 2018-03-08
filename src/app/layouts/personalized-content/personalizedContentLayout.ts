@@ -39,7 +39,7 @@ export class PersonalizedContentLayoutComponent extends TypePersonalizedContentC
 		this.authSub = this.authService.authUpdate.subscribe(userInfo => {
 			this.isLoggedIn = !!userInfo;
 			this.username = userInfo ? userInfo.name : '';
-			this.pzn_tag = userInfo ? userInfo.pzn : '';
+			this.pzn_tag = userInfo && userInfo.pzn !=='NO_ROLE' ? userInfo.pzn : '';
 			this.updateQuery();
 		});
 	}
@@ -49,10 +49,9 @@ export class PersonalizedContentLayoutComponent extends TypePersonalizedContentC
 	}
 
 	updateQuery() {
-		// query for 1 piece of content if the user is logged in, based on the personalization tag for that user's role
-		if(this.isLoggedIn && this.pzn_tag) {
-			this.queryString = `fl=document:%5Bjson%5D,lastModified&fq=classification:(content)&fq=type:("${this.TYPE}")&fq=tags:(${this.pzn_tag})&rows=1`;
-		}
+		// query for 1 piece of content, based on the personalization tag for that user's role, if available
+		const pznTagQuery = this.pzn_tag ? `OR tags:(${this.pzn_tag}))` : ')';
+		this.queryString = `fl=document:%5Bjson%5D,lastModified&fq=classification:(content)&fq=type:("${this.TYPE}")&fq=((*:* AND -tags:wch_pzn_*)${pznTagQuery}&rows=1`;
 	}
 
 }

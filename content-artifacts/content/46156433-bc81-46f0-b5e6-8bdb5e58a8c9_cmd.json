@@ -1,0 +1,81 @@
+{
+  "id": "46156433-bc81-46f0-b5e6-8bdb5e58a8c9",
+  "rev": "10-30040f88f596cc82fbbb50f6153bc77f",
+  "name": "Anonymous main content",
+  "typeId": "f9e7f0b9-f57d-4d91-a257-54a64c1ff52f",
+  "locale": "en",
+  "tags": [
+    "user:IBM sample"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "imagePlacement": {
+      "elementType": "category"
+    },
+    "image": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=8f222f5a-9352-4bef-addd-7a90c7670e27&a=57b06254-95cd-4fc5-a639-9dc786f770f5",
+          "source": "/authoring/v1/resources/8f222f5a-9352-4bef-addd-7a90c7670e27",
+          "width": 1280,
+          "height": 907
+        },
+        "medium": {
+          "renditionId": "a51d26f4-0c42-4ee3-8f75-70d265550b81",
+          "source": "/authoring/v1/resources/8f222f5a-9352-4bef-addd-7a90c7670e27?resize=600px:425px&crop=600:400;0,13",
+          "width": 600,
+          "height": 400
+        },
+        "small": {
+          "renditionId": "33eedecd-947e-4977-ac76-3f548f5f99c2",
+          "source": "/authoring/v1/resources/8f222f5a-9352-4bef-addd-7a90c7670e27?resize=398px:282px&crop=360:282;19,0",
+          "width": 360,
+          "height": 282
+        },
+        "large": {
+          "renditionId": "cb052a67-dbf7-4ddb-849a-3f719368dc68",
+          "source": "/authoring/v1/resources/8f222f5a-9352-4bef-addd-7a90c7670e27?resize=1200px:850px&crop=1200:797;0,27",
+          "width": 1200,
+          "height": 797
+        }
+      },
+      "asset": {
+        "id": "57b06254-95cd-4fc5-a639-9dc786f770f5",
+        "resourceUri": "/authoring/v1/resources/8f222f5a-9352-4bef-addd-7a90c7670e27",
+        "fileName": "pexels-photo-533247.jpeg",
+        "fileSize": 361301,
+        "mediaType": "image/jpeg",
+        "width": 1280,
+        "height": 907
+      }
+    },
+    "imageSize": {
+      "elementType": "category",
+      "categoryIds": [
+        "7225c4dd-dc02-48e3-9d80-0f84c0c1340f"
+      ]
+    },
+    "imageCredit": {
+      "elementType": "text"
+    },
+    "imageCaption": {
+      "elementType": "text"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "image-with-information-layout"
+      }
+    }
+  ],
+  "kind": [],
+  "lastModified": "2018-03-07T19:38:37.614Z",
+  "created": "2018-03-07T19:37:13.391Z",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "classification": "content",
+  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "description": ""
+}

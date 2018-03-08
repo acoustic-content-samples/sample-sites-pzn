@@ -31,31 +31,32 @@
 
 ### Use case
 
-You want your website to show a personalized pages and content based on attributes of the current user. Examples of an attribute could be a brand or a user role. After a user logs in, new page links appear that are relevant to that person. The home page also updates to show content reflecting the current user's role or brand.
+You want your website to show personalized pages and content based on attributes of the current user. Examples of an attribute could be a brand or a user role. After a user logs in, new page links appear that are relevant to that person. The home page also updates to show content reflecting the current user's role or brand.
 
-This is not a security feature. Access via a direct URL to currently hidden pages is not restricted, but only targeted links are shown in the header navigation.
+This is not a security feature. Access via a direct URL to currently hidden pages is not restricted; they are just not displayed in the header navigation.
 
 ### Features
 
 * Login:
-    * Includes a mock login layout and angular component, where users can select their role on the site
+    * Includes a mock login layout and angular component, where users can optionally select their role on the site
     * Login status is persisted in `localStorage` until the user explicitly logs out
-    * An angular login service ensures user data stay in sync between the login component and the header
-    * The JSON list of user roles and associated tags can be edited in the **Login form** content item, no code change required
+    * An angular authentication service ensures user data stay in sync between the login component, header and other content
+    * The authentication service can be updated to use a real authentication backend, instead of `localStorage`
+    * The list of brands/tags used, can be edited in the **Login form** content item, no code change required
 * Navigation:
     * The site header filters the page navigation, based on tags associated with the current user role
-    * Anonymous users see pages which contain no user role tags
+    * Anonymous users, or those with no assigned role, see pages which contain no user role tags
     * Users that are logged in see pages that are not tagged, plus pages tagged for their role
 * Personalized content:
     * The home page shows personalized content, based on the user role tags
-    * Anonymous users see generic information on the home page
-    * Users that are logged in see extra content on the home page, which is tagged for their role
+    * Anonymous users, or those with no assigned role, see generic information on the home page
+    * Users that are logged in see targeted content on the home page, which is tagged for their role
 * Site:
     * Package contains a full WCH site, with editable source code based on the [Oslo sample site](https://github.com/ibm-wch/wch-site-application)
     * Header and home page display the current username with a role-based icon
     * All content, header and footer information are customizable through the WCH UI
 
-Mock login screen:
+Mock login screen with role selection enabled:
 
 ![mock login screen](doc/screenshot-login.png?raw=true "mock login screen")
 
@@ -109,28 +110,71 @@ You can edit this sample code to make it your own. This package is based on the 
 
 ### Role tags
 
-The sample contains the follow user roles and associated tags/values:
+**Login form** content item:
+
+![Login form content item](doc/screenshot-login-form.png?raw=true "Login form content item")
+
+The sample shows personalized pages and content to users logged in under certain roles. The personalized items are mapped to the user roles by tagging the associated content. The tags used are controlled by JSON objects stored in the **Login form** content item. They can be updated in WCH without touching the SPA code. There are two ways to map users to role tags:
+
+1. The **PZN user tags** JSON explicitly associates user IDs with roles. The sample contains this data:
 ```
 [
 	{
-		"label":"Chef",
-		"value":"wch_pzn_chef"
+		"user":"chef@ibm.com",
+		"tag":"wch_pzn_chef"
 	},
 	{
-		"label":"Customer",
-		"value":"wch_pzn_customer"
+		"user":"customer@ibm.com",
+		"tag":"wch_pzn_customer"
 	},
 	{
-		"label":"Farmer",
-		"value":"wch_pzn_farmer"
+		"user":"farmer@ibm.com",
+		"tag":"wch_pzn_farmer"
 	},
 	{
-		"label":"Restaurateur",
-		"value":"wch_pzn_restaurateur"
+		"user":"restaurateur@ibm.com",
+		"tag":"wch_pzn_restaurateur"
+	},
+	{
+		"user":"chef2@ibm.com",
+		"tag":"wch_pzn_chef"
+	},
+	{
+		"user":"customer2@ibm.com",
+		"tag":"wch_pzn_customer"
+	},
+	{
+		"user":"farmer2@ibm.com",
+		"tag":"wch_pzn_farmer"
+	},
+	{
+		"user":"restaurateur2@ibm.com",
+		"tag":"wch_pzn_restaurateur"
 	}
 ]
 ```
-Page content items that have these tags are shown to users with the corresponding role, chosen from a dropdown menu in the login screen. This list can be edited in the **PZN role tags** element of the **Login form** content item, without touching the SPA code.
+
+2. With **Render role tags list** mode on, users choose from a list of available roles upon login. The **PZN role tags** JSON contains the follow user roles and associated tags:
+```
+[
+	{
+		"role":"Chef",
+		"tag":"wch_pzn_chef"
+	},
+	{
+		"role":"Customer",
+		"tag":"wch_pzn_customer"
+	},
+	{
+		"role":"Farmer",
+		"tag":"wch_pzn_farmer"
+	},
+	{
+		"role":"Restaurateur",
+		"tag":"wch_pzn_restaurateur"
+	}
+]
+```
 
 ### Page filtering
 
@@ -150,7 +194,7 @@ This list of "allowed" content items (`taggedPages`) is used to filter the full 
 	// the full list of pages from the RenderingContext:
 	const sitePages = this.rc && this.rc.context ? this.rc.context.site.pages : [];
 	// filter sitePages by what is in taggedPages (retrieved via the search URL detailed above)
-	// a sitePage is rejected if there is no taggedPage with an id equal to the sitePage's contentId
+	// a sitePage is rejected if there is not a taggedPage with an id that matches the sitePage's contentId
 	return sitePages.filter(sitePage => {
 		return taggedPages.some(taggedPage => taggedPage.id === sitePage.contentId);
 	});
@@ -159,16 +203,17 @@ See more in _/sample-sites-pzn/src/app/wchHeader/wchHeader.component.ts_
 
 ### Personalized home page
 
-The Home page contains a content item of the **Personalized content** type. This item performs a search to retrieve and display custom content based on the current user's role:
+The Home page contains a content item of the **Personalized content** type. This item performs a search to retrieve and display custom content based on the current user's role (or an un-tagged item if there is no role):
 ```
 readonly TYPE: string = 'Image with information';
-this.queryString = fl=document:%5Bjson%5D,lastModified&fq=classification:(content)&fq=type:("${this.TYPE}")&fq=tags:(${this.pzn_tag})&rows=1
+const pznTagQuery = this.pzn_tag ? `OR tags:(${this.pzn_tag}))` : ')';
+this.queryString = `fl=document:%5Bjson%5D,lastModified&fq=classification:(content)&fq=type:("${this.TYPE}")&fq=((*:* AND -tags:wch_pzn_*)${pznTagQuery}&rows=1`;
 ```
 It looks for:
 * 1 item
 * those classified as **content**
 * content of type **Image with information** (note: this can be changed to any type you want, by updating the `TYPE` variable)
-* an item with the current role-based tag (`pzn_tag`)
+* an item with the current role-based tag (`this.pzn_tag`)
 
 This query is fed into a special [query component](https://github.com/ibm-wch/wch-site-application/blob/master/doc/README-programming-model.md#triggering-a-search-and-showing-results-referencing-their-layouts):
 ```
@@ -197,14 +242,17 @@ The header and home page both contain icons that are different for each user rol
 .wch_pzn_restaurateur .logo.pzn-icon i:before {
 	content: "lightbulb_outline";
 }
+.NO_ROLE .logo.pzn-icon i:before {
+	content: "account_circle";
+}
 ```
-The content of the icon DOM node switches based on the current role tag, which is added as a CSS class on any parent element.
+The content of the icon DOM node switches based on the current role tag, which is added as a CSS class on any parent element. The `NO_ROLE` fallback is assigned if the user is anonymous or does not have a role.
 
 See more in _/sample-sites-pzn/src/app/app.scss_
 
 ### Mock login
 
-The login page is a [custom component](https://developer.ibm.com/customer-engagement/docs/wch/developing-your-own-website/customizing-sample-site/adding-custom-components/) using angular [reactive forms](https://angular.io/guide/reactive-forms). Both the login page and the header make calls to the observable authentication service, which stores the user status and data in `localStorage`. Abstracting to a shared service lets various page components share the user information. This service could be easily extended to make real authentication calls.
+The login page is a [custom component](https://developer.ibm.com/customer-engagement/docs/wch/developing-your-own-website/customizing-sample-site/adding-custom-components/) using angular [reactive forms](https://angular.io/guide/reactive-forms). Both the login page and the header make calls to the observable authentication service, which stores the user status and data in `localStorage`. Abstracting to a shared service lets various page components share the user information. This service could then easily be extended to make real authentication calls to your own back-end services.
 
 Read more in _/sample-sites-pzn/src/app/layouts/login/loginLayout.ts_ and _/sample-sites-pzn/src/app/common/authService/auth.service.ts_
 
@@ -248,12 +296,18 @@ import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 ### Create your roles
 
 1. In WCH, go to **All content and assets -> Login form**
-2. Create a draft and edit the **PZN role tags** JSON to define your roles/brands (ie: `label`) and their associated tags (ie: `value`). Example:
+2. Create a draft and edit the available roles with one of the 2 following options:
+	* UPdate the **PZN user tags** JSON to associated usernames (ie: `user`) with tags (ie: `tag`). Example:
 ```
-[{"label":"Living","value":"wch_pzn_living"},{"label":"Dining","value":"wch_pzn_dining"},{"label":"Sleeping","value":"wch_pzn_sleeping"}]
+[{"user":"decor@ibm.com","tag":"wch_pzn_living"},{"user":"chef@ibm.com","tag":"wch_pzn_dining"},{"user":"relaxing@ibm.com","tag":"wch_pzn_sleeping"}]
+```
+	* Turn on the **Render role tags list** toggle, and update the **PZN role tags** JSON to define your roles/brands (ie: `role`) and their associated tags (ie: `tag`). Example:
+```
+[{"role":"Living","tag":"wch_pzn_living"},{"role":"Dining","tag":"wch_pzn_dining"},{"role":"Sleeping","tag":"wch_pzn_sleeping"}]
 ```
 **Note**: Use the `wch_pzn_` prefix, otherwise you will need to update the search query for pages in a later step.
-3. Publish your changes
+3. Optionally change the **Title** and **Message** displayed on the login screen
+4. Publish your changes
 
 ### Filter the header navigation
 
@@ -389,6 +443,9 @@ import {environment} from '../environment/environment';
 }
 .wch_pzn_sleeping .logo.pzn-icon i:before {
 	content: "S";
+}
+.NO_ROLE .logo.pzn-icon i:before {
+	content: "?";
 }
 ```
 

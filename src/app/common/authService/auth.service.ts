@@ -47,19 +47,19 @@ export class AuthService {
 		}
 	}
 
+	// getters:
 	isLoggedIn(): boolean {
 		return this._isLoggedIn;
 	}
-
 	getName(): string {
 		return this._name;
 	}
-
 	getPZN(): string {
 		return this._pzn;
 	}
 
-	login(name: string, pzn: string)/*: Promise<any>*/ {
+	login(name: string, pzn: string = 'NO_ROLE')/*: Promise<any>*/ {
+		console.log(`User "${name}" logging in as role "${pzn}"`);
 		// cache user info
 		const userInfo = {
 			name: name,
@@ -75,11 +75,15 @@ export class AuthService {
 		this._name = name;
 		this._pzn = pzn;
 		if(this._observer) {
-			this._observer.next(userInfo);	// update the subscribers to the user info
+			// use timeout to simulate real login
+			setTimeout(() => {
+				this._observer.next(userInfo);	// update the subscribers to the user info
+			}, 1000);
 		}
 	}
 
 	logout() {
+		console.log(`User "${this._name}" logging out`);
 		// delete the cached user info
 		localStorage.removeItem(this.PZN_KEY);
 		// reset all internal variables 

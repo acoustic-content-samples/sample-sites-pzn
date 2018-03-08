@@ -1,6 +1,6 @@
 {
   "id": "1908c770-c23f-4402-9855-e16e66eff8d4",
-  "rev": "14-dd0829321fdc7629e3e7ef52ebf25866",
+  "rev": "17-902f940ad8efbef664598fcc58b5f6a2",
   "name": "Login form",
   "description": "",
   "typeId": "b0f151db-f00c-43de-b3e7-613b83d65d8b",
@@ -11,13 +11,25 @@
   "keywords": [],
   "status": "ready",
   "elements": {
+    "pznRoleTags": {
+      "elementType": "text",
+      "value": "[{\"role\":\"Chef\",\"tag\":\"wch_pzn_chef\"},{\"role\":\"Customer\",\"tag\":\"wch_pzn_customer\"},{\"role\":\"Farmer\",\"tag\":\"wch_pzn_farmer\"},{\"role\":\"Restaurateur\",\"tag\":\"wch_pzn_restaurateur\"}]"
+    },
+    "renderRoleTagsList": {
+      "elementType": "toggle",
+      "value": false
+    },
+    "pznUserTags": {
+      "elementType": "text",
+      "value": "[{\"user\":\"chef@ibm.com\",\"tag\":\"wch_pzn_chef\"},{\"user\":\"customer@ibm.com\",\"tag\":\"wch_pzn_customer\"},{\"user\":\"farmer@ibm.com\",\"tag\":\"wch_pzn_farmer\"},{\"user\":\"restaurateur@ibm.com\",\"tag\":\"wch_pzn_restaurateur\"},{\"user\":\"chef2@ibm.com\",\"tag\":\"wch_pzn_chef\"},{\"user\":\"customer2@ibm.com\",\"tag\":\"wch_pzn_customer\"},{\"user\":\"farmer2@ibm.com\",\"tag\":\"wch_pzn_farmer\"},{\"user\":\"restaurateur2@ibm.com\",\"tag\":\"wch_pzn_restaurateur\"}]"
+    },
+    "message": {
+      "elementType": "text",
+      "value": "Feel free to use these sample emails: chef@ibm.com, customer@ibm.com, farmer@ibm.com, restaurateur@ibm.com, chef2@ibm.com, customer2@ibm.com, farmer2@ibm.com, restaurateur2@ibm.com"
+    },
     "title": {
       "elementType": "text",
       "value": "Welcome!"
-    },
-    "pznRoleTags": {
-      "elementType": "text",
-      "value": "[{\"label\":\"Chef\",\"value\":\"wch_pzn_chef\"},{\"label\":\"Customer\",\"value\":\"wch_pzn_customer\"},{\"label\":\"Farmer\",\"value\":\"wch_pzn_farmer\"},{\"label\":\"Restaurateur\",\"value\":\"wch_pzn_restaurateur\"}]"
     }
   },
   "selectedLayouts": [
@@ -28,7 +40,7 @@
     }
   ],
   "kind": [],
-  "lastModified": "2018-03-01T20:30:02.333Z",
+  "lastModified": "2018-03-07T16:33:37.899Z",
   "created": "2018-03-01T20:21:58.171Z",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "classification": "content",

@@ -1,16 +1,21 @@
 <div class="login">
 
-	<h2 *ngIf="title" wchEditable="title">{{ title }}</h2>
+	<h2 *ngIf="title" wchEditable="title">
+		<svg *ngIf="loading" class="spinner" width="20px"  height="20px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+			<circle class="path" fill="none" cx="10" cy="10" r="10" stroke-linecap="round" stroke-width="10"></circle>
+		</svg>
+		{{ title }}
+	</h2>
 
 	<form [formGroup]="form" (ngSubmit)="onSubmit(form.value)">
 
 		<div class="mdc-text-field mdc-text-field--upgraded">
 			<input [formControl]="form.controls['name']" type="text" class="mdc-text-field__input" required>
-			<label class="mdc-text-field__label">Name</label>
+			<label class="mdc-text-field__label">Username</label>
 			<div class="mdc-line-ripple"></div>
 		</div>
 		<p *ngIf="form.controls['name'].hasError('required') && form.controls['name'].touched" class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent">
-			Name is required
+			Username is required
 		</p>
 
 		<div class="mdc-text-field mdc-text-field--upgraded">
@@ -22,21 +27,23 @@
 			Password is required
 		</p>
 
-		<div class="pzn-container">
+		<div *ngIf="renderRoleTagsList" class="pzn-container">
 			<select [formControl]="form.controls['pzn']" required>
 				<option value="" selected disabled hidden>Choose one</option>
-				<option *ngFor="let item of pznArr" [value]="item.value">{{ item.label }}</option>
+				<option *ngFor="let item of pznArr" [value]="item.tag">{{ item.role }}</option>
 			</select>
 		</div>
-		<p *ngIf="form.controls['pzn'].hasError('required') && form.controls['pzn'].touched" class="helper-text">
+		<p *ngIf="renderRoleTagsList && form.controls['pzn'].hasError('required') && form.controls['pzn'].touched" class="helper-text">
 			Pick a role
 		</p>
 
 		<div class="btn-container">
-			<button type="submit" class="mdc-button mdc-button--raised" [disabled]="!form.valid">Login</button>
+			<button type="submit" class="mdc-button mdc-button--raised" [disabled]="!form.valid || loading">Login</button>
 			<a class="mdc-button mdc-button--flat mdc-button--stroked" [routerLink]="['/home']">Cancel</a>
 		</div>
 
 	</form>
+
+	<div *ngIf="message" class="helper-text message" wchEditable="message">{{ message }}</div>
 
 </div>
