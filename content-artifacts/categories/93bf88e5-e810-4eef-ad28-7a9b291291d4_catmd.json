@@ -1,6 +1,6 @@
 {
   "id": "93bf88e5-e810-4eef-ad28-7a9b291291d4",
-  "rev": "16-d9894e20ca77b84b9f6d6b3162e09cd8",
+  "rev": "18-6eb778dd63e2551a29953718bc35cf3b",
   "name": "By date ascending",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "creator": "LAURA POMERLEAU",
@@ -25,6 +25,6 @@
       "href": "/authoring/v1/categories/52265429-9349-49fe-b35d-f7b71493190e"
     }
   },
-  "created": "2018-03-01T20:21:29.337Z",
-  "lastModified": "2018-03-01T20:21:29.337Z"
+  "created": "2018-03-08T02:44:10.847Z",
+  "lastModified": "2018-03-08T02:44:10.847Z"
 }

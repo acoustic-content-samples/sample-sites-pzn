@@ -1,5 +1,5 @@
 {
-  "rev": "20-b3275fd7806a31d59ff4bfc94cf46080",
+  "rev": "23-f06698aeed952e78038d3a83316012cc",
   "id": "28bec070-42f1-436f-8aec-2f9a1acd0005",
   "name": "chef.jpg",
   "resource": "ffeaf3a4-326a-404e-bc90-e328015f5e70",
@@ -52,8 +52,8 @@
       "aperture": 4
     }
   },
-  "lastModified": "2018-03-01T20:21:37.493Z",
-  "created": "2018-03-01T20:21:37.492Z",
+  "lastModified": "2018-03-08T02:44:23.250Z",
+  "created": "2018-03-08T02:44:23.250Z",
   "classification": "asset",
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",

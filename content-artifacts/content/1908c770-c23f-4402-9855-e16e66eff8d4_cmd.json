@@ -1,6 +1,5 @@
 {
   "id": "1908c770-c23f-4402-9855-e16e66eff8d4",
-  "rev": "17-902f940ad8efbef664598fcc58b5f6a2",
   "name": "Login form",
   "description": "",
   "typeId": "b0f151db-f00c-43de-b3e7-613b83d65d8b",
@@ -40,15 +39,16 @@
     }
   ],
   "kind": [],
-  "lastModified": "2018-03-07T16:33:37.899Z",
-  "created": "2018-03-01T20:21:58.171Z",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModified": "2018-03-08T02:45:11.763Z",
+  "created": "2018-03-08T02:45:11.763Z",
   "classification": "content",
   "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "type": "Login",
   "creator": "LAURA POMERLEAU",
   "lastModifier": "LAURA POMERLEAU",
   "publishing": {
     "status": "not-available"
-  }
+  },
+  "rev": "25-11e984ab82cc6f9476d97e1871fe6676"
 }

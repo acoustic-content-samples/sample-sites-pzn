@@ -1,8 +1,11 @@
 {
-  "rev": "3-97f9bf9af7f80d3d435992d375358e25",
+  "rev": "8-cf21d8906d2e1822e797248c054151b9",
   "id": "57b06254-95cd-4fc5-a639-9dc786f770f5",
   "name": "pexels-photo-533247.jpeg",
   "resource": "8f222f5a-9352-4bef-addd-7a90c7670e27",
+  "description": "",
+  "altText": "",
+  "path": "/dxdam/57/57b06254-95cd-4fc5-a639-9dc786f770f5/pexels-photo-533247.jpeg",
   "tags": {
     "values": [
       "classification:bun",
@@ -15,19 +18,12 @@
       "classification:orange color"
     ],
     "declined": [],
-    "analysis": "complete",
-    "suggested": [
-      "classification:bun",
-      "classification:bread",
-      "classification:food product",
-      "classification:food",
-      "classification:pinwheel roll",
-      "classification:sweet roll",
-      "classification:reddish orange color",
-      "classification:orange color"
-    ]
+    "analysis": "pending"
   },
   "categoryIds": [],
+  "usageRights": {
+    "categories": []
+  },
   "status": "ready",
   "assetType": "image",
   "fileName": "pexels-photo-533247.jpeg",
@@ -38,38 +34,13 @@
     "width": 1280,
     "height": 907
   },
-  "path": "/dxdam/57/57b06254-95cd-4fc5-a639-9dc786f770f5/pexels-photo-533247.jpeg",
-  "lastModified": "2018-03-07T19:38:37.368Z",
-  "created": "2018-03-07T19:37:23.146Z",
+  "lastModified": "2018-03-08T02:44:23.938Z",
+  "created": "2018-03-08T02:44:23.937Z",
   "classification": "asset",
-  "description": "",
-  "altText": "",
-  "usageRights": {
-    "categories": []
-  },
   "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
   "cognitive": {
-    "classifications": [
-      "bun",
-      "bread",
-      "food product",
-      "food",
-      "pinwheel roll",
-      "sweet roll",
-      "reddish orange color",
-      "orange color"
-    ],
-    "faces": [],
-    "colors": {
-      "vibrant": "#c7654a",
-      "muted": "#af836c",
-      "darkVibrant": "#8c4037",
-      "darkMuted": "#45353f",
-      "lightVibrant": "#efab7d",
-      "lightMuted": "#c4b2a8"
-    },
-    "status": "complete"
+    "status": "pending"
   },
   "renditions": {
     "default": {
@@ -77,5 +48,25 @@
       "source": "/authoring/v1/resources/8f222f5a-9352-4bef-addd-7a90c7670e27"
     }
   },
-  "isManaged": true
+  "isManaged": true,
+  "links": {
+    "self": {
+      "href": "/authoring/v1/assets/57b06254-95cd-4fc5-a639-9dc786f770f5"
+    },
+    "media": {
+      "href": "/authoring/v1/resources/8f222f5a-9352-4bef-addd-7a90c7670e27.jpeg"
+    },
+    "thumbnail": {
+      "href": "/authoring/v1/resources/8f222f5a-9352-4bef-addd-7a90c7670e27?fit=inside%7C220:145"
+    },
+    "retire": {
+      "href": "/authoring/v1/changes/asset/57b06254-95cd-4fc5-a639-9dc786f770f5/status/retire"
+    }
+  },
+  "creator": "LAURA POMERLEAU",
+  "lastModifier": "LAURA POMERLEAU",
+  "publishing": {
+    "status": "not-available"
+  },
+  "categories": []
 }
