@@ -1,5 +1,5 @@
 {
-  "rev": "26-85f92e7fb138746a906cab7acd7f9cd0",
+  "rev": "1-9498f6d27a05fe5ab3f0bf7312ebfcbe",
   "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
   "name": "page-home-220px.png",
   "resource": "d22cb3c0070450e37c5d7515b6d3906a",
@@ -42,11 +42,11 @@
     "width": 220,
     "height": 145
   },
-  "lastModified": "2018-03-08T02:44:30.624Z",
-  "created": "2018-03-08T02:44:30.624Z",
+  "lastModified": "2018-03-08T14:45:50.594Z",
+  "created": "2018-03-08T14:45:50.594Z",
   "classification": "asset",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "cognitive": {
     "status": "pending"
   },
@@ -71,8 +71,8 @@
       "href": "/authoring/v1/changes/asset/257b578f-7f29-49e5-9e50-97c3846ccf98/status/retire"
     }
   },
-  "creator": "LAURA POMERLEAU",
-  "lastModifier": "LAURA POMERLEAU",
+  "creator": "Laura Pomerleau",
+  "lastModifier": "Laura Pomerleau",
   "publishing": {
     "status": "not-available"
   },

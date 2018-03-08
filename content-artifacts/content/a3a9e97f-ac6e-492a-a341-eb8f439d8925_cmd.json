@@ -60,16 +60,16 @@
     "id": "5b434249-149b-466c-a19e-74612164881e",
     "url": "/authoring/v1/resources/e329ee90-623e-474a-b0ce-68f3d86f4570"
   },
-  "lastModified": "2018-03-08T02:45:14.477Z",
-  "created": "2018-03-08T02:45:14.477Z",
+  "lastModified": "2018-03-08T14:46:09.424Z",
+  "created": "2018-03-08T14:46:09.424Z",
   "classification": "content",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "type": "WCH Personalization Sample footer",
-  "creator": "LAURA POMERLEAU",
-  "lastModifier": "LAURA POMERLEAU",
+  "creator": "Laura Pomerleau",
+  "lastModifier": "Laura Pomerleau",
   "publishing": {
     "status": "not-available"
   },
-  "rev": "15-e6f93ec44aa791ff5a3a230d88100521"
+  "rev": "1-bddff88a80d013f9d1db6a0673f6826a"
 }

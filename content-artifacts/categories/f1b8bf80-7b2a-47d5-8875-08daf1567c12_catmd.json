@@ -1,9 +1,9 @@
 {
   "id": "f1b8bf80-7b2a-47d5-8875-08daf1567c12",
-  "rev": "9-097dcefbbac6973f019e9aeca6637ee0",
+  "rev": "1-0d70753ce537ddbc3f3c35c97425b31f",
   "name": "Left",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "creator": "LAURA POMERLEAU",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "creator": "Laura Pomerleau",
   "classification": "category",
   "taxonomy": "f38cf87e-0485-4b38-a0e6-6b9c420efed0",
   "parent": "6f037a1b-8f2e-4458-839e-a49fa0227dba",
@@ -27,6 +27,6 @@
       "href": "/authoring/v1/categories/6f037a1b-8f2e-4458-839e-a49fa0227dba"
     }
   },
-  "created": "2018-03-08T02:44:15.100Z",
-  "lastModified": "2018-03-08T02:44:15.100Z"
+  "created": "2018-03-08T14:45:44.470Z",
+  "lastModified": "2018-03-08T14:45:44.470Z"
 }

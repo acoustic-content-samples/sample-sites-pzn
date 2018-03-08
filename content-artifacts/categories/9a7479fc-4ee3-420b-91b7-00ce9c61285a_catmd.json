@@ -1,9 +1,9 @@
 {
   "id": "9a7479fc-4ee3-420b-91b7-00ce9c61285a",
-  "rev": "9-08912f3aa70933903d81a3fdeb5e9d21",
+  "rev": "1-a50d4422fb6a279481181742e6c09ed2",
   "name": "Small",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "creator": "LAURA POMERLEAU",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "creator": "Laura Pomerleau",
   "classification": "category",
   "taxonomy": "f38cf87e-0485-4b38-a0e6-6b9c420efed0",
   "parent": "0e1cd869-ee48-4ef6-ae6d-7be957c84d10",
@@ -27,6 +27,6 @@
       "href": "/authoring/v1/categories/0e1cd869-ee48-4ef6-ae6d-7be957c84d10"
     }
   },
-  "created": "2018-03-08T02:44:15.746Z",
-  "lastModified": "2018-03-08T02:44:15.746Z"
+  "created": "2018-03-08T14:45:45.283Z",
+  "lastModified": "2018-03-08T14:45:45.283Z"
 }

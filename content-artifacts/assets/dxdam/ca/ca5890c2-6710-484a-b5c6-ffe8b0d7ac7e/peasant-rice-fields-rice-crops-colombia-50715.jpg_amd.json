@@ -1,5 +1,5 @@
 {
-  "rev": "12-2458ed7b655542a2d9a33f521a6e46ef",
+  "rev": "1-dacf452ac33be58ee08be828f8b1f12d",
   "id": "ca5890c2-6710-484a-b5c6-ffe8b0d7ac7e",
   "name": "peasant-rice-fields-rice-crops-colombia-50715.jpg",
   "resource": "39ddd3d9-05ac-4c04-90ee-01a244bfb300",
@@ -47,11 +47,11 @@
       "aperture": 6.3
     }
   },
-  "lastModified": "2018-03-08T02:44:30.001Z",
-  "created": "2018-03-08T02:44:30.001Z",
+  "lastModified": "2018-03-08T14:45:56.156Z",
+  "created": "2018-03-08T14:45:56.155Z",
   "classification": "asset",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "cognitive": {
     "status": "pending"
   },
@@ -76,8 +76,8 @@
       "href": "/authoring/v1/changes/asset/ca5890c2-6710-484a-b5c6-ffe8b0d7ac7e/status/retire"
     }
   },
-  "creator": "LAURA POMERLEAU",
-  "lastModifier": "LAURA POMERLEAU",
+  "creator": "Laura Pomerleau",
+  "lastModifier": "Laura Pomerleau",
   "publishing": {
     "status": "not-available"
   },

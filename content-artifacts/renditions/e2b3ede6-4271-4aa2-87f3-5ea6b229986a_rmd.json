@@ -1,0 +1,21 @@
+{
+  "scale": 0.31091510474090406,
+  "locationY": 0,
+  "height": 282,
+  "locationX": 19,
+  "id": "e2b3ede6-4271-4aa2-87f3-5ea6b229986a",
+  "classification": "rendition",
+  "asset": {
+    "mediaType": "image/jpeg",
+    "altText": "",
+    "height": 907,
+    "fileName": "homepageanonpzn.jpg",
+    "id": "0c65ba08-c2d7-41a9-b3ec-0c061bf5d2c0",
+    "resource": "c4bbaea2-f108-44ae-8f19-49fc19baf425",
+    "fileSize": 361301,
+    "width": 1280
+  },
+  "width": 360,
+  "created": "2018-03-08T14:46:02.671Z",
+  "rev": "1-372098497b1e12636ff6792a41a272a4"
+}

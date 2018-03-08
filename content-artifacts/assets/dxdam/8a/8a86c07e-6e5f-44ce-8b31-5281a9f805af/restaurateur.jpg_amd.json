@@ -1,5 +1,5 @@
 {
-  "rev": "23-312c336fc32a323f173a8e2f2993b817",
+  "rev": "1-448a10de90a2306560c6c23171f47175",
   "id": "8a86c07e-6e5f-44ce-8b31-5281a9f805af",
   "name": "restaurateur.jpg",
   "resource": "cc8cd6ea-8e3f-46f6-97f3-560c9f205fc9",
@@ -8,6 +8,7 @@
   "path": "/dxdam/8a/8a86c07e-6e5f-44ce-8b31-5281a9f805af/restaurateur.jpg",
   "tags": {
     "values": [
+      "user:IBM sample",
       "classification:table",
       "classification:furniture",
       "classification:dinner table",
@@ -16,8 +17,7 @@
       "classification:building",
       "classification:indoors",
       "classification:beverage",
-      "classification:reddish brown color",
-      "user:IBM sample"
+      "classification:reddish brown color"
     ],
     "declined": [],
     "analysis": "pending"
@@ -36,11 +36,11 @@
     "width": 3324,
     "height": 2208
   },
-  "lastModified": "2018-03-08T02:44:30.512Z",
-  "created": "2018-03-08T02:44:30.512Z",
+  "lastModified": "2018-03-08T14:45:54.913Z",
+  "created": "2018-03-08T14:45:54.913Z",
   "classification": "asset",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "cognitive": {
     "status": "pending"
   },
@@ -65,8 +65,8 @@
       "href": "/authoring/v1/changes/asset/8a86c07e-6e5f-44ce-8b31-5281a9f805af/status/retire"
     }
   },
-  "creator": "LAURA POMERLEAU",
-  "lastModifier": "LAURA POMERLEAU",
+  "creator": "Laura Pomerleau",
+  "lastModifier": "Laura Pomerleau",
   "publishing": {
     "status": "not-available"
   },

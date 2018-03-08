@@ -1,9 +1,9 @@
 {
   "id": "e3b61f5d-5312-4138-bb0f-e0df8980922a",
-  "rev": "18-3fd8fd3ef21a0592c0bad274cdb1367c",
+  "rev": "1-e6618041f52d4ea915d67adb5cde62f1",
   "name": "Alphabetical ascending",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "creator": "LAURA POMERLEAU",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "creator": "Laura Pomerleau",
   "classification": "category",
   "taxonomy": "52265429-9349-49fe-b35d-f7b71493190e",
   "parent": "52265429-9349-49fe-b35d-f7b71493190e",
@@ -25,6 +25,6 @@
       "href": "/authoring/v1/categories/52265429-9349-49fe-b35d-f7b71493190e"
     }
   },
-  "created": "2018-03-08T02:44:15.018Z",
-  "lastModified": "2018-03-08T02:44:15.018Z"
+  "created": "2018-03-08T14:45:40.500Z",
+  "lastModified": "2018-03-08T14:45:40.500Z"
 }

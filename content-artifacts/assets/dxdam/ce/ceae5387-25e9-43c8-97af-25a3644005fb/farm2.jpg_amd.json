@@ -1,5 +1,5 @@
 {
-  "rev": "23-1fa0c6b4d2479996a4a68fe2fb139c1b",
+  "rev": "1-cfd737d94af6d1c35cd979df3efc6dd7",
   "id": "ceae5387-25e9-43c8-97af-25a3644005fb",
   "name": "farm2.jpg",
   "resource": "ec042eca-47f7-47e1-a667-ca67e7cba578",
@@ -8,6 +8,7 @@
   "path": "/dxdam/ce/ceae5387-25e9-43c8-97af-25a3644005fb/farm2.jpg",
   "tags": {
     "values": [
+      "user:IBM sample",
       "classification:lamb",
       "classification:young",
       "classification:animal",
@@ -17,8 +18,7 @@
       "classification:mammal",
       "classification:lambkin",
       "classification:pale yellow color",
-      "classification:ivory color",
-      "user:IBM sample"
+      "classification:ivory color"
     ],
     "declined": [],
     "analysis": "pending"
@@ -46,11 +46,11 @@
     },
     "date": "2017-01-01T20:24:08"
   },
-  "lastModified": "2018-03-08T02:44:34.972Z",
-  "created": "2018-03-08T02:44:34.972Z",
+  "lastModified": "2018-03-08T14:45:54.855Z",
+  "created": "2018-03-08T14:45:54.854Z",
   "classification": "asset",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "cognitive": {
     "status": "pending"
   },
@@ -75,8 +75,8 @@
       "href": "/authoring/v1/changes/asset/ceae5387-25e9-43c8-97af-25a3644005fb/status/retire"
     }
   },
-  "creator": "LAURA POMERLEAU",
-  "lastModifier": "LAURA POMERLEAU",
+  "creator": "Laura Pomerleau",
+  "lastModifier": "Laura Pomerleau",
   "publishing": {
     "status": "not-available"
   },

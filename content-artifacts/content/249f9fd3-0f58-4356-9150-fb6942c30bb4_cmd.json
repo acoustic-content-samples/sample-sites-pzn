@@ -1,0 +1,94 @@
+{
+  "id": "249f9fd3-0f58-4356-9150-fb6942c30bb4",
+  "name": "Anonymous main content",
+  "typeId": "f9e7f0b9-f57d-4d91-a257-54a64c1ff52f",
+  "locale": "en",
+  "tags": [
+    "user:IBM sample"
+  ],
+  "keywords": [],
+  "status": "ready",
+  "elements": {
+    "imagePlacement": {
+      "elementType": "category"
+    },
+    "image": {
+      "elementType": "image",
+      "renditions": {
+        "default": {
+          "renditionId": "r=c4bbaea2-f108-44ae-8f19-49fc19baf425&a=0c65ba08-c2d7-41a9-b3ec-0c061bf5d2c0",
+          "source": "/authoring/v1/resources/c4bbaea2-f108-44ae-8f19-49fc19baf425",
+          "width": 1280,
+          "height": 907
+        },
+        "small": {
+          "renditionId": "e2b3ede6-4271-4aa2-87f3-5ea6b229986a",
+          "source": "/authoring/v1/resources/c4bbaea2-f108-44ae-8f19-49fc19baf425?resize=398px:282px&crop=360:282;19,0",
+          "width": 360,
+          "height": 282
+        },
+        "medium": {
+          "renditionId": "4c2b55c0-0ee9-4c5e-ae0c-d506fe8e8c76",
+          "source": "/authoring/v1/resources/c4bbaea2-f108-44ae-8f19-49fc19baf425?resize=600px:425px&crop=600:400;0,13",
+          "width": 600,
+          "height": 400
+        },
+        "large": {
+          "renditionId": "0a106d8b-a6c6-427e-8f7e-abfed1a39725",
+          "source": "/authoring/v1/resources/c4bbaea2-f108-44ae-8f19-49fc19baf425?resize=1200px:850px&crop=1200:797;0,27",
+          "width": 1200,
+          "height": 797
+        }
+      },
+      "asset": {
+        "id": "0c65ba08-c2d7-41a9-b3ec-0c061bf5d2c0",
+        "resourceUri": "/authoring/v1/resources/c4bbaea2-f108-44ae-8f19-49fc19baf425",
+        "fileName": "homepageanonpzn.jpg",
+        "fileSize": 361301,
+        "mediaType": "image/jpeg",
+        "width": 1280,
+        "height": 907
+      }
+    },
+    "imageSize": {
+      "elementType": "category",
+      "categoryIds": [
+        "7225c4dd-dc02-48e3-9d80-0f84c0c1340f"
+      ],
+      "categories": [
+        "Image size and placement/Size/Medium"
+      ]
+    },
+    "imageCredit": {
+      "elementType": "text"
+    },
+    "imageCaption": {
+      "elementType": "text"
+    }
+  },
+  "selectedLayouts": [
+    {
+      "layout": {
+        "id": "image-with-information-layout"
+      }
+    }
+  ],
+  "kind": [],
+  "description": "",
+  "lastModified": "2018-03-08T14:46:08.369Z",
+  "created": "2018-03-08T14:46:08.369Z",
+  "classification": "content",
+  "thumbnail": {
+    "id": "0c65ba08-c2d7-41a9-b3ec-0c061bf5d2c0",
+    "url": "/authoring/v1/resources/c4bbaea2-f108-44ae-8f19-49fc19baf425?fit=inside%7C220:145"
+  },
+  "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "type": "Image with information",
+  "creator": "Laura Pomerleau",
+  "lastModifier": "Laura Pomerleau",
+  "publishing": {
+    "status": "not-available"
+  },
+  "rev": "1-5ed7411124fe10312002f24ff218471a"
+}

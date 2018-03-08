@@ -1,5 +1,5 @@
 {
-  "rev": "23-d208078ba5d2d32b8ab6bb35cf58ad0e",
+  "rev": "1-ff57003b4e9d0eeb07325f38efad4a9f",
   "id": "daa99286-edfe-41d7-a52c-6074b89e34b2",
   "name": "home.jpg",
   "resource": "d4f996ca-f819-4379-90cc-957fce3b8de5",
@@ -8,6 +8,7 @@
   "path": "/dxdam/da/daa99286-edfe-41d7-a52c-6074b89e34b2/home.jpg",
   "tags": {
     "values": [
+      "user:IBM sample",
       "classification:farmhouse",
       "classification:building",
       "classification:barn",
@@ -19,8 +20,7 @@
       "classification:farmplace",
       "classification:corncrib (house)",
       "classification:azure color",
-      "classification:reddish orange color",
-      "user:IBM sample"
+      "classification:reddish orange color"
     ],
     "declined": [],
     "analysis": "pending"
@@ -43,11 +43,11 @@
       "model": "IQ3 100MP"
     }
   },
-  "lastModified": "2018-03-08T02:44:34.509Z",
-  "created": "2018-03-08T02:44:34.509Z",
+  "lastModified": "2018-03-08T14:45:57.628Z",
+  "created": "2018-03-08T14:45:57.627Z",
   "classification": "asset",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "cognitive": {
     "status": "pending"
   },
@@ -72,8 +72,8 @@
       "href": "/authoring/v1/changes/asset/daa99286-edfe-41d7-a52c-6074b89e34b2/status/retire"
     }
   },
-  "creator": "LAURA POMERLEAU",
-  "lastModifier": "LAURA POMERLEAU",
+  "creator": "Laura Pomerleau",
+  "lastModifier": "Laura Pomerleau",
   "publishing": {
     "status": "not-available"
   },

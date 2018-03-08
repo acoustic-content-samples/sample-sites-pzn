@@ -1,9 +1,9 @@
 {
   "id": "7225c4dd-dc02-48e3-9d80-0f84c0c1340f",
-  "rev": "9-fa4b947f6f693d017e088be922b132ac",
+  "rev": "1-41927f84987539cfc09d59b10e6ba79b",
   "name": "Medium",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "creator": "LAURA POMERLEAU",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "creator": "Laura Pomerleau",
   "classification": "category",
   "taxonomy": "f38cf87e-0485-4b38-a0e6-6b9c420efed0",
   "parent": "0e1cd869-ee48-4ef6-ae6d-7be957c84d10",
@@ -27,6 +27,6 @@
       "href": "/authoring/v1/categories/0e1cd869-ee48-4ef6-ae6d-7be957c84d10"
     }
   },
-  "created": "2018-03-08T02:44:16.766Z",
-  "lastModified": "2018-03-08T02:44:16.766Z"
+  "created": "2018-03-08T14:45:45.278Z",
+  "lastModified": "2018-03-08T14:45:45.278Z"
 }

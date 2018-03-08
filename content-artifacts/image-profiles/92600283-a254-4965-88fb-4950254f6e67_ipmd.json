@@ -1,15 +1,15 @@
 {
   "id": "92600283-a254-4965-88fb-4950254f6e67",
-  "rev": "9-e97c841523bfadc0f2aa334c36070b98",
+  "rev": "1-6a8dbcc5ea2b39330e1daaa5ac74342e",
   "name": "Profile for design articles",
   "classification": "image-profile",
   "description": "Provides different renditions of images for the design articles.",
-  "creator": "LAURA POMERLEAU",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creator": "Laura Pomerleau",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "created": "2017-08-11T01:03:48.504Z",
-  "lastModifier": "LAURA POMERLEAU",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModified": "2018-03-08T02:45:40.311Z",
+  "lastModifier": "Laura Pomerleau",
+  "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "lastModified": "2018-03-08T14:45:38.702Z",
   "dimensions": [
     {
       "label": "Large",

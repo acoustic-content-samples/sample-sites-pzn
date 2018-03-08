@@ -1,5 +1,5 @@
 {
-  "rev": "23-14a5ac452c63782a9f2cd5b4628f1e92",
+  "rev": "1-c222750ed445fe7d8cbe7b3dd593f886",
   "id": "f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa",
   "name": "about.jpg",
   "resource": "98d4d862-8dbe-437b-a32a-fb4154a43273",
@@ -8,6 +8,7 @@
   "path": "/dxdam/f0/f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa/about.jpg",
   "tags": {
     "values": [
+      "user:IBM sample",
       "classification:Italian parsley",
       "classification:herb",
       "classification:plant",
@@ -24,8 +25,7 @@
       "classification:leafy vegetable",
       "classification:lovage",
       "classification:tree",
-      "classification:greenishness color",
-      "user:IBM sample"
+      "classification:greenishness color"
     ],
     "declined": [],
     "analysis": "pending"
@@ -53,11 +53,11 @@
     },
     "date": "2017-10-07T12:11:34.042"
   },
-  "lastModified": "2018-03-08T02:44:44.055Z",
-  "created": "2018-03-08T02:44:44.055Z",
+  "lastModified": "2018-03-08T14:46:00.126Z",
+  "created": "2018-03-08T14:46:00.124Z",
   "classification": "asset",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "cognitive": {
     "status": "pending"
   },
@@ -82,8 +82,8 @@
       "href": "/authoring/v1/changes/asset/f0ccbfcd-d4a5-4dc2-ae2e-8f3226de52aa/status/retire"
     }
   },
-  "creator": "LAURA POMERLEAU",
-  "lastModifier": "LAURA POMERLEAU",
+  "creator": "Laura Pomerleau",
+  "lastModifier": "Laura Pomerleau",
   "publishing": {
     "status": "not-available"
   },

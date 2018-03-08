@@ -19,7 +19,7 @@
           "id": "b7444c1d-df5f-4409-8abf-f884de98c1bf",
           "name": "Farmer 2 content",
           "typeId": "24490027-e55b-4739-a5a9-5c091c5d4a72",
-          "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+          "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
           "status": "ready"
         }
       ]
@@ -42,16 +42,16 @@
     "id": "257b578f-7f29-49e5-9e50-97c3846ccf98",
     "url": "/authoring/v1/resources/d22cb3c0070450e37c5d7515b6d3906a"
   },
-  "lastModified": "2018-03-08T02:45:14.403Z",
-  "created": "2018-03-08T02:45:14.403Z",
+  "lastModified": "2018-03-08T14:46:10.590Z",
+  "created": "2018-03-08T14:46:10.590Z",
   "classification": "content",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "type": "Standard page",
-  "creator": "LAURA POMERLEAU",
-  "lastModifier": "LAURA POMERLEAU",
+  "creator": "Laura Pomerleau",
+  "lastModifier": "Laura Pomerleau",
   "publishing": {
     "status": "not-available"
   },
-  "rev": "15-416fefda3663a1ae27f71d5d3d042bfc"
+  "rev": "1-ce57ab124ecfb1e00ceb5b8678a1d456"
 }

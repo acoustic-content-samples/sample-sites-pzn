@@ -1,5 +1,5 @@
 {
-  "rev": "23-f06698aeed952e78038d3a83316012cc",
+  "rev": "1-7c40f1511afce10660e338ed403d0003",
   "id": "28bec070-42f1-436f-8aec-2f9a1acd0005",
   "name": "chef.jpg",
   "resource": "ffeaf3a4-326a-404e-bc90-e328015f5e70",
@@ -8,6 +8,7 @@
   "path": "/dxdam/28/28bec070-42f1-436f-8aec-2f9a1acd0005/chef.jpg",
   "tags": {
     "values": [
+      "user:IBM sample",
       "classification:wooden spoon",
       "classification:spoon",
       "classification:utensil",
@@ -25,8 +26,7 @@
       "classification:invertebrate",
       "classification:animal",
       "classification:pale yellow color",
-      "classification:olive green color",
-      "user:IBM sample"
+      "classification:olive green color"
     ],
     "declined": [],
     "analysis": "pending"
@@ -52,11 +52,11 @@
       "aperture": 4
     }
   },
-  "lastModified": "2018-03-08T02:44:23.250Z",
-  "created": "2018-03-08T02:44:23.250Z",
+  "lastModified": "2018-03-08T14:45:51.353Z",
+  "created": "2018-03-08T14:45:51.352Z",
   "classification": "asset",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "cognitive": {
     "status": "pending"
   },
@@ -81,8 +81,8 @@
       "href": "/authoring/v1/changes/asset/28bec070-42f1-436f-8aec-2f9a1acd0005/status/retire"
     }
   },
-  "creator": "LAURA POMERLEAU",
-  "lastModifier": "LAURA POMERLEAU",
+  "creator": "Laura Pomerleau",
+  "lastModifier": "Laura Pomerleau",
   "publishing": {
     "status": "not-available"
   },

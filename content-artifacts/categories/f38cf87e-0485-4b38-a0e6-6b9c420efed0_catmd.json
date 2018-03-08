@@ -1,9 +1,9 @@
 {
   "id": "f38cf87e-0485-4b38-a0e6-6b9c420efed0",
-  "rev": "9-00fea3ff953ba20eeba2fc091662bfcb",
+  "rev": "1-01be79ab39a90badbe1dbef9eff0f6f0",
   "name": "Image size and placement",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "creator": "LAURA POMERLEAU",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "creator": "Laura Pomerleau",
   "description": "This taxonomy is used with features and design articles. Content creators  select which size image they want to use.",
   "classification": "taxonomy",
   "firstClassFor": [
@@ -17,6 +17,6 @@
       "href": "/authoring/v1/categories/f38cf87e-0485-4b38-a0e6-6b9c420efed0"
     }
   },
-  "created": "2018-03-08T02:44:09.434Z",
-  "lastModified": "2018-03-08T02:44:09.434Z"
+  "created": "2018-03-08T14:45:40.446Z",
+  "lastModified": "2018-03-08T14:45:40.446Z"
 }

@@ -1,5 +1,5 @@
 {
-  "rev": "23-51e01eb8c07d95ea22b390b32997c562",
+  "rev": "1-cd2c56198d262e8bda720c6b15ccec9e",
   "id": "5b434249-149b-466c-a19e-74612164881e",
   "name": "Bee.png",
   "resource": "e329ee90-623e-474a-b0ce-68f3d86f4570",
@@ -8,14 +8,14 @@
   "path": "/dxdam/5b/5b434249-149b-466c-a19e-74612164881e/Bee.png",
   "tags": {
     "values": [
+      "user:IBM sample",
       "classification:perforation",
       "classification:tetraskelion",
       "classification:cross",
       "classification:religious symbol",
       "classification:figure",
       "classification:coal black color",
-      "classification:black color",
-      "user:IBM sample"
+      "classification:black color"
     ],
     "declined": [],
     "analysis": "pending"
@@ -34,11 +34,11 @@
     "width": 29,
     "height": 29
   },
-  "lastModified": "2018-03-08T02:44:25.169Z",
-  "created": "2018-03-08T02:44:25.169Z",
+  "lastModified": "2018-03-08T14:45:52.418Z",
+  "created": "2018-03-08T14:45:52.417Z",
   "classification": "asset",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "cognitive": {
     "status": "pending"
   },
@@ -63,8 +63,8 @@
       "href": "/authoring/v1/changes/asset/5b434249-149b-466c-a19e-74612164881e/status/retire"
     }
   },
-  "creator": "LAURA POMERLEAU",
-  "lastModifier": "LAURA POMERLEAU",
+  "creator": "Laura Pomerleau",
+  "lastModifier": "Laura Pomerleau",
   "publishing": {
     "status": "not-available"
   },

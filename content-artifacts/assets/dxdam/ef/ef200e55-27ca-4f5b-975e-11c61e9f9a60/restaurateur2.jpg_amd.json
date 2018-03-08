@@ -1,5 +1,5 @@
 {
-  "rev": "23-843b0a2075199c1ef8f4900e9813ecf8",
+  "rev": "1-adc2f1ea106a960a4d41776cb4c98907",
   "id": "ef200e55-27ca-4f5b-975e-11c61e9f9a60",
   "name": "restaurateur2.jpg",
   "resource": "95bf7f10-f357-4632-9dbf-715c946e1838",
@@ -8,6 +8,7 @@
   "path": "/dxdam/ef/ef200e55-27ca-4f5b-975e-11c61e9f9a60/restaurateur2.jpg",
   "tags": {
     "values": [
+      "user:IBM sample",
       "classification:breakfast area",
       "classification:dinette (dining space)",
       "classification:indoors",
@@ -20,8 +21,7 @@
       "classification:lanai (roofed patio)",
       "classification:porch",
       "classification:beige color",
-      "classification:sage green color",
-      "user:IBM sample"
+      "classification:sage green color"
     ],
     "declined": [],
     "analysis": "pending"
@@ -47,11 +47,11 @@
       "aperture": 8
     }
   },
-  "lastModified": "2018-03-08T02:44:36.407Z",
-  "created": "2018-03-08T02:44:36.406Z",
+  "lastModified": "2018-03-08T14:45:59.067Z",
+  "created": "2018-03-08T14:45:59.066Z",
   "classification": "asset",
-  "creatorId": "a36e366d-5c40-472f-a021-4a278db7c597",
-  "lastModifierId": "a36e366d-5c40-472f-a021-4a278db7c597",
+  "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
+  "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "cognitive": {
     "status": "pending"
   },
@@ -76,8 +76,8 @@
       "href": "/authoring/v1/changes/asset/ef200e55-27ca-4f5b-975e-11c61e9f9a60/status/retire"
     }
   },
-  "creator": "LAURA POMERLEAU",
-  "lastModifier": "LAURA POMERLEAU",
+  "creator": "Laura Pomerleau",
+  "lastModifier": "Laura Pomerleau",
   "publishing": {
     "status": "not-available"
   },
