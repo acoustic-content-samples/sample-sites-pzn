@@ -266,14 +266,14 @@ If you already have a site based on the [Oslo sample](https://github.com/ibm-wch
 
 ### Install the Login and Personalized content components
 
-1. Unpackage _/sample-sites-pzn/scripts/osloPackage.zip_ into _<root directory of your site>/osloPackage_
+1. Unpackage _/sample-sites-pzn/scripts/osloPackage.zip_ into _[root directory of your site]/osloPackage_
 2. Run `npm run install-layouts-from-folder osloPackage`
 3. Run `wchtools push -c -v -p -a -w --dir osloPackage/content-artifacts`
 
 ### Integrate the authentication service
 
-1. Copy _/sample-sites-pzn/src/app/common/authService/_ into _<root directory of your site>/src/app/common/_
-2. Register the authService in _<root directory of your site>/src/app/app.module.ts_:
+1. Copy _/sample-sites-pzn/src/app/common/authService/_ into _[root directory of your site]/src/app/common/_
+2. Register the authService in _[root directory of your site]/src/app/app.module.ts_:
 ```
 import { AuthService } from './common/authService/auth.service';
 //...
@@ -282,7 +282,7 @@ import { AuthService } from './common/authService/auth.service';
 		AuthService
 	]
 ```
-3. Integrate the `ReactiveFormsModule` module from angular in _<root directory of your site>/src/app/app.module.ts_:
+3. Integrate the `ReactiveFormsModule` module from angular in _[root directory of your site]/src/app/app.module.ts_:
 ```
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 	imports: [
@@ -311,9 +311,9 @@ import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 
 ### Filter the header navigation
 
-1. Open _<root directory of your site>/src/app/responsiveHeader/responsive-header.html_ for editing
+1. Open _[root directory of your site]/src/app/responsiveHeader/responsive-header.html_ for editing
 2. Replace `rc?.context?.site.pages` with `this.pages`
-3. Open _<root directory of your site>/src/app/responsiveHeader/responsiveHeader.component.ts_ for editing
+3. Open _[root directory of your site]/src/app/responsiveHeader/responsiveHeader.component.ts_ for editing
 4. Import the services and constants:
 ```
 import {HttpClient} from '@angular/common/http';
@@ -409,14 +409,14 @@ import {environment} from '../environment/environment';
 		});
 	}
 ```
-10. Open _<root directory of your site>/src/app/responsiveHeader/wch-menu-item/wchMenuItem.component.ts_ for editing
+10. Open _[root directory of your site]/src/app/responsiveHeader/wch-menu-item/wchMenuItem.component.ts_ for editing
 11. Remove child page caching in the `getVisibleChildren` function, so pages in the drop-down menus can be updated when a user logs in or out:
 ```
 ```
 
 ### Create authentication status, Login and Logout buttons
 
-1. Open _<root directory of your site>/src/app/responsiveHeader/responsive-header.html_ for editing
+1. Open _[root directory of your site]/src/app/responsiveHeader/responsive-header.html_ for editing
 2. Add the username, login and logout links:
 ```
 	<span *ngIf="isLoggedIn">{{username}} ::</span>
@@ -432,7 +432,7 @@ import {environment} from '../environment/environment';
 3. Go to **Website -> Site manager**
 4. Pick a page on which to place the personalized component, go to **menu -> Edit content** and click **Create draft**
 5. Add the **Personalized content** to the page and publish your changes
-6. Open _<root directory of your site>/src/app/app.scss_ and add styles to display a custom icon for each role/brand. This example just uses initials, but you can easily replace these with strings from a font-based icon set (eg: [Material icons](https://material.io/icons/)):
+6. Open _[root directory of your site]/src/app/app.scss_ and add styles to display a custom icon for each role/brand. This example just uses initials, but you can easily replace these with strings from a font-based icon set (eg: [Material icons](https://material.io/icons/)):
 ```
 /* custom role-based logos */
 .wch_pzn_living .logo.pzn-icon i:before {
@@ -449,7 +449,7 @@ import {environment} from '../environment/environment';
 }
 ```
 
-**Note**: This component queries again items of content type **Image with information**. You can change this by updating the `TYPE` variable in _<root directory of your site>/src/app/layouts/personalized-content/personalizedContentLayout.ts_. For example:
+**Note**: This component queries again items of content type **Image with information**. You can change this by updating the `TYPE` variable in _[root directory of your site]/src/app/layouts/personalized-content/personalizedContentLayout.ts_. For example:
 ```
 readonly TYPE: string = 'Lead image with information';
 ```
