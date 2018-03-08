@@ -298,14 +298,11 @@ import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 1. In WCH, go to **All content and assets -> Login form**
 2. Create a draft and edit the available roles with one of the 2 following options:
 	* Update the **PZN user tags** JSON to associated usernames (ie: `user`) with tags (ie: `tag`). Example:
-```
-[{"user":"decor@ibm.com","tag":"wch_pzn_living"},{"user":"chef@ibm.com","tag":"wch_pzn_dining"},{"user":"relaxing@ibm.com","tag":"wch_pzn_sleeping"}]
-```
+`[{"user":"decor@ibm.com","tag":"wch_pzn_living"},{"user":"chef@ibm.com","tag":"wch_pzn_dining"},{"user":"relaxing@ibm.com","tag":"wch_pzn_sleeping"}]`
 
 	* Turn on the **Render role tags list** toggle, and update the **PZN role tags** JSON to define your roles/brands (ie: `role`) and their associated tags (ie: `tag`). Example:
-```
-[{"role":"Living","tag":"wch_pzn_living"},{"role":"Dining","tag":"wch_pzn_dining"},{"role":"Sleeping","tag":"wch_pzn_sleeping"}]
-```
+`[{"role":"Living","tag":"wch_pzn_living"},{"role":"Dining","tag":"wch_pzn_dining"},{"role":"Sleeping","tag":"wch_pzn_sleeping"}]`
+
 **Note**: Use the `wch_pzn_` prefix, otherwise you will need to update the search query for pages in a later step.
 
 3. Optionally change the **Title** and **Message** displayed on the login screen
