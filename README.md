@@ -383,8 +383,7 @@ import {environment} from '../environment/environment';
 		const pageSearchUrl = `${environment.apiUrl}/delivery/v1/search?q=*:*&fl=name,id&fq=classification:content&fq=type:("Standard page" OR "Design page")&fq=((*:* AND -tags:wch_pzn_*)${pznTagQuery}`;
 
 		this.loading = true;
-		this.http.get(pageSearchUrl).subscribe(res => {
-			const pageDocs = res.json();
+		this.http.get<any>(pageSearchUrl).subscribe(pageDocs => {
 			this.pages = pageDocs && pageDocs.numFound > 0 ? this.filterPages(pageDocs.documents) : [];
 			this.loading = false;
 			console.log('Filtered pages are: %o', this.pages);
@@ -396,7 +395,7 @@ import {environment} from '../environment/environment';
 	}
 
 	filterPages(taggedPages, sitePages?) {
-		sitePages = sitePages ? sitePages : this.rc && this.rc.context ? this.rc.context.site.pages : [];
+		sitePages = sitePages ? sitePages : this.rc && this.rc.context ? JSON.parse(JSON.stringify(this.rc.context.site.pages)) : [];
 		console.log('Filtering the site pages  %o  by the tagged page content item search result  %o', sitePages, taggedPages);
 		// filter sitePages by what is in taggedPages
 		// a sitePage is rejected if there is not a taggedPage with an id that matches the sitePage's contentId
@@ -434,7 +433,7 @@ import {environment} from '../environment/environment';
 ### Add the personalized content component
 
 1. In WCH, go to **All content and assets -> Personalized content**
-2. Create a draft and edit or delete the **Title** and **Message** elements. These pieces of text are shown to all users, anonymous or logged in.
+2. Create a draft, then edit or delete the **Title** and **Message** elements. These pieces of text are shown to all users, anonymous or logged in.
 3. Go to **Website -> Site manager**
 4. Pick a page on which to place the personalized component, go to **menu -> Edit content** and click **Create draft**
 5. Add the **Personalized content** to the page and publish your changes
@@ -455,7 +454,7 @@ import {environment} from '../environment/environment';
 }
 ```
 
-**Note**: This component queries again items of content type **Image with information**. You can change this by updating the `TYPE` variable in _[root directory of your site]/src/app/layouts/personalized-content/personalizedContentLayout.ts_. For example:
+**Note**: This component queries items of content type **Image with information**. You can change this by updating the `TYPE` variable in _[root directory of your site]/src/app/layouts/personalized-content/personalizedContentLayout.ts_. For example:
 ```
 readonly TYPE: string = 'Lead image with information';
 ```
