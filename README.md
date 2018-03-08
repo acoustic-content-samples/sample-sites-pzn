@@ -322,7 +322,7 @@ import {environment} from '../environment/environment';
 //...
 	constructor(configService: ConfigServiceService, private authService: AuthService, private http: HttpClient, private router: Router) {
 ```
-5. Add these variables to the class under `pages: Array<any> = [];`:
+5. Add these variables to the `ResponsiveHeaderComponent` class:
 ```
 	authSub: Subscription;
 	loading: boolean = false;
@@ -383,7 +383,8 @@ import {environment} from '../environment/environment';
 		const pageSearchUrl = `${environment.apiUrl}/delivery/v1/search?q=*:*&fl=name,id&fq=classification:content&fq=type:("Standard page" OR "Design page")&fq=((*:* AND -tags:wch_pzn_*)${pznTagQuery}`;
 
 		this.loading = true;
-		this.http.get<any>(pageSearchUrl).subscribe(pageDocs => {
+		this.http.get(pageSearchUrl).subscribe(res => {
+			const pageDocs = res.json();
 			this.pages = pageDocs && pageDocs.numFound > 0 ? this.filterPages(pageDocs.documents) : [];
 			this.loading = false;
 			console.log('Filtered pages are: %o', this.pages);
@@ -395,7 +396,7 @@ import {environment} from '../environment/environment';
 	}
 
 	filterPages(taggedPages, sitePages?) {
-		sitePages = sitePages ? sitePages : this.rc && this.rc.context ? JSON.parse(JSON.stringify(this.rc.context.site.pages)) : [];
+		sitePages = sitePages ? sitePages : this.rc && this.rc.context ? this.rc.context.site.pages : [];
 		console.log('Filtering the site pages  %o  by the tagged page content item search result  %o', sitePages, taggedPages);
 		// filter sitePages by what is in taggedPages
 		// a sitePage is rejected if there is not a taggedPage with an id that matches the sitePage's contentId
