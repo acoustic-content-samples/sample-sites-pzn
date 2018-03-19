@@ -330,7 +330,7 @@ import {environment} from '../environment/environment';
 	username: string = '';
 	pzn_tag: string = '';
 ```
-6. Unsubscribe from the authentication service:
+6. Replace the ngOnDestroy function with the following to unsubscribe from the authentication service:
 ```
 	ngOnDestroy() {
 		this.configSub.unsubscribe();
