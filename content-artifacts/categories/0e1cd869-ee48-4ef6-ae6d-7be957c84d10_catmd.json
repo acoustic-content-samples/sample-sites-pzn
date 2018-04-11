@@ -1,6 +1,6 @@
 {
   "id": "0e1cd869-ee48-4ef6-ae6d-7be957c84d10",
-  "rev": "1-0ac6e6a0c5f5c5a7a107e454f4e791b7",
+  "rev": "3-e02ed223542ff5f99b87b85b6eb959bb",
   "name": "Size",
   "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "creator": "Laura Pomerleau",
@@ -25,6 +25,6 @@
       "href": "/authoring/v1/categories/f38cf87e-0485-4b38-a0e6-6b9c420efed0"
     }
   },
-  "created": "2018-03-08T14:45:43.822Z",
-  "lastModified": "2018-03-08T14:45:43.822Z"
+  "created": "2018-04-11T13:43:23.314Z",
+  "lastModified": "2018-04-11T13:43:23.314Z"
 }

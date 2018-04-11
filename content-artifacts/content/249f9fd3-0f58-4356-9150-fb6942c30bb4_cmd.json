@@ -75,13 +75,13 @@
   ],
   "kind": [],
   "description": "",
-  "lastModified": "2018-03-08T14:46:08.369Z",
-  "created": "2018-03-08T14:46:08.369Z",
-  "classification": "content",
   "thumbnail": {
     "id": "0c65ba08-c2d7-41a9-b3ec-0c061bf5d2c0",
     "url": "/authoring/v1/resources/c4bbaea2-f108-44ae-8f19-49fc19baf425?fit=inside%7C220:145"
   },
+  "lastModified": "2018-04-11T13:44:08.921Z",
+  "created": "2018-04-11T13:44:08.921Z",
+  "classification": "content",
   "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "type": "Image with information",
@@ -90,5 +90,5 @@
   "publishing": {
     "status": "not-available"
   },
-  "rev": "1-5ed7411124fe10312002f24ff218471a"
+  "rev": "3-696bc123390606dab05bf3298a979f71"
 }

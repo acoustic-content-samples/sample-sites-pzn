@@ -81,8 +81,8 @@
     "id": "1f6637b2-5228-4343-a85b-2fc68d203097",
     "url": "/authoring/v1/resources/782beaaf-99d3-4bbd-bc26-e0179a99e377?fit=inside%7C220:145"
   },
-  "lastModified": "2018-03-08T14:46:09.723Z",
-  "created": "2018-03-08T14:46:09.723Z",
+  "lastModified": "2018-04-11T13:44:10.834Z",
+  "created": "2018-04-11T13:44:10.834Z",
   "classification": "content",
   "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
@@ -92,5 +92,5 @@
   "publishing": {
     "status": "not-available"
   },
-  "rev": "1-4174973472456e7f44040c9fd58b25a8"
+  "rev": "3-304bf16e2cb3797ecc5f5f9052f6384b"
 }

@@ -1,6 +1,6 @@
 {
   "id": "a18ade37-f9c1-49b1-9632-b27fcedccaa3",
-  "rev": "1-8d37078d159296d815ea3c45edbd55e7",
+  "rev": "3-2f846cf1a5d9216406db475b3b1a0858",
   "name": "Large",
   "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "creator": "Laura Pomerleau",
@@ -27,6 +27,6 @@
       "href": "/authoring/v1/categories/0e1cd869-ee48-4ef6-ae6d-7be957c84d10"
     }
   },
-  "created": "2018-03-08T14:45:43.920Z",
-  "lastModified": "2018-03-08T14:45:43.920Z"
+  "created": "2018-04-11T13:43:25.081Z",
+  "lastModified": "2018-04-11T13:43:25.081Z"
 }

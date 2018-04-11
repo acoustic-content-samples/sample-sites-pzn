@@ -1,5 +1,5 @@
 {
-  "rev": "1-cd70be2369a134b022c2bded07005ba6",
+  "rev": "4-3cfe69e64de36475f7b63a43e36cf6c9",
   "id": "9dac65bf-b86f-4296-b44f-7be56c1c6fa2",
   "name": "farmer.jpg",
   "resource": "a293fd01-ee94-4e2f-851a-c13f811890a6",
@@ -45,8 +45,8 @@
       "aperture": 1.8
     }
   },
-  "lastModified": "2018-03-08T14:45:55.261Z",
-  "created": "2018-03-08T14:45:55.260Z",
+  "lastModified": "2018-04-11T13:43:41.028Z",
+  "created": "2018-04-11T13:43:41.027Z",
   "classification": "asset",
   "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "lastModifierId": "e76d3089-4d0e-413f-b602-3398b231181f",

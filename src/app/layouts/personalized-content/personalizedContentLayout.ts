@@ -50,8 +50,9 @@ export class PersonalizedContentLayoutComponent extends TypePersonalizedContentC
 
 	updateQuery() {
 		// query for 1 piece of content, based on the personalization tag for that user's role, if available
-		const pznTagQuery = this.pzn_tag ? `OR tags:(${this.pzn_tag}))` : ')';
-		this.queryString = `fl=document:%5Bjson%5D,lastModified&fq=classification:(content)&fq=type:("${this.TYPE}")&fq=((*:* AND -tags:wch_pzn_*)${pznTagQuery}&rows=1`;
+		const pznTagQuery = this.pzn_tag ? `tags:(${this.pzn_tag})` : '(*:* AND -tags:wch_pzn_*)';
+		this.queryString = `fl=document:%5Bjson%5D,lastModified&fq=classification:(content)&fq=type:("${this.TYPE}")&fq=${pznTagQuery}&rows=1`;
+		console.log(`New personalized content query: ${this.queryString}`);
 	}
 
 }

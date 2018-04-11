@@ -1,6 +1,6 @@
 {
   "id": "f38cf87e-0485-4b38-a0e6-6b9c420efed0",
-  "rev": "1-01be79ab39a90badbe1dbef9eff0f6f0",
+  "rev": "3-132d60c4a6ab5270bb5d2b8ec3ea57c0",
   "name": "Image size and placement",
   "creatorId": "e76d3089-4d0e-413f-b602-3398b231181f",
   "creator": "Laura Pomerleau",
@@ -17,6 +17,6 @@
       "href": "/authoring/v1/categories/f38cf87e-0485-4b38-a0e6-6b9c420efed0"
     }
   },
-  "created": "2018-03-08T14:45:40.446Z",
-  "lastModified": "2018-03-08T14:45:40.446Z"
+  "created": "2018-04-11T13:43:19.299Z",
+  "lastModified": "2018-04-11T13:43:19.299Z"
 }
