@@ -1,4 +1,4 @@
-# WCH sites personalization sample
+# Acoustic Content sites personalization sample
 
 ### Table of contents
 
