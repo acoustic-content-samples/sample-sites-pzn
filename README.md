@@ -1,7 +1,6 @@
 # Acoustic Content sites personalization sample
 
 ### Table of contents
-
 * [Use case](#use-case)
 * [Features](#features)
 * [Set up](#set-up)
@@ -252,7 +251,7 @@ See more in _/sample-sites-pzn/src/app/app.scss_
 
 ### Mock login
 
-The login page is a [custom component](https://developer.ibm.com/customer-engagement/docs/wch/developing-your-own-website/customizing-sample-site/adding-custom-components/) using angular [reactive forms](https://angular.io/guide/reactive-forms). Both the login page and the header make calls to the observable authentication service, which stores the user status and data in `localStorage`. Abstracting to a shared service lets various page components share the user information. This service could then easily be extended to make real authentication calls to your own back-end services.
+The login page is a custom component using angular [reactive forms](https://angular.io/guide/reactive-forms). Both the login page and the header make calls to the observable authentication service, which stores the user status and data in `localStorage`. Abstracting to a shared service lets various page components share the user information. This service could then easily be extended to make real authentication calls to your own back-end services.
 
 Read more in _/sample-sites-pzn/src/app/layouts/login/loginLayout.ts_ and _/sample-sites-pzn/src/app/common/authService/auth.service.ts_
 
