@@ -178,7 +178,7 @@ The sample shows personalized pages and content to users logged in under certain
 
 ### Page filtering
 
-To get the list of pages for the navigation, an [Apache Solr search](https://developer.ibm.com/customer-engagement/docs/wch/searching-content/searching-published-items/) is performed:
+To get the list of pages for the navigation, an Apache Solr search is performed:
 ```
 <API URL>/delivery/v1/search?q=*:*&fl=name,id&fq=classification:content&fq=type:("Standard page" OR "Design page")&fq=((*:* AND -tags:wch_pzn_*) OR tags:(<user role tag>))
 ```
