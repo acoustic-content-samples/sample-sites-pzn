@@ -51,7 +51,7 @@ class SitesKicker {
 	 * Init wchtools
 	 * @param tenantId - tenat id
 	 * @param username - tenant user username
-	 * @param api_gateway_url - base api url for eg. https://digitalexperience.ibm.com
+	 * @param api_gateway_url - base api url for eg. https://cloud.goacoustic.com/launch
 	 */
 	initWchtools(tenantId, username, api_gateway_url) {
 		return browser.controlFlow().execute(function() {
